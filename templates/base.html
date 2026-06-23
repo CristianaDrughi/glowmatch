@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Recomandari Makeup{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <nav class="site-nav">
+        <div class="site-nav-inner">
+            <a href="{{ url_for('index') }}" class="site-brand">GlowMatch</a>
+            <div class="site-nav-links">
+                <a href="{{ url_for('recomandari') }}"
+                   class="{% if activ == 'makeup' %}activ{% endif %}">Makeup</a>
+                <a href="{{ url_for('skincare') }}"
+                   class="{% if activ == 'skincare' %}activ{% endif %}">Skincare</a>
+                <a href="{{ url_for('analiza_foto') }}"
+                   class="{% if activ == 'analiza' %}activ{% endif %}">Analiza foto AI</a>
+                <a href="{{ url_for('ghid') }}"
+                   class="{% if activ == 'ghid' %}activ{% endif %}">Ghid</a>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <h1><a href="{{ url_for('index') }}">Recomandari Makeup</a></h1>
+        <p class="subtitlu">Gaseste produsele potrivite tenului tau</p>
+    </header>
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+    <footer>
+        <p>Proiect licenta &middot; Sistem de recomandare bazat pe reguli</p>
+    </footer>
+</body>
+</html>

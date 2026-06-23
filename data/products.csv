@@ -1,0 +1,755 @@
+id,nume,brand,categorie,pret,tip_ten,subton,nuanta,finish,ocazie,acoperire,ingrediente_cheie,vegan,cruelty_free,rating,descriere,tip_produs,contrast,baza,origine,probleme,fungal_acne_safe,suited_eye_color,suited_hair_color,activ
+1,Fond de ten Hidratant Luminos,L'Oreal,Fond de ten,65.0,uscat|normal|sensibil,cald|neutru,deschis,luminos,zi|seara,medie,acid hialuronic|glicerina|vitamina E,Nu,Nu,4.3,Fond cu efect de hidratare si stralucire naturala,makeup,toate,toate,,,,toate,toate,1
+2,Fond de ten Matifiant 24h,Maybelline,Fond de ten,55.0,gras|mixt,rece|neutru,mediu,mat,zi|seara|eveniment,medie,niacinamida|acid salicilic,Nu,Nu,4.1,Acoperire de lunga durata cu finisaj mat,makeup,toate,toate,,,,toate,toate,1
+3,Fond de ten Natural Glow,NYX,Fond de ten,70.0,normal|mixt,neutru,inchis,natural,zi,lejera,vitamina E|ulei de jojoba,Da,Da,4.2,Acoperire usoara cu aspect natural al pielii,makeup,toate,toate,,,,toate,toate,1
+4,Fond de ten Full Coverage,Estee Lauder,Fond de ten,220.0,toate,toate,deschis,satinat,seara|eveniment,totala,peptide|colagen,Nu,Nu,4.6,Acoperire totala pentru evenimente speciale,makeup,toate,toate,,,,toate,toate,1
+5,Fond de ten Mineral,bareMinerals,Fond de ten,180.0,sensibil|uscat,cald,mediu,natural,zi,medie,minerale|SPF,Da,Da,4.4,Formula minerala blanda pentru ten sensibil,makeup,toate,toate,,,,toate,toate,1
+6,Fond de ten Skin Tint,Glossier,Fond de ten,130.0,uscat|normal,neutru,mediu,luminos,zi,lejera,acid hialuronic|aloe vera,Da,Da,4.5,Skin tint cu acoperire foarte lejera si glow natural,makeup,toate,toate,,,,toate,toate,1
+7,Fond de ten Liquid Touch,Rare Beauty,Fond de ten,170.0,toate,toate,inchis,natural,zi|seara,medie,acid hialuronic|vitamina E,Da,Da,4.7,Acoperire medie construibila cu finisaj natural luminos,makeup,toate,toate,,,,toate,toate,1
+8,Fond de ten Born This Way,Too Faced,Fond de ten,200.0,toate,cald,deschis,natural,zi|seara|eveniment,totala,ulei de cocos|acid hialuronic,Da,Da,4.5,Fond de ten cu acoperire totala si efect natural,makeup,toate,toate,,,,toate,toate,1
+9,Fond de ten Sheer Glow,NARS,Fond de ten,250.0,toate,rece|neutru,mediu,luminos,zi|seara,medie,vitamina C|vitamina E,Nu,Nu,4.6,Fond luminos cu efect glowy popular printre profesionisti,makeup,toate,toate,,,,toate,toate,1
+10,Fond de ten Photo Finish,Catrice,Fond de ten,35.0,gras|mixt,neutru,deschis,mat,zi|eveniment,medie,niacinamida,Da,Da,4.0,Fond accesibil cu finisaj mat ideal pentru fotografie,makeup,toate,toate,,,,toate,toate,1
+11,Pudra Translucida,RCMA,Pudra,95.0,gras|mixt,toate,toate,mat,zi|seara,toate,minerale,Da,Nu,4.4,Pudra care fixeaza machiajul fara nuanta,makeup,toate,toate,,,,toate,toate,1
+12,Pudra Compacta Iluminatoare,Clinique,Pudra,130.0,uscat|normal,cald,deschis,luminos,zi,toate,minerale|vitamina E,Nu,Nu,4.3,Pudra compacta cu efect de luminozitate,makeup,toate,toate,,,,toate,toate,1
+13,Pudra Mineral,bareMinerals,Pudra,145.0,sensibil|uscat,toate,mediu,natural,zi,toate,minerale|SPF,Da,Da,4.4,Pudra minerala usoara cu protectie solara,makeup,toate,toate,,,,toate,toate,1
+14,Pudra Setting Soft Focus,Charlotte Tilbury,Pudra,290.0,toate,toate,deschis,satinat,seara|eveniment,toate,colagen|vitamina E,Nu,Nu,4.7,Pudra fina pentru efect soft-focus fotografic,makeup,toate,toate,,,,toate,toate,1
+15,Pudra Banana Setting,Ben Nye,Pudra,80.0,toate,cald,mediu,mat,seara|eveniment,toate,minerale,Da,Da,4.5,Pudra galbena banana pentru fixarea zonelor luminate,makeup,toate,toate,,,,toate,toate,1
+16,Corector Anticearcan,Maybelline,Corector,40.0,toate,neutru,deschis,natural,zi|seara,medie,acid hialuronic|cofeina,Nu,Nu,4.6,Corector usor pentru zona ochilor,makeup,toate,toate,,,,toate,toate,1
+17,Corector Full Coverage,NARS,Corector,160.0,toate,toate,mediu,mat,seara|eveniment,totala,vitamina C|acid hialuronic,Nu,Nu,4.7,Corector cu acoperire intensa si rezistenta,makeup,toate,toate,,,,toate,toate,1
+18,Corector Soft Pinch,Rare Beauty,Corector,110.0,toate,toate,inchis,natural,zi|seara,medie,acid hialuronic|peptide,Da,Da,4.5,Corector cremos cu efect natural,makeup,toate,toate,,,,toate,toate,1
+19,Corector Booster,The Ordinary,Corector,35.0,toate,toate,deschis,natural,zi,medie,niacinamida|peptide,Da,Da,4.2,Corector accesibil cu ingrediente skincare,makeup,toate,toate,,,,toate,toate,1
+20,Corector Magic Away,Charlotte Tilbury,Corector,180.0,uscat|normal,cald,mediu,luminos,seara|eveniment,totala,peptide|colagen,Nu,Nu,4.5,Corector luxos cu finisaj luminos,makeup,toate,toate,,,,toate,toate,1
+21,Ruj Mat Lichid,Maybelline,Ruj,45.0,toate,rece,toate,mat,seara|eveniment,toate,vitamina E,Nu,Nu,4.2,Ruj lichid cu finisaj mat de lunga durata,makeup,toate,toate,,,,toate,black|brunette,1
+22,Ruj Hidratant Satinat,Dior,Ruj,190.0,toate,cald,toate,satinat,zi|seara,toate,acid hialuronic|ulei de cocos,Nu,Nu,4.6,Ruj cremos care hidrateaza buzele,makeup,toate,toate,,,,toate,blonde|red|brunette,1
+23,Ruj Nude Cremos,NYX,Ruj,35.0,toate,neutru,toate,satinat,zi,toate,vitamina E|shea butter,Da,Da,4.3,Nuanta nude potrivita pentru orice zi,makeup,toate,toate,,,,toate,toate,1
+24,Ruj Rosu Clasic,MAC,Ruj,120.0,toate,rece,toate,mat,seara|eveniment,toate,shea butter,Nu,Nu,4.5,Rosu intens clasic pentru ocazii speciale,makeup,toate,toate,,,,toate,black|brunette,1
+25,Ruj Powder Kiss,MAC,Ruj,140.0,toate,cald,toate,mat,zi|seara,toate,acid hialuronic|ulei de argan,Nu,Nu,4.4,Ruj mat cu textura pudra confortabila,makeup,toate,toate,,,,toate,blonde|red|brunette,1
+26,Ruj Lipstick Soft Matte,NARS,Ruj,170.0,toate,rece|neutru,toate,mat,seara|eveniment,toate,vitamina E,Nu,Nu,4.5,Ruj mat cu pigmentare intensa,makeup,toate,toate,,,,toate,black|brunette,1
+27,Ruj Color Riche,L'Oreal,Ruj,50.0,toate,cald,toate,satinat,zi,toate,ulei de jojoba|vitamina E,Nu,Nu,4.0,Ruj satinat accesibil cu nuante variate,makeup,toate,toate,,,,toate,blonde|red|brunette,1
+28,Ruj Petal Soft,Rare Beauty,Ruj,130.0,toate,neutru,toate,satinat,zi|seara,toate,acid hialuronic|peptide,Da,Da,4.6,Ruj cremos cu pigmentare medie si confort,makeup,toate,toate,,,,toate,toate,1
+29,Ruj 24h Liquid Lipstick,Stila,Ruj,100.0,toate,toate,toate,mat,seara|eveniment,toate,vitamina E,Da,Da,4.4,Ruj lichid rezistent 24 de ore,makeup,toate,toate,,,,toate,toate,1
+30,Luciu de Buze Voluminizator,Fenty Beauty,Luciu de buze,110.0,toate,neutru,toate,luminos,zi|seara,toate,acid hialuronic|peptide,Da,Nu,4.7,Luciu cu efect de volum si stralucire,makeup,toate,toate,,,,toate,toate,1
+31,Luciu de Buze Plumping,NYX,Luciu de buze,40.0,toate,toate,toate,luminos,zi,toate,acid hialuronic|mentol,Da,Da,4.1,Luciu cu efect plumping accesibil,makeup,toate,toate,,,,toate,toate,1
+32,Luciu Cremos Lip Comfort,Clarins,Luciu de buze,130.0,uscat|sensibil,cald,toate,luminos,zi|seara,toate,ulei de cocos|ulei de jojoba,Nu,Nu,4.4,Luciu cremos extrem de hidratant,makeup,toate,toate,,,,toate,blonde|red|brunette,1
+33,Luciu Voluminizator Lip Maximizer,Dior,Luciu de buze,200.0,toate,rece,toate,luminos,zi|seara|eveniment,toate,acid hialuronic|peptide,Nu,Nu,4.6,Luciu hidratant cu efect voluminizator de lunga durata,makeup,toate,toate,,,,toate,black|brunette,1
+34,Fard de Obraz Pudra,Milani,Fard de obraz,50.0,normal|gras|mixt,cald,toate,mat,zi|seara,toate,vitamina E,Da,Da,4.4,Fard pudra cu pigmentare buna,makeup,toate,toate,,,,toate,blonde|red|brunette,1
+35,Fard de Obraz Cremos,NARS,Fard de obraz,150.0,uscat|normal,rece,toate,luminos,zi|seara|eveniment,toate,vitamina E|ulei de argan,Nu,Nu,4.6,Fard cremos cu aspect luminos,makeup,toate,toate,,,,toate,black|brunette,1
+36,Fard de Obraz Soft Pinch Liquid,Rare Beauty,Fard de obraz,120.0,toate,toate,toate,luminos,zi|seara,toate,acid hialuronic,Da,Da,4.8,Fard lichid cu pigmentare puternica si finisaj dewy,makeup,toate,toate,,,,toate,toate,1
+37,Fard de Obraz Cheek Pop,Clinique,Fard de obraz,110.0,normal|uscat,cald,toate,natural,zi,toate,vitamina E,Nu,Nu,4.3,Fard pudra cu finisaj natural,makeup,toate,toate,,,,toate,blonde|red|brunette,1
+38,Fard Stick Cheek Tint,Glossier,Fard de obraz,90.0,toate,neutru,toate,natural,zi,toate,acid hialuronic|aloe vera,Da,Da,4.2,Fard tip stick cu aplicare rapida,makeup,toate,toate,,,,toate,toate,1
+39,Paleta Nuante Neutre,Urban Decay,Fard de pleoape,230.0,toate,cald,toate,satinat,zi|seara|eveniment,toate,vitamina E,Da,Da,4.6,Paleta cu nuante calde versatile,makeup,toate,toate,,,,blue|green,toate,1
+40,Paleta Nuante Reci,Huda Beauty,Fard de pleoape,250.0,toate,rece,toate,satinat,seara|eveniment,toate,minerale|vitamina E,Da,Nu,4.5,Paleta cu nuante reci intense,makeup,toate,toate,,,,green|brown,toate,1
+41,Fard Mono Mat,NYX,Fard de pleoape,30.0,toate,neutru,toate,mat,zi,toate,minerale,Da,Da,4.0,Fard individual mat usor de aplicat,makeup,toate,toate,,,,toate,toate,1
+42,Paleta Soft Glam,Anastasia,Fard de pleoape,320.0,toate,cald,toate,satinat,seara|eveniment,toate,minerale|vitamina E,Da,Da,4.7,Paleta cu nuante glam pentru ocazii speciale,makeup,toate,toate,,,,blue|green,toate,1
+43,Paleta Mothership,Pat McGrath,Fard de pleoape,580.0,toate,toate,toate,satinat,eveniment,toate,minerale,Da,Nu,4.8,Paleta de lux cu pigmentare exceptionala,makeup,toate,toate,,,,toate,toate,1
+44,Fard Cream Eyeshadow Stick,Bobbi Brown,Fard de pleoape,150.0,toate,cald,toate,luminos,zi|seara,toate,vitamina E,Nu,Nu,4.4,Fard cremos in format stick usor de aplicat,makeup,toate,toate,,,,blue|green,toate,1
+45,Paleta Naked Heat,Urban Decay,Fard de pleoape,240.0,toate,cald,toate,mat,seara|eveniment,toate,vitamina E,Da,Da,4.6,Paleta cu nuante calde de toamna,makeup,toate,toate,,,,blue|green,toate,1
+46,Mascara Volum Extrem,Maybelline,Mascara,50.0,toate,toate,toate,mat,zi|seara|eveniment,toate,ceara|peptide,Nu,Nu,4.5,Mascara pentru volum si definire,makeup,toate,toate,,,,toate,toate,1
+47,Mascara Alungire Naturala,Essence,Mascara,25.0,sensibil|toate,toate,toate,natural,zi,toate,ulei de ricin,Da,Da,4.1,Mascara blanda pentru un look natural,makeup,toate,toate,,,,toate,toate,1
+48,Mascara Lash Sensational,Maybelline,Mascara,60.0,toate,toate,toate,mat,zi|seara,toate,ceara|ulei de ricin,Nu,Nu,4.4,Mascara cu efect de evantai,makeup,toate,toate,,,,toate,toate,1
+49,Mascara Better than Sex,Too Faced,Mascara,130.0,toate,toate,toate,mat,seara|eveniment,toate,ulei de ricin|colagen,Da,Da,4.6,Mascara cu efect dramatic de volum,makeup,toate,toate,,,,toate,toate,1
+50,Mascara Sky High,Maybelline,Mascara,65.0,toate,toate,toate,mat,zi|seara|eveniment,toate,ceara|fibre de bambus,Nu,Nu,4.7,Mascara pentru alungire si volum extrem,makeup,toate,toate,,,,toate,toate,1
+51,Creion Sprancene Precizie,Anastasia,Creion de sprancene,130.0,toate,toate,toate,natural,zi|seara,toate,ceara,Da,Da,4.7,Creion fin pentru definirea sprancenelor,makeup,toate,toate,,,,toate,toate,1
+52,Gel Sprancene Fixare,Benefit,Creion de sprancene,140.0,toate,toate,toate,natural,zi|seara|eveniment,toate,ceara|peptide,Nu,Nu,4.5,Gel care fixeaza si modeleaza sprancenele,makeup,toate,toate,,,,toate,toate,1
+53,Pomada Sprancene,Anastasia,Creion de sprancene,150.0,toate,toate,toate,satinat,seara|eveniment,toate,minerale|ceara,Da,Da,4.6,Pomada cremoasa pentru sprancene definite,makeup,toate,toate,,,,toate,toate,1
+54,Soap Brows Gel,West Barn Co,Creion de sprancene,90.0,toate,toate,toate,natural,zi|seara,toate,sapun natural|ulei de ricin,Da,Da,4.4,Gel cu efect de sprancene laminate,makeup,toate,toate,,,,toate,toate,1
+55,Primer Matifiant,The Ordinary,Primer,60.0,gras|mixt,toate,toate,mat,zi|seara,toate,niacinamida,Da,Da,4.3,Primer care controleaza sebumul,makeup,toate,toate,,,,toate,toate,1
+56,Primer Hidratant Iluminator,Smashbox,Primer,170.0,uscat|sensibil,toate,toate,luminos,zi|seara|eveniment,toate,acid hialuronic|vitamina E,Da,Nu,4.5,Primer care hidrateaza si lumineaza tenul,makeup,toate,toate,,,,toate,toate,1
+57,Primer Pore Eraser,Maybelline,Primer,50.0,gras|mixt,toate,toate,mat,zi|seara,toate,acid salicilic,Nu,Nu,4.2,Primer pentru minimizarea porilor,makeup,toate,toate,,,,toate,toate,1
+58,Primer Hydrating,Hourglass,Primer,250.0,uscat|normal,toate,toate,luminos,zi|seara|eveniment,toate,acid hialuronic|peptide,Da,Da,4.7,Primer hidratant de lux pentru tenul deshidratat,makeup,toate,toate,,,,toate,toate,1
+59,Iluminator Pudra,Fenty Beauty,Iluminator,160.0,toate,cald,toate,luminos,seara|eveniment,toate,minerale|vitamina E,Da,Nu,4.6,Iluminator pudra cu pigment intens,makeup,toate,toate,,,,toate,toate,1
+60,Iluminator Lichid,e.l.f.,Iluminator,40.0,toate,rece,toate,luminos,zi|seara,toate,acid hialuronic|vitamina E,Da,Da,4.4,Iluminator lichid pentru un glow subtil,makeup,toate,toate,,,,toate,toate,1
+61,Iluminator Stick Halo Glow,Charlotte Tilbury,Iluminator,350.0,toate,toate,toate,luminos,seara|eveniment,toate,colagen|vitamina E,Nu,Nu,4.7,Iluminator stick cu efect de glow dramatic,makeup,toate,toate,,,,toate,toate,1
+62,Iluminator Hourglass Ambient,Hourglass,Iluminator,230.0,toate,cald,toate,luminos,zi|seara|eveniment,toate,minerale,Da,Da,4.6,Iluminator pudra cu efect natural luminos,makeup,toate,toate,,,,toate,toate,1
+63,Bronzer Matt,Milani,Bronzer,55.0,normal|gras|mixt,cald,mediu,mat,zi|seara,toate,minerale|vitamina E,Da,Da,4.3,Bronzer mat ideal pentru contouring,makeup,toate,toate,,,,toate,toate,1
+64,Bronzer Hoola,Benefit,Bronzer,180.0,toate,cald,mediu,mat,zi|seara|eveniment,toate,ceara|vitamina E,Nu,Nu,4.6,Bronzer iconic pentru efect natural bronzat,makeup,toate,toate,,,,toate,toate,1
+65,Bronzer Cream Wand,Patrick Ta,Bronzer,220.0,uscat|normal,cald,toate,satinat,seara|eveniment,toate,acid hialuronic|vitamina E,Da,Nu,4.5,Bronzer cremos in format stick,makeup,toate,toate,,,,toate,toate,1
+66,Spray Fixare All Nighter,Urban Decay,Spray de fixare,160.0,toate,toate,toate,mat,seara|eveniment,toate,aloe vera|vitamina E,Da,Da,4.7,Spray care fixeaza machiajul pana la 16 ore,makeup,toate,toate,,,,toate,toate,1
+67,Spray Fixare Dewy,Charlotte Tilbury,Spray de fixare,200.0,uscat|normal,toate,toate,luminos,zi|seara|eveniment,toate,acid hialuronic|glicerina,Nu,Nu,4.5,Spray fixare cu efect dewy luminos,makeup,toate,toate,,,,toate,toate,1
+68,Spray Fixare Mineralize,MAC,Spray de fixare,130.0,toate,toate,toate,natural,zi|seara,toate,minerale|glicerina,Nu,Nu,4.4,Spray fixare cu minerale pentru un finisaj natural,makeup,toate,toate,,,,toate,toate,1
+69,Mask Fit Red Cushion,TIRTIR,Fond de ten,70.0,toate,cald|neutru|rece,deschis|inchis,natural|luminos,zi,toate,,Nu,Nu,4.0,"Gama foarte extinsa de nuante, acoperire medie-mare",makeup,toate,toate,Coreea,,,toate,toate,1
+70,Kill Cover Founwear Cushion XP,Clio,Fond de ten,70.0,mixt|gras|normal,neutru|cald,deschis|mediu,mat|satinat,zi,toate,,Nu,Nu,4.0,"Acoperire mare, long-wear, ideal ten gras/mixt",makeup,toate,toate,Coreea,,,toate,toate,1
+71,Kill Cover Fixer Cushion,Clio,Fond de ten,70.0,gras|mixt,neutru,deschis|mediu,mat,zi,toate,,Nu,Nu,4.0,"Control sebum, finisaj mat",makeup,toate,toate,Coreea,,,toate,toate,1
+72,Naked Cover Liquid Foundation,rom&nd,Fond de ten,70.0,toate,neutru|cald,deschis|mediu,natural,zi,toate,,Nu,Nu,4.0,"Acoperire medie buildable, aspect natural",makeup,toate,toate,Coreea,,,toate,toate,1
+73,Zero Cushion,rom&nd,Fond de ten,70.0,mixt|normal|gras,neutru,deschis|mediu,satinat,zi,toate,,Nu,Nu,4.0,"Lejer, aspect de piele",makeup,toate,toate,Coreea,,,toate,toate,1
+74,Ink Lasting Cushion,Peripera,Fond de ten,70.0,gras|mixt,neutru|cald,deschis|mediu,mat|satinat,zi,toate,,Nu,Nu,4.0,Long-wear pt ten gras,makeup,toate,toate,Coreea,,,toate,toate,1
+75,Double Lasting Foundation,Etude,Fond de ten,55.0,toate,neutru|cald,deschis|mediu,mat|satinat,zi,toate,,Nu,Nu,4.0,"24h, acoperire medie-mare",makeup,toate,toate,Coreea,,,toate,toate,1
+76,Double Lasting Cushion,Etude,Fond de ten,55.0,mixt|gras,neutru,deschis|mediu,satinat,zi,toate,,Nu,Nu,4.0,Rezistent,makeup,toate,toate,Coreea,,,toate,toate,1
+77,Perfect 9 Repair Foundation,Innisfree,Fond de ten,70.0,uscat|normal|mixt,cald|neutru,deschis|mediu,natural|luminos,zi,toate,,Nu,Nu,4.0,Ingrijire + machiaj,makeup,toate,toate,Coreea,,,toate,toate,1
+78,No Sebum Cushion,Innisfree,Fond de ten,70.0,gras|mixt,neutru,deschis|mediu,mat,zi,toate,,Nu,Nu,4.0,Control sebum,makeup,toate,toate,Coreea,,,toate,toate,1
+79,Pro Tailor Be Glow Cushion,Espoir,Fond de ten,110.0,uscat|normal|mixt,neutru|cald,deschis|mediu,luminos,zi,toate,,Nu,Nu,4.0,"Aspect dewy, foarte popular",makeup,toate,toate,Coreea,,,toate,toate,1
+80,Pro Tailor Foundation Be Velvet,Espoir,Fond de ten,110.0,mixt|gras|normal,neutru,deschis|mediu,mat|velvet,zi,toate,,Nu,Nu,4.0,Mat catifelat,makeup,toate,toate,Coreea,,,toate,toate,1
+81,Second Skin Glow Foundation,Hince,Fond de ten,110.0,uscat|normal,neutru|cald,deschis|mediu,luminos,zi,toate,,Nu,Nu,4.0,Glow natural,makeup,toate,toate,Coreea,,,toate,toate,1
+82,M Magic Cushion,Missha,Fond de ten,55.0,toate,cald|neutru,deschis|mediu,satinat,zi,toate,,Nu,Nu,4.0,Clasic accesibil,makeup,toate,toate,Coreea,,,toate,toate,1
+83,Neo Cushion (Glow/Matte),Laneige,Fond de ten,110.0,toate,neutru|cald,deschis|mediu,glow|mat,zi,toate,,Nu,Nu,4.0,Doua variante de finisaj,makeup,toate,toate,Coreea,,,toate,toate,1
+84,Covericious Ultimate White Cushion,Banila Co,Fond de ten,110.0,mixt|normal,neutru|rece,deschis|mediu,satinat,zi,toate,,Nu,Nu,4.0,Efect luminos,makeup,toate,toate,Coreea,,,toate,toate,1
+85,Air Fit Cushion,A'pieu,Fond de ten,55.0,normal|mixt,neutru,deschis|mediu,natural,zi,toate,,Nu,Nu,4.0,"Lejer, accesibil",makeup,toate,toate,Coreea,,,toate,toate,1
+86,Face Design Cushion,Holika Holika,Fond de ten,55.0,toate,neutru|cald,deschis|mediu,natural,zi,toate,,Nu,Nu,4.0,Accesibil,makeup,toate,toate,Coreea,,,toate,toate,1
+87,Defining Cover Cushion,Wakemake,Fond de ten,70.0,mixt|gras,neutru,deschis|mediu,satinat,zi,toate,,Nu,Nu,4.0,Acoperire buna,makeup,toate,toate,Coreea,,,toate,toate,1
+88,I'm Multi Cushion,I'm Meme,Fond de ten,55.0,normal|mixt,neutru|cald,deschis|mediu,natural,zi,toate,,Nu,Nu,4.0,"Compact, accesibil",makeup,toate,toate,Coreea,,,toate,toate,1
+89,Perfecting Cushion EX,Sulwhasoo,Fond de ten,210.0,uscat|normal,cald|neutru,deschis|mediu,satinat|luminos,zi,toate,,Nu,Nu,4.0,"Premium, hidratant",makeup,toate,toate,Coreea,,,toate,toate,1
+90,Cicapair Color Correcting Treatment,Dr.Jart+,Fond de ten,110.0,sensibil|toate,neutru,verde|bej,natural,zi,toate,,Nu,Nu,4.0,"Corectare roseata, ten sensibil",makeup,toate,toate,Coreea,,,toate,toate,1
+91,HD Liquid Coverage Foundation,Catrice,Fond de ten,55.0,normal|mixt|gras,neutru|cald,deschis|inchis,natural|mat,zi,toate,,Nu,Nu,4.0,"Acoperire mare, accesibil",makeup,toate,toate,Europa (DE),,,toate,toate,1
+92,True Skin Hydrating Foundation,Catrice,Fond de ten,55.0,uscat|normal,neutru|cald,deschis|mediu,natural|luminos,zi,toate,,Nu,Nu,4.0,"Hidratant, ten uscat",makeup,toate,toate,Europa (DE),,,toate,toate,1
+93,Stay All Day 16h Foundation,Essence,Fond de ten,37.5,gras|mixt,neutru|cald,deschis|mediu,mat,zi,toate,,Nu,Nu,4.0,Long-wear ieftin,makeup,toate,toate,Europa (DE),,,toate,toate,1
+94,Infaillible 24H Fresh Wear,L'Oreal Paris,Fond de ten,70.0,toate,cald|neutru|rece,deschis|inchis,natural|mat,zi,toate,,Nu,Nu,4.0,Gama larga de nuante,makeup,toate,toate,Europa,,,toate,toate,1
+95,Fit Me (Matte/Dewy),Maybelline,Fond de ten,55.0,gras,neutru|cald,deschis|inchis,mat|dewy,zi,toate,,Nu,Nu,4.0,"Gama larga, accesibil",makeup,toate,toate,Europa/global,,,toate,toate,1
+96,Healthy Mix Foundation,Bourjois,Fond de ten,70.0,uscat|normal,cald|neutru,deschis|mediu,luminos,zi,toate,,Nu,Nu,4.0,"Glow, ten uscat",makeup,toate,toate,Europa (FR),,,toate,toate,1
+97,Unlimited Foundation,Kiko Milano,Fond de ten,70.0,mixt|normal,neutru|cald,deschis|inchis,mat|satinat,zi,toate,,Nu,Nu,4.0,Long-wear,makeup,toate,toate,Europa (IT),,,toate,toate,1
+98,Dermablend 3D Correction,Vichy,Fond de ten,70.0,toate|sensibil,neutru|cald,deschis|inchis,mat,zi,toate,,Nu,Nu,4.0,"Acoperire mare, imperfectiuni",makeup,toate,toate,Europa (FR),,,toate,toate,1
+99,Cover Perfection Tip Concealer,The Saem,Corector,35.0,toate,neutru|cald,deschis|inchis,natural|mat,zi,toate,,Nu,Nu,4.0,"Cult, acoperire mare, foarte ieftin",makeup,toate,toate,Coreea,,,toate,toate,1
+100,Cover Perfection Ideal Concealer Duo,The Saem,Corector,35.0,toate,neutru,deschis|mediu,natural,zi,toate,,Nu,Nu,4.0,Doua nuante intr-un produs,makeup,toate,toate,Coreea,,,toate,toate,1
+101,Kill Cover Liquid Concealer,Clio,Corector,45.0,mixt|gras,neutru,deschis|mediu,mat|satinat,zi,toate,,Nu,Nu,4.0,Long-wear,makeup,toate,toate,Coreea,,,toate,toate,1
+102,Kill Cover The New Founwear Concealer,Clio,Corector,45.0,toate,neutru|cald,deschis|mediu,natural,zi,toate,,Nu,Nu,4.0,Acoperire mare,makeup,toate,toate,Coreea,,,toate,toate,1
+103,See-Through Fixing Concealer,rom&nd,Corector,45.0,normal|mixt,neutru,deschis|mediu,natural,zi,toate,,Nu,Nu,4.0,"Lejer, aspect natural",makeup,toate,toate,Coreea,,,toate,toate,1
+104,Double Longwear Cover Concealer,Peripera,Corector,45.0,mixt|gras,neutru|cald,deschis|mediu,mat,zi,toate,,Nu,Nu,4.0,Rezistent,makeup,toate,toate,Coreea,,,toate,toate,1
+105,Surprise Stick Concealer,Etude,Corector,35.0,toate,neutru|cald,deschis|mediu,natural,zi,toate,,Nu,Nu,4.0,Stick practic,makeup,toate,toate,Coreea,,,toate,toate,1
+106,Big Cover Skin Concealer,Etude,Corector,35.0,toate,neutru,deschis|mediu,natural,zi,toate,,Nu,Nu,4.0,Acoperire mare,makeup,toate,toate,Coreea,,,toate,toate,1
+107,Tone Up No Sebum Concealer,Innisfree,Corector,45.0,gras|mixt,neutru,deschis|mediu,mat,zi,toate,,Nu,Nu,4.0,Control sebum,makeup,toate,toate,Coreea,,,toate,toate,1
+108,Hide The Imperfection Concealer,Missha,Corector,35.0,toate,cald|neutru,deschis|mediu,natural,zi,toate,,Nu,Nu,4.0,Clasic accesibil,makeup,toate,toate,Coreea,,,toate,toate,1
+109,Naked Face Concealer,Holika Holika,Corector,35.0,normal|mixt,neutru,deschis|mediu,natural,zi,toate,,Nu,Nu,4.0,Ieftin,makeup,toate,toate,Coreea,,,toate,toate,1
+110,Covericious Power Fit Concealer,Banila Co,Corector,72.5,mixt|normal,neutru,deschis|mediu,natural,zi,toate,,Nu,Nu,4.0,Acoperire buna,makeup,toate,toate,Coreea,,,toate,toate,1
+111,Mask Fit Concealer,TIRTIR,Corector,45.0,toate,neutru|cald,deschis|inchis,natural,zi,toate,,Nu,Nu,4.0,Asortat cu cushion-ul lor,makeup,toate,toate,Coreea,,,toate,toate,1
+112,Soft Blurring Cover Concealer,Wakemake,Corector,45.0,toate,neutru,deschis|mediu,natural|blur,zi,toate,,Nu,Nu,4.0,Efect blur,makeup,toate,toate,Coreea,,,toate,toate,1
+113,Magnet Fit Concealer,Lilybyred,Corector,45.0,mixt|normal,neutru,deschis|mediu,natural,zi,toate,,Nu,Nu,4.0,Long-wear,makeup,toate,toate,Coreea,,,toate,toate,1
+114,Liquid Camouflage High Coverage Concealer,Catrice,Corector,35.0,toate,neutru|cald,deschis|inchis,natural|mat,zi,toate,,Nu,Nu,4.0,"Cult ieftin, acoperire mare",makeup,toate,toate,Europa (DE),,,toate,toate,1
+115,True Skin High Cover Concealer,Catrice,Corector,35.0,normal|mixt,neutru|cald,deschis|mediu,natural,zi,toate,,Nu,Nu,4.0,Aspect de piele,makeup,toate,toate,Europa (DE),,,toate,toate,1
+116,Stay All Day 16h Concealer,Essence,Corector,25.0,mixt|gras,neutru,deschis|mediu,mat,zi,toate,,Nu,Nu,4.0,Long-wear ieftin,makeup,toate,toate,Europa (DE),,,toate,toate,1
+117,Camouflage+ Healthy Glow Concealer,Essence,Corector,25.0,uscat|normal,cald|neutru,deschis|mediu,luminos,zi,toate,,Nu,Nu,4.0,"Hidratant, sub ochi",makeup,toate,toate,Europa (DE),,,toate,toate,1
+118,Instant Age Rewind Eraser,Maybelline,Corector,35.0,uscat|normal|mixt,neutru|cald,deschis|inchis,natural|luminos,zi,toate,,Nu,Nu,4.0,"Sub ochi, aplicator burete",makeup,toate,toate,Europa/global,,,toate,toate,1
+119,Fit Me Concealer,Maybelline,Corector,35.0,toate,neutru|cald,deschis|inchis,natural,zi,toate,,Nu,Nu,4.0,Asortat cu Fit Me,makeup,toate,toate,Europa/global,,,toate,toate,1
+120,Infaillible More Than Concealer,L'Oreal Paris,Corector,45.0,toate,neutru|cald,deschis|inchis,natural|mat,zi,toate,,Nu,Nu,4.0,"Acoperire mare, long-wear",makeup,toate,toate,Europa,,,toate,toate,1
+121,Accord Parfait Concealer,L'Oreal Paris,Corector,45.0,normal|mixt,neutru|cald,deschis|mediu,natural,zi,toate,,Nu,Nu,4.0,Aspect natural,makeup,toate,toate,Europa,,,toate,toate,1
+122,Radiance Reveal Concealer,Bourjois,Corector,45.0,uscat|normal,cald|neutru,deschis|mediu,luminos,zi,toate,,Nu,Nu,4.0,Iluminator sub ochi,makeup,toate,toate,Europa (FR),,,toate,toate,1
+123,HD Photogenic Concealer Wand,NYX,Corector,35.0,toate,neutru|cald,deschis|inchis,natural,zi,toate,,Nu,Nu,4.0,"Cult, gama buna",makeup,toate,toate,Europa/global,,,toate,toate,1
+124,Can't Stop Won't Stop Concealer,NYX,Corector,35.0,mixt|gras,neutru|cald,deschis|inchis,mat,zi,toate,,Nu,Nu,4.0,"Long-wear, mat",makeup,toate,toate,Europa/global,,,toate,toate,1
+125,Match Perfection Concealer,Rimmel,Corector,35.0,normal|mixt,neutru|cald,deschis|mediu,natural,zi,toate,,Nu,Nu,4.0,Accesibil,makeup,toate,toate,Europa (UK),,,toate,toate,1
+126,Full Coverage Concealer,Kiko Milano,Corector,45.0,toate,neutru|cald,deschis|inchis,natural,zi,toate,,Nu,Nu,4.0,Acoperire mare,makeup,toate,toate,Europa (IT),,,toate,toate,1
+127,Art Scenic Professional Concealer,Eveline,Corector,25.0,normal|mixt,neutru,deschis|mediu,natural,zi,toate,,Nu,Nu,4.0,Accesibil,makeup,toate,toate,Europa (PL),,,toate,toate,1
+128,Mr White Concealer,Wibo,Corector,25.0,normal|mixt,neutru,deschis|mediu,natural,zi,toate,,Nu,Nu,4.0,Foarte ieftin,makeup,toate,toate,Europa (PL),,,toate,toate,1
+129,Kill Brow Auto Hard Brow Pencil,CLIO,Creion de sprancene,35.0,toate,cald|neutru,blond|brunet,mat,zi,toate,,Nu,Nu,4.0,"Mina subtire, fina",makeup,toate,toate,Coreea,,,toate,toate,1
+130,Drawing Eyebrow Pencil,Etude,Creion de sprancene,27.5,toate,cald|neutru,blond|brunet,mat,zi,toate,,Nu,Nu,4.0,"Cult, ieftin, multe nuante",makeup,toate,toate,Coreea,,,toate,toate,1
+131,Auto Eyebrow Pencil,Innisfree,Creion de sprancene,35.0,toate,cald|neutru,blond|brunet,mat,zi,toate,,Nu,Nu,4.0,Accesibil,makeup,toate,toate,Coreea,,,toate,toate,1
+132,Speedy Skinny Brow,Peripera,Creion de sprancene,35.0,toate,cald|neutru,blond|brunet,mat,zi,toate,,Nu,Nu,4.0,Mina ultra-subtire,makeup,toate,toate,Coreea,,,toate,toate,1
+133,Wonder Drawing 24hr Eyebrow,Holika Holika,Creion de sprancene,27.5,toate,cald|neutru,blond|brunet,mat,zi,toate,,Nu,Nu,4.0,Long-wear,makeup,toate,toate,Coreea,,,toate,toate,1
+134,Perfect Eyebrow Styler,Missha,Creion de sprancene,27.5,toate,cald|neutru,blond|brunet,mat,zi,toate,,Nu,Nu,4.0,Auto pencil,makeup,toate,toate,Coreea,,,toate,toate,1
+135,Han All Flat Brow Pencil,rom&nd,Creion de sprancene,35.0,toate,neutru|cald,blond|brunet,mat,zi,toate,,Nu,Nu,4.0,Tonuri naturale,makeup,toate,toate,Coreea,,,toate,toate,1
+136,Natural Mood Eyebrow,A'pieu,Creion de sprancene,27.5,toate,cald,blond|brunet,mat,zi,toate,,Nu,Nu,4.0,Ieftin,makeup,toate,toate,Coreea,,,toate,toate,1
+137,Soft Blurring Eyebrow Pencil,Wakemake,Creion de sprancene,35.0,toate,neutru,blond|brunet,mat,zi,toate,,Nu,Nu,4.0,Efect natural,makeup,toate,toate,Coreea,,,toate,toate,1
+138,Skinny Mes Brow Pencil,Lilybyred,Creion de sprancene,35.0,toate,neutru|cald,blond|brunet,mat,zi,toate,,Nu,Nu,4.0,Subtire,makeup,toate,toate,Coreea,,,toate,toate,1
+139,I'm Eyebrow Pencil,I'm Meme,Creion de sprancene,27.5,toate,cald,blond|brunet,mat,zi,toate,,Nu,Nu,4.0,Accesibil,makeup,toate,toate,Coreea,,,toate,toate,1
+140,Easy Touch Auto Eyebrow,Tony Moly,Creion de sprancene,27.5,toate,cald,blond|brunet,mat,zi,toate,,Nu,Nu,4.0,Auto,makeup,toate,toate,Coreea,,,toate,toate,1
+141,Custom Eyebrow Pencil,Dasique,Creion de sprancene,35.0,toate,neutru|cald,blond|brunet,mat,zi,toate,,Nu,Nu,4.0,Tonuri trendy,makeup,toate,toate,Coreea,,,toate,toate,1
+142,Top Bar Eyebrow Pencil,3CE,Creion de sprancene,57.5,toate,neutru|cald,blond|brunet,mat,zi,toate,,Nu,Nu,4.0,Premium-ish,makeup,toate,toate,Coreea,,,toate,toate,1
+143,Pro Tail Mes Brow,Moonshot,Creion de sprancene,35.0,toate,neutru,blond|brunet,mat,zi,toate,,Nu,Nu,4.0,Subtire,makeup,toate,toate,Coreea,,,toate,toate,1
+144,Slim'Matic Ultra Precise Brow Pencil,Catrice,Creion de sprancene,27.5,toate,cald|neutru,blond|brunet,mat,zi,toate,,Nu,Nu,4.0,"Cult, mina fina, multe nuante",makeup,toate,toate,Europa (DE),,,toate,toate,1
+145,Eyebrow Designer / Micro Precise,Essence,Creion de sprancene,20.0,toate,cald|neutru,blond|brunet,mat,zi,toate,,Nu,Nu,4.0,Foarte ieftin,makeup,toate,toate,Europa (DE),,,toate,toate,1
+146,Brow Ultra Slim,Maybelline,Creion de sprancene,27.5,toate,cald|neutru,blond|brunet,mat,zi,toate,,Nu,Nu,4.0,Mina ultra-subtire,makeup,toate,toate,Europa/global,,,toate,toate,1
+147,Express Brow Satin Duo,Maybelline,Creion de sprancene,27.5,toate,cald|neutru,blond|brunet,mat,zi,toate,,Nu,Nu,4.0,Creion + pudra,makeup,toate,toate,Europa/global,,,toate,toate,1
+148,Brow Artist Xpert,L'Oreal Paris,Creion de sprancene,35.0,toate,cald|neutru,blond|brunet,mat,zi,toate,,Nu,Nu,4.0,"Auto, gama buna",makeup,toate,toate,Europa,,,toate,toate,1
+149,Brow This Way / Professional Eyebrow,Rimmel,Creion de sprancene,27.5,toate,cald,blond|brunet,mat,zi,toate,,Nu,Nu,4.0,Accesibil,makeup,toate,toate,Europa (UK),,,toate,toate,1
+150,Brow Reveal,Bourjois,Creion de sprancene,35.0,toate,cald|neutru,blond|brunet,mat,zi,toate,,Nu,Nu,4.0,Cu pensula,makeup,toate,toate,Europa (FR),,,toate,toate,1
+151,Micro Brow Pencil,NYX,Creion de sprancene,27.5,toate,neutru|cald,blond|brunet,mat,zi,toate,,Nu,Nu,4.0,"Cult, multe nuante",makeup,toate,toate,Europa/global,,,toate,toate,1
+152,Precision Brow Pencil,NYX,Creion de sprancene,27.5,toate,cald,blond|brunet,mat,zi,toate,,Nu,Nu,4.0,Clasic,makeup,toate,toate,Europa/global,,,toate,toate,1
+153,Precision Eyebrow Pencil,Kiko Milano,Creion de sprancene,35.0,toate,neutru|cald,blond|brunet,mat,zi,toate,,Nu,Nu,4.0,Fin,makeup,toate,toate,Europa (IT),,,toate,toate,1
+154,Micro Precise Brow Pencil,Eveline,Creion de sprancene,20.0,toate,cald,blond|brunet,mat,zi,toate,,Nu,Nu,4.0,Ieftin,makeup,toate,toate,Europa (PL),,,toate,toate,1
+155,Eye Artist Brow,Astor,Creion de sprancene,27.5,toate,cald,blond|brunet,mat,zi,toate,,Nu,Nu,4.0,Accesibil,makeup,toate,toate,Europa,,,toate,toate,1
+156,Feel It Brow Pencil,Wibo,Creion de sprancene,20.0,toate,cald,blond|brunet,mat,zi,toate,,Nu,Nu,4.0,Foarte ieftin,makeup,toate,toate,Europa (PL),,,toate,toate,1
+157,High Definition Eyebrow Pencil,Pupa,Creion de sprancene,27.5,toate,neutru|cald,blond|brunet,mat,zi,toate,,Nu,Nu,4.0,Precis,makeup,toate,toate,Europa (IT),,,toate,toate,1
+158,Brow Intensity Pencil,Sleek,Creion de sprancene,27.5,toate,neutru|cald,blond|brunet,mat,zi,toate,,Nu,Nu,4.0,Gama buna nuante reci,makeup,toate,toate,Europa (UK),,,toate,toate,1
+159,Better Than Cheek,rom&nd,Fard de obraz,50.0,toate,cald|neutru|rece,toate,mat|satinat,zi,toate,,Nu,Nu,4.0,"Pudra, tonuri MLBB foarte populare",makeup,deschis|mediu,toate,Coreea,,,toate,toate,1
+160,Pure Blushed Sunshine Cheek,Peripera,Fard de obraz,50.0,toate,cald|rece|neutru,toate,mat|satinat,zi,toate,,Nu,Nu,4.0,"Pudra, gama trendy",makeup,deschis|mediu,toate,Coreea,,,toate,toate,1
+161,Pro Blusher,CLIO,Fard de obraz,50.0,toate,neutru|cald,toate,mat|satinat,zi,toate,,Nu,Nu,4.0,Pigmentat,makeup,toate,toate,Coreea,,,toate,blonde|red|brunette,1
+162,Lovely Cookie Blusher,Etude,Fard de obraz,40.0,toate,cald|rece,toate,mat|satinat,zi,toate,,Nu,Nu,4.0,Clasic accesibil,makeup,deschis|mediu,toate,Coreea,,,toate,toate,1
+163,Mood Recipe Face Blush,3CE,Fard de obraz,80.0,toate,neutru|rece,toate,mat,zi,toate,,Nu,Nu,4.0,Tonuri estompate trendy,makeup,toate,toate,Coreea,,,toate,black|brunette,1
+164,Multi Eye Color Palette/Blush,3CE,Fard de obraz,80.0,toate,neutru|cald,toate,mat,zi,toate,,Nu,Nu,4.0,Versatil,makeup,toate,toate,Coreea,,,toate,blonde|red|brunette,1
+165,Blending Mood Cheek,Dasique,Fard de obraz,50.0,toate,cald|rece|neutru,toate,mat|satinat,zi,toate,,Nu,Nu,4.0,Paleta multi-nuante,makeup,deschis|mediu,toate,Coreea,,,toate,toate,1
+166,Soft Blurring Cheek,Wakemake,Fard de obraz,50.0,toate,neutru,toate,mat|blur,zi,toate,,Nu,Nu,4.0,Efect blur,makeup,deschis|mediu,toate,Coreea,,,toate,toate,1
+167,Luv Beam Cheek,Lilybyred,Fard de obraz,50.0,toate,cald|rece,toate,satinat,zi,toate,,Nu,Nu,4.0,Subtil luminos,makeup,deschis|mediu,toate,Coreea,,,toate,toate,1
+168,The Sleek Cheek,Espoir,Fard de obraz,80.0,toate,neutru|cald,toate,mat,zi,toate,,Nu,Nu,4.0,Catifelat,makeup,toate,toate,Coreea,,,toate,blonde|red|brunette,1
+169,True Dimension Glow Cheek,Hince,Fard de obraz,80.0,uscat|normal,neutru|cald,toate,luminos,zi,toate,,Nu,Nu,4.0,Glow,makeup,deschis|mediu,toate,Coreea,,,toate,blonde|red|brunette,1
+170,My Palette Blush,Innisfree,Fard de obraz,50.0,toate,cald|rece,toate,mat|satinat,zi,toate,,Nu,Nu,4.0,Refill system,makeup,toate,toate,Coreea,,,toate,toate,1
+171,Dailism Blusher,Heimish,Fard de obraz,50.0,toate,neutru,toate,mat,zi,toate,,Nu,Nu,4.0,Tonuri naturale,makeup,deschis|mediu,toate,Coreea,,,toate,toate,1
+172,Holy Cheek (cream),Mille,Fard de obraz,40.0,uscat|normal,cald|rece,toate,luminos,zi,toate,,Nu,Nu,4.0,"Crema, dewy",makeup,deschis|mediu,toate,Coreea/Asia,,,toate,toate,1
+173,Ggfocci Cheek,Amok,Fard de obraz,50.0,toate,neutru,toate,satinat,zi,toate,,Nu,Nu,4.0,Mai putin cunoscut,makeup,toate,toate,Coreea,,,toate,toate,1
+174,Blush Affair / Cheek Affair,Catrice,Fard de obraz,40.0,toate,cald|rece,toate,mat|satinat,zi,toate,,Nu,Nu,4.0,Accesibil,makeup,toate,toate,Europa (DE),,,toate,toate,1
+175,Blush Crush / Satin Touch,Essence,Fard de obraz,27.5,toate,cald|rece,toate,mat|satinat,zi,toate,,Nu,Nu,4.0,Foarte ieftin,makeup,toate,toate,Europa (DE),,,toate,toate,1
+176,Fit Me Blush,Maybelline,Fard de obraz,40.0,toate,cald|rece|neutru,toate,mat,zi,toate,,Nu,Nu,4.0,Clasic,makeup,toate,toate,Europa/global,,,toate,toate,1
+177,Cheek Heat (gel-cream),Maybelline,Fard de obraz,40.0,uscat|normal|mixt,cald|rece,toate,luminos,zi,toate,,Nu,Nu,4.0,Gel-crema dewy,makeup,deschis|mediu,toate,Europa/global,,,toate,toate,1
+178,Blush Filler / True Match Blush,L'Oreal Paris,Fard de obraz,50.0,toate,cald|rece|neutru,toate,satinat,zi,toate,,Nu,Nu,4.0,Asortat cu fondul,makeup,toate,toate,Europa,,,toate,toate,1
+179,Little Round Pot Blush,Bourjois,Fard de obraz,50.0,toate,cald|rece,toate,satinat,zi,toate,,Nu,Nu,4.0,"Cult, parfumat",makeup,toate,toate,Europa (FR),,,toate,toate,1
+180,Sweet Cheeks Blush,NYX,Fard de obraz,40.0,toate,cald|rece|neutru,toate,mat|satinat,zi,toate,,Nu,Nu,4.0,Gama larga,makeup,toate,toate,Europa/global,,,toate,toate,1
+181,Powder Blush,NYX,Fard de obraz,40.0,toate,cald|rece,toate,mat,zi,toate,,Nu,Nu,4.0,Pigmentat,makeup,toate,toate,Europa/global,,,toate,toate,1
+182,Lasting Finish Blush,Rimmel,Fard de obraz,40.0,toate,cald,toate,satinat,zi,toate,,Nu,Nu,4.0,Accesibil,makeup,toate,toate,Europa (UK),,,toate,blonde|red|brunette,1
+183,Velvet Touch Blush,Kiko Milano,Fard de obraz,50.0,toate,cald|rece|neutru,toate,satinat,zi,toate,,Nu,Nu,4.0,Gama buna,makeup,toate,toate,Europa (IT),,,toate,toate,1
+184,Blush by 3 Palette,Sleek,Fard de obraz,40.0,toate,cald|rece,toate,mat|satinat,zi,toate,,Nu,Nu,4.0,"Tonuri intense, ten inchis ok",makeup,toate,toate,Europa (UK),,,toate,toate,1
+185,Like a Doll Blush,Pupa,Fard de obraz,40.0,toate,cald|rece,toate,mat|satinat,zi,toate,,Nu,Nu,4.0,Italian,makeup,toate,toate,Europa (IT),,,toate,toate,1
+186,All in One Blush,Eveline,Fard de obraz,27.5,toate,cald,toate,satinat,zi,toate,,Nu,Nu,4.0,Ieftin,makeup,toate,toate,Europa (PL),,,toate,blonde|red|brunette,1
+187,Cheek Lover Oil-Infused Blush,Catrice,Fard de obraz,40.0,uscat|normal,cald|rece,toate,luminos,zi,toate,,Nu,Nu,4.0,Lichid dewy,makeup,deschis|mediu,toate,Europa (DE),,,toate,toate,1
+188,Soft Blush,Wibo,Fard de obraz,27.5,toate,cald|rece,toate,mat,zi,toate,,Nu,Nu,4.0,Foarte ieftin,makeup,toate,toate,Europa (PL),,,toate,toate,1
+189,Shadow Palette (seria),Dasique,Fard de pleoape,75.0,toate,cald|rece|neutru,toate,mat|shimmer,zi,toate,,Nu,Nu,4.0,Paletele cele mai populare K-beauty,makeup,toate,toate,Coreea,,,toate,toate,1
+190,All Take Mood Palette,Peripera,Fard de pleoape,75.0,toate,cald|rece|neutru,toate,mat|shimmer,zi,toate,,Nu,Nu,4.0,Tonuri zilnice,makeup,toate,toate,Coreea,,,toate,toate,1
+191,Soft Blurring Eye Palette,Wakemake,Fard de pleoape,75.0,toate,neutru|cald,toate,mat|blur,zi,toate,,Nu,Nu,4.0,Efect estompat,makeup,toate,toate,Coreea,,,blue|green,toate,1
+192,Pro Eye Palette,CLIO,Fard de pleoape,75.0,toate,cald|rece|neutru,toate,mat|shimmer|glitter,zi,toate,,Nu,Nu,4.0,"Pigmentat, glitter fin",makeup,toate,toate,Coreea,,,toate,toate,1
+193,Better Than Eyes,rom&nd,Fard de pleoape,75.0,toate,cald|neutru,toate,mat|shimmer,zi,toate,,Nu,Nu,4.0,Tonuri MLBB,makeup,toate,toate,Coreea,,,blue|green,toate,1
+194,Multi Eye Color Palette,3CE,Fard de pleoape,120.0,toate,neutru|cald,toate,mat|shimmer,zi,toate,,Nu,Nu,4.0,"Trendy, estompate",makeup,toate,toate,Coreea,,,blue|green,toate,1
+195,Play Color Eyes,Etude,Fard de pleoape,57.5,toate,cald|rece,toate,mat|shimmer,zi,toate,,Nu,Nu,4.0,Tematice (cherry blossom etc.),makeup,toate,toate,Coreea,,,toate,toate,1
+196,Little Bitty Moment Shadow Palette,Lilybyred,Fard de pleoape,75.0,toate,cald|rece,toate,mat|shimmer,zi,toate,,Nu,Nu,4.0,Accesibil,makeup,toate,toate,Coreea,,,toate,toate,1
+197,Glitterpedia Eye Palette,Unleashia,Fard de pleoape,120.0,toate,neutru|cald|rece,toate,glitter|shimmer,zi,toate,,Nu,Nu,4.0,Glitter premium,makeup,toate,toate,Coreea,,,toate,toate,1
+198,New Depth Eyeshadow Palette,Hince,Fard de pleoape,120.0,toate,neutru|cald,toate,mat|shimmer,zi,toate,,Nu,Nu,4.0,"Premium, estompate",makeup,toate,toate,Coreea,,,blue|green,toate,1
+199,Real Eye Palette,Espoir,Fard de pleoape,120.0,toate,neutru|cald,toate,mat|shimmer,zi,toate,,Nu,Nu,4.0,Calitate buna,makeup,toate,toate,Coreea,,,blue|green,toate,1
+200,Tailored Eyeshadow,Moonshot,Fard de pleoape,75.0,toate,neutru,toate,mat|shimmer,zi,toate,,Nu,Nu,4.0,Single + palete,makeup,toate,toate,Coreea,,,toate,toate,1
+201,Eye Vegan Shadow,Amuse,Fard de pleoape,75.0,sensibil|toate,cald|neutru,toate,satinat,zi,toate,,Nu,Nu,4.0,"Vegan, ten sensibil",makeup,toate,toate,Coreea,,,blue|green,toate,1
+202,My Palette Eyeshadow,Innisfree,Fard de pleoape,75.0,toate,cald|rece,toate,mat|shimmer,zi,toate,,Nu,Nu,4.0,Refill single,makeup,toate,toate,Coreea,,,toate,toate,1
+203,Piece Matching Shadow,Holika Holika,Fard de pleoape,57.5,toate,cald|rece,toate,mat|shimmer|glitter,zi,toate,,Nu,Nu,4.0,Single accesibil,makeup,toate,toate,Coreea,,,toate,toate,1
+204,The Collection / 9 Pan Palette,Catrice,Fard de pleoape,57.5,toate,cald|rece|neutru,toate,mat|shimmer,zi,toate,,Nu,Nu,4.0,Cult ieftin,makeup,toate,toate,Europa (DE),,,toate,toate,1
+205,The Eyeshadow / 9 in 1 Palette,Essence,Fard de pleoape,40.0,toate,cald|rece|neutru,toate,mat|shimmer,zi,toate,,Nu,Nu,4.0,Foarte ieftin,makeup,toate,toate,Europa (DE),,,toate,toate,1
+206,The Nudes / Gigi Hadid Palette,Maybelline,Fard de pleoape,57.5,toate,cald|neutru,toate,mat|shimmer,zi,toate,,Nu,Nu,4.0,Clasic nude,makeup,toate,toate,Europa/global,,,blue|green,toate,1
+207,La Palette Nude,L'Oreal Paris,Fard de pleoape,75.0,toate,cald|rece,toate,mat|shimmer,zi,toate,,Nu,Nu,4.0,Tonuri nude calde/reci,makeup,toate,toate,Europa,,,toate,toate,1
+208,Ultimate Shadow Palette,NYX,Fard de pleoape,57.5,toate,cald|rece|neutru,toate,mat|shimmer,zi,toate,,Nu,Nu,4.0,"Gama uriasa, ten inchis ok",makeup,toate,toate,Europa/global,,,toate,toate,1
+209,Vivid Brights / Single,NYX,Fard de pleoape,57.5,toate,toate,toate,mat|shimmer,zi,toate,,Nu,Nu,4.0,Culori intense,makeup,toate,toate,Europa/global,,,toate,toate,1
+210,Soft Shadow / Eyeshadow Palette,Kiko Milano,Fard de pleoape,75.0,toate,cald|rece|neutru,toate,mat|shimmer|metalic,zi,toate,,Nu,Nu,4.0,Gama foarte mare,makeup,toate,toate,Europa (IT),,,toate,toate,1
+211,i-Divine Palette,Sleek,Fard de pleoape,57.5,toate,cald|rece|neutru,toate,mat|shimmer,zi,toate,,Nu,Nu,4.0,"Pigmentat, ten inchis ok",makeup,toate,toate,Europa (UK),,,toate,toate,1
+212,Quad Eyeshadow,Bourjois,Fard de pleoape,75.0,toate,cald|rece,toate,satinat,zi,toate,,Nu,Nu,4.0,Estompabil,makeup,toate,toate,Europa (FR),,,toate,toate,1
+213,Magnif'Eyes Palette,Rimmel,Fard de pleoape,57.5,toate,cald|neutru,toate,mat|shimmer,zi,toate,,Nu,Nu,4.0,Accesibil,makeup,toate,toate,Europa (UK),,,blue|green,toate,1
+214,Vamp! Eyeshadow,Pupa,Fard de pleoape,57.5,toate,cald|rece,toate,mat|metalic,zi,toate,,Nu,Nu,4.0,Single intens,makeup,toate,toate,Europa (IT),,,toate,toate,1
+215,Feel It Eyeshadow Palette,Wibo,Fard de pleoape,40.0,toate,cald|neutru,toate,mat|shimmer,zi,toate,,Nu,Nu,4.0,Foarte ieftin,makeup,toate,toate,Europa (PL),,,blue|green,toate,1
+216,All In One Eyeshadow Palette,Eveline,Fard de pleoape,40.0,toate,cald|neutru,toate,mat|shimmer,zi,toate,,Nu,Nu,4.0,Ieftin,makeup,toate,toate,Europa (PL),,,blue|green,toate,1
+217,Single Eyeshadow,Catrice,Fard de pleoape,57.5,toate,cald|rece,toate,mat|shimmer|metalic,zi,toate,,Nu,Nu,4.0,Single accesibil,makeup,toate,toate,Europa (DE),,,toate,toate,1
+218,Reloaded / Forever Flawless Palette,Revolution,Fard de pleoape,57.5,toate,cald|rece|neutru,toate,mat|shimmer,zi,toate,,Nu,Nu,4.0,"Gama uriasa, ieftin",makeup,toate,toate,Europa (UK),,,toate,toate,1
+219,No Sebum Mineral Powder,Innisfree,Pudra,55.0,gras|mixt,neutru,translucid|deschis,mat,zi,toate,,Nu,Nu,4.0,"Cult, control sebum, pudra libera",makeup,toate,toate,Coreea,,,toate,toate,1
+220,No Sebum Blur Powder,Innisfree,Pudra,55.0,gras|mixt,neutru,translucid,mat|blur,zi,toate,,Nu,Nu,4.0,"Efect blur, matifiant",makeup,toate,toate,Coreea,,,toate,toate,1
+221,Kill Cover Airwear Mesh Powder Pact,CLIO,Pudra,55.0,mixt|normal,neutru|cald,deschis|mediu,natural|mat,zi,toate,,Nu,Nu,4.0,Pudra compacta cu acoperire,makeup,toate,toate,Coreea,,,toate,toate,1
+222,Speedy Skinny Powder Pact,Peripera,Pudra,55.0,gras|mixt,neutru,deschis|mediu,mat,zi,toate,,Nu,Nu,4.0,Compacta,makeup,toate,toate,Coreea,,,toate,toate,1
+223,Saemmul Perfect Pore Powder,The Saem,Pudra,42.5,gras|mixt,neutru,translucid,mat,zi,toate,,Nu,Nu,4.0,Minimizeaza porii,makeup,toate,toate,Coreea,,,toate,toate,1
+224,No Sebum Powder,A'pieu,Pudra,42.5,gras|mixt,neutru,translucid,mat,zi,toate,,Nu,Nu,4.0,Accesibil,makeup,toate,toate,Coreea,,,toate,toate,1
+225,Lookat My Eyes / Air Powder Pact,Etude,Pudra,42.5,normal|mixt,neutru|cald,deschis|mediu,natural,zi,toate,,Nu,Nu,4.0,Compacta,makeup,toate,toate,Coreea,,,toate,toate,1
+226,Pro Touch Powder Pact,Missha,Pudra,42.5,toate,cald|neutru,deschis|mediu,satinat,zi,toate,,Nu,Nu,4.0,Clasic,makeup,toate,toate,Coreea,,,toate,toate,1
+227,Bare Setting Powder,rom&nd,Pudra,55.0,toate,neutru,translucid|deschis,natural,zi,toate,,Nu,Nu,4.0,Setare aspect natural,makeup,toate,toate,Coreea,,,toate,toate,1
+228,Sebum Control Powder,Holika Holika,Pudra,42.5,gras,neutru,translucid,mat,zi,toate,,Nu,Nu,4.0,Control sebum,makeup,toate,toate,Coreea,,,toate,toate,1
+229,No Sebum Sun Powder,Espoir,Pudra,87.5,gras|mixt,neutru,translucid,mat,zi,toate,,Nu,Nu,4.0,SPF + matifiant,makeup,toate,toate,Coreea,,,toate,toate,1
+230,Egg Pore Silky Smooth Balm/Powder,TONYMOLY,Pudra,42.5,gras|mixt,neutru,translucid,mat|blur,zi,toate,,Nu,Nu,4.0,Minimizeaza porii,makeup,toate,toate,Coreea,,,toate,toate,1
+231,I'm Multi Powder,I'm Meme,Pudra,42.5,toate,neutru|cald,deschis|mediu,natural,zi,toate,,Nu,Nu,4.0,Accesibil,makeup,toate,toate,Coreea,,,toate,toate,1
+232,All Matt Plus Shine Control Powder,Catrice,Pudra,42.5,gras|mixt,neutru|cald,deschis|inchis,mat,zi,toate,,Nu,Nu,4.0,"Cult ieftin, matifiant",makeup,toate,toate,Europa (DE),,,toate,toate,1
+233,Setting Powder (loose),Catrice,Pudra,42.5,toate,neutru,translucid,natural,zi,toate,,Nu,Nu,4.0,Setare,makeup,toate,toate,Europa (DE),,,toate,toate,1
+234,Mattifying Compact Powder,Essence,Pudra,30.0,gras|mixt,neutru|cald,deschis|mediu,mat,zi,toate,,Nu,Nu,4.0,Foarte ieftin,makeup,toate,toate,Europa (DE),,,toate,toate,1
+235,Fixing Loose Setting Powder,Essence,Pudra,30.0,toate,neutru,translucid,natural,zi,toate,,Nu,Nu,4.0,Setare ieftin,makeup,toate,toate,Europa (DE),,,toate,toate,1
+236,Fit Me Matte + Poreless Powder,Maybelline,Pudra,42.5,gras|mixt,neutru|cald,deschis|inchis,mat,zi,toate,,Nu,Nu,4.0,Asortat cu Fit Me,makeup,toate,toate,Europa/global,,,toate,toate,1
+237,Infaillible 24H Setting Powder,L'Oreal Paris,Pudra,55.0,toate,neutru,translucid,natural,zi,toate,,Nu,Nu,4.0,Setare long-wear,makeup,toate,toate,Europa,,,toate,toate,1
+238,Stay Matte Pressed Powder,Rimmel,Pudra,42.5,gras|mixt,cald|neutru,deschis|mediu,mat,zi,toate,,Nu,Nu,4.0,"Cult ieftin, matifiant",makeup,toate,toate,Europa (UK),,,toate,toate,1
+239,Healthy Mix Powder,Bourjois,Pudra,55.0,normal|uscat,cald|neutru,deschis|mediu,luminos,zi,toate,,Nu,Nu,4.0,Glow,makeup,toate,toate,Europa (FR),,,toate,toate,1
+240,HD Finishing Powder,NYX,Pudra,42.5,toate,neutru,translucid,natural,zi,toate,,Nu,Nu,4.0,"HD, fara flashback",makeup,toate,toate,Europa/global,,,toate,toate,1
+241,Can't Stop Won't Stop Powder,NYX,Pudra,42.5,gras|mixt,neutru|cald,deschis|inchis,mat,zi,toate,,Nu,Nu,4.0,Long-wear,makeup,toate,toate,Europa/global,,,toate,toate,1
+242,Unlimited / Matte Fusion Powder,Kiko Milano,Pudra,55.0,gras|mixt,neutru|cald,deschis|inchis,mat,zi,toate,,Nu,Nu,4.0,Gama buna,makeup,toate,toate,Europa (IT),,,toate,toate,1
+243,Cover + Mattify Powder,Catrice,Pudra,42.5,gras|mixt,neutru|cald,deschis|mediu,mat,zi,toate,,Nu,Nu,4.0,Acoperire usoara,makeup,toate,toate,Europa (DE),,,toate,toate,1
+244,Bare Focus / Coverall Powder,Wet n Wild,Pudra,30.0,toate,neutru,translucid,natural,zi,toate,,Nu,Nu,4.0,Ieftin,makeup,toate,toate,Europa/global,,,toate,toate,1
+245,Celebrities Beauty Powder,Eveline,Pudra,30.0,toate,cald|neutru,deschis|mediu,natural,zi,toate,,Nu,Nu,4.0,Accesibil,makeup,toate,toate,Europa (PL),,,toate,toate,1
+246,Silk Touch Compact Powder,Pupa,Pudra,42.5,normal|mixt,cald|neutru,deschis|mediu,satinat,zi,toate,,Nu,Nu,4.0,Fin,makeup,toate,toate,Europa (IT),,,toate,toate,1
+247,Stay Matte Powder,Wibo,Pudra,30.0,gras|mixt,neutru,deschis|mediu,mat,zi,toate,,Nu,Nu,4.0,Foarte ieftin,makeup,toate,toate,Europa (PL),,,toate,toate,1
+248,Conceal & Fix Setting Powder,Revolution,Pudra,42.5,toate,neutru,translucid|deschis,natural,zi,toate,,Nu,Nu,4.0,"Setare ieftin, mai multe nuante",makeup,toate,toate,Europa (UK),,,toate,toate,1
+249,Glasting Water Gloss / Veil Lighter,rom&nd,Iluminator,55.0,toate,cald|rece|neutru,toate,luminos,zi,toate,,Nu,Nu,4.0,"Glow natural, K-beauty",makeup,toate,toate,Coreea,,,toate,toate,1
+250,Prism Air Highlighter,CLIO,Iluminator,55.0,toate,cald|rece,toate,shimmer,zi,toate,,Nu,Nu,4.0,"Cult, fin",makeup,toate,toate,Coreea,,,toate,toate,1
+251,Glow All Day Highlighter,Espoir,Iluminator,87.5,toate,cald|neutru,toate,glow,zi,toate,,Nu,Nu,4.0,Subtil,makeup,toate,toate,Coreea,,,toate,toate,1
+252,True Dimension Glow Highlighter,Hince,Iluminator,87.5,toate,cald|neutru,toate,glow,zi,toate,,Nu,Nu,4.0,Aspect de piele,makeup,toate,toate,Coreea,,,toate,toate,1
+253,Sugar Twinkle Liquid Glow,Peripera,Iluminator,55.0,toate,cald|rece,toate,lichid|shimmer,zi,toate,,Nu,Nu,4.0,Lichid,makeup,toate,toate,Coreea,,,toate,toate,1
+254,Glow Beam Highlighter,3CE,Iluminator,87.5,toate,cald|neutru,toate,glow,zi,toate,,Nu,Nu,4.0,Estompabil,makeup,toate,toate,Coreea,,,toate,toate,1
+255,Skin Fit Glow Highlighter,Wakemake,Iluminator,55.0,toate,neutru|cald,toate,glow,zi,toate,,Nu,Nu,4.0,Natural,makeup,toate,toate,Coreea,,,toate,toate,1
+256,Glassy Layer Fixing Highlighter,Lilybyred,Iluminator,55.0,toate,cald|rece,toate,shimmer,zi,toate,,Nu,Nu,4.0,Accesibil,makeup,toate,toate,Coreea,,,toate,toate,1
+257,My Palette Highlighter,Innisfree,Iluminator,55.0,toate,cald|rece,toate,shimmer,zi,toate,,Nu,Nu,4.0,Refill,makeup,toate,toate,Coreea,,,toate,toate,1
+258,Pop Pop Sparkle / Glow Topper,Unleashia,Iluminator,87.5,toate,neutru|cald|rece,toate,glitter|glow,zi,toate,,Nu,Nu,4.0,Topper sclipitor,makeup,toate,toate,Coreea,,,toate,toate,1
+259,Glitter Fit / Glow Highlighter,Dasique,Iluminator,55.0,toate,cald|rece,toate,glow|glitter,zi,toate,,Nu,Nu,4.0,Trendy,makeup,toate,toate,Coreea,,,toate,toate,1
+260,Dew Tint / Glow,Amuse,Iluminator,55.0,toate,cald|rece,toate,glow,zi,toate,,Nu,Nu,4.0,Vegan,makeup,toate,toate,Coreea,,,toate,toate,1
+261,High Glow Mineral Highlighting Powder,Catrice,Iluminator,42.5,toate,cald|rece,toate,shimmer,zi,toate,,Nu,Nu,4.0,Cult ieftin,makeup,toate,toate,Europa (DE),,,toate,toate,1
+262,Glowtangerine / Liquid Glow,Catrice,Iluminator,42.5,toate,cald|rece,toate,lichid|glow,zi,toate,,Nu,Nu,4.0,Drops lichide,makeup,toate,toate,Europa (DE),,,toate,toate,1
+263,Pure Nude Highlighter,Essence,Iluminator,30.0,toate,cald|rece,toate,shimmer,zi,toate,,Nu,Nu,4.0,Foarte ieftin,makeup,toate,toate,Europa (DE),,,toate,toate,1
+264,Master Chrome / Face Studio Highlighter,Maybelline,Iluminator,42.5,toate,cald|rece,toate,metalic,zi,toate,,Nu,Nu,4.0,Intens,makeup,toate,toate,Europa/global,,,toate,toate,1
+265,True Match Lumi Glow Highlighter,L'Oreal Paris,Iluminator,55.0,toate,cald|rece,toate,glow,zi,toate,,Nu,Nu,4.0,Pudra/lichid,makeup,toate,toate,Europa,,,toate,toate,1
+266,Highlighter Powder,Bourjois,Iluminator,55.0,toate,cald|rece,toate,shimmer,zi,toate,,Nu,Nu,4.0,Subtil,makeup,toate,toate,Europa (FR),,,toate,toate,1
+267,Born to Glow Liquid Illuminator,NYX,Iluminator,42.5,toate,cald|rece|neutru,toate,lichid|glow,zi,toate,,Nu,Nu,4.0,"Cult, gama buna",makeup,toate,toate,Europa/global,,,toate,toate,1
+268,Away We Glow Stick,NYX,Iluminator,42.5,toate,cald|rece,toate,glow,zi,toate,,Nu,Nu,4.0,Stick practic,makeup,toate,toate,Europa/global,,,toate,toate,1
+269,Radiant Touch / Glow Highlighter,Kiko Milano,Iluminator,55.0,toate,cald|rece,toate,glow,zi,toate,,Nu,Nu,4.0,Gama mare,makeup,toate,toate,Europa (IT),,,toate,toate,1
+270,Highlighting Palette (Solstice),Sleek,Iluminator,42.5,toate,cald|rece|neutru,toate,shimmer|glow,zi,toate,,Nu,Nu,4.0,Tonuri pt ten inchis ok,makeup,toate,toate,Europa (UK),,,toate,toate,1
+271,Liquid / Shimmer Highlighter,Revolution,Iluminator,42.5,toate,cald|rece,toate,glow|shimmer,zi,toate,,Nu,Nu,4.0,"Multe nuante, ieftin",makeup,toate,toate,Europa (UK),,,toate,toate,1
+272,Like a Doll Highlighter,Pupa,Iluminator,42.5,toate,cald|rece,toate,shimmer,zi,toate,,Nu,Nu,4.0,Italian,makeup,toate,toate,Europa (IT),,,toate,toate,1
+273,Glow Up Highlighter,Wibo,Iluminator,30.0,toate,cald|rece,toate,shimmer,zi,toate,,Nu,Nu,4.0,Foarte ieftin,makeup,toate,toate,Europa (PL),,,toate,toate,1
+274,Highlighter Stick,Eveline,Iluminator,30.0,toate,cald|rece,toate,glow,zi,toate,,Nu,Nu,4.0,Ieftin,makeup,toate,toate,Europa (PL),,,toate,toate,1
+275,Dailism Highlighter,Heimish,Iluminator,55.0,toate,cald|rece,toate,glow,zi,toate,,Nu,Nu,4.0,Natural,makeup,toate,toate,Coreea,,,toate,toate,1
+276,Tailored Glow,Moonshot,Iluminator,55.0,toate,neutru|cald,toate,glow,zi,toate,,Nu,Nu,4.0,Subtil,makeup,toate,toate,Coreea,,,toate,toate,1
+277,Play Color / Glow Touch,Etude,Iluminator,42.5,toate,cald|rece,toate,shimmer,zi,toate,,Nu,Nu,4.0,Accesibil,makeup,toate,toate,Coreea,,,toate,toate,1
+278,Hi Bye Glow Highlighter,Banila Co,Iluminator,87.5,toate,cald|rece,toate,glow,zi,toate,,Nu,Nu,4.0,Natural,makeup,toate,toate,Coreea,,,toate,toate,1
+279,Glasting Water Gloss,rom&nd,Luciu de buze,40.0,toate,cald|rece|neutru,toate,luciu sticlos,zi,toate,,Nu,Nu,4.0,"Cult, finisaj jelly nelipicios",makeup,toate,toate,Coreea,,,toate,toate,1
+280,Juicy Lasting Tint (glow),rom&nd,Luciu de buze,40.0,toate,cald|rece,toate,luciu|tint,zi,toate,,Nu,Nu,4.0,Tint hidratant,makeup,toate,toate,Coreea,,,toate,toate,1
+281,Ink Glasting Lip Gloss,Peripera,Luciu de buze,40.0,toate,cald|rece|neutru,toate,luciu sticlos,zi,toate,,Nu,Nu,4.0,"Glossy, multe nuante",makeup,toate,toate,Coreea,,,toate,toate,1
+282,Juicy Dewy Tint,Dasique,Luciu de buze,40.0,toate,cald|rece,toate,luciu|tint,zi,toate,,Nu,Nu,4.0,Trendy,makeup,toate,toate,Coreea,,,toate,toate,1
+283,Glow Fixing Tint / Dear Darling Gloss,Etude,Luciu de buze,32.5,toate,cald|rece,toate,luciu,zi,toate,,Nu,Nu,4.0,Accesibil,makeup,toate,toate,Coreea,,,toate,toate,1
+284,Plumping Lips / Glow Lip Color,3CE,Luciu de buze,65.0,toate,cald|rece|neutru,toate,luciu plumping,zi,toate,,Nu,Nu,4.0,Efect de volum,makeup,toate,toate,Coreea,,,toate,toate,1
+285,Crystal Glam Tint / Gloss,CLIO,Luciu de buze,40.0,toate,cald|rece,toate,luciu,zi,toate,,Nu,Nu,4.0,Sticlos,makeup,toate,toate,Coreea,,,toate,toate,1
+286,Glassy Layer Lip Gloss,Lilybyred,Luciu de buze,40.0,toate,cald|rece,toate,luciu sticlos,zi,toate,,Nu,Nu,4.0,Accesibil,makeup,toate,toate,Coreea,,,toate,toate,1
+287,Non-Sticky Glassy Gloss,Unleashia,Luciu de buze,65.0,toate,cald|rece|neutru,toate,luciu sticlos,zi,toate,,Nu,Nu,4.0,Nelipicios,makeup,toate,toate,Coreea,,,toate,toate,1
+288,Jel-Fit Tint / Dew Gloss,Amuse,Luciu de buze,40.0,toate,cald|rece,toate,luciu jelly,zi,toate,,Nu,Nu,4.0,Vegan,makeup,toate,toate,Coreea,,,toate,toate,1
+289,Glow Balm / Water Glow,Hince,Luciu de buze,65.0,toate,cald|neutru,toate,luciu,zi,toate,,Nu,Nu,4.0,Hidratant,makeup,toate,toate,Coreea,,,toate,blonde|red|brunette,1
+290,Water Glow Tint,Wakemake,Luciu de buze,40.0,toate,cald|rece,toate,luciu|tint,zi,toate,,Nu,Nu,4.0,Natural,makeup,toate,toate,Coreea,,,toate,toate,1
+291,Glasting Melting Balm,Romand,Luciu de buze,40.0,toate,cald|rece,toate,luciu|balsam,zi,toate,,Nu,Nu,4.0,Hidratant,makeup,toate,toate,Coreea,,,toate,toate,1
+292,Marshmallow / Velvet Glow,Mille,Luciu de buze,32.5,toate,cald|rece,toate,luciu,zi,toate,,Nu,Nu,4.0,Accesibil,makeup,toate,toate,Coreea/Asia,,,toate,toate,1
+293,Vivid Oil Tint / Glow,Innisfree,Luciu de buze,40.0,toate,cald|rece,toate,luciu|ulei,zi,toate,,Nu,Nu,4.0,Hidratant,makeup,toate,toate,Coreea,,,toate,toate,1
+294,Plump It Up Lip Booster,Catrice,Luciu de buze,32.5,toate,cald|rece|neutru,toate,luciu plumping,zi,toate,,Nu,Nu,4.0,"Cult, efect volum",makeup,toate,toate,Europa (DE),,,toate,toate,1
+295,Extreme Shine Volume Lipgloss,Essence,Luciu de buze,20.0,toate,cald|rece,toate,luciu,zi,toate,,Nu,Nu,4.0,Foarte ieftin,makeup,toate,toate,Europa (DE),,,toate,toate,1
+296,What The Fake Plumping Gloss,Essence,Luciu de buze,20.0,toate,cald|rece|neutru,toate,luciu plumping,zi,toate,,Nu,Nu,4.0,Efect volum,makeup,toate,toate,Europa (DE),,,toate,toate,1
+297,Lifter Gloss,Maybelline,Luciu de buze,32.5,toate,cald|rece|neutru,toate,luciu hidratant,zi,toate,,Nu,Nu,4.0,"Cult, cu acid hialuronic",makeup,toate,toate,Europa/global,,,toate,toate,1
+298,Brilliant Signature / Glow Paradise Gloss,L'Oreal Paris,Luciu de buze,40.0,toate,cald|rece,toate,luciu,zi,toate,,Nu,Nu,4.0,Hidratant,makeup,toate,toate,Europa,,,toate,toate,1
+299,Butter Gloss,NYX,Luciu de buze,32.5,toate,cald|rece|neutru,toate,luciu cremos,zi,toate,,Nu,Nu,4.0,"Cult, gama uriasa",makeup,toate,toate,Europa/global,,,toate,toate,1
+300,Fat Oil Lip Drip,NYX,Luciu de buze,32.5,toate,cald|rece|neutru,toate,ulei|luciu,zi,toate,,Nu,Nu,4.0,"Trendy, hidratant",makeup,toate,toate,Europa/global,,,toate,toate,1
+301,Oh My Gloss!,Rimmel,Luciu de buze,32.5,toate,cald|rece,toate,luciu,zi,toate,,Nu,Nu,4.0,Accesibil,makeup,toate,toate,Europa (UK),,,toate,toate,1
+302,Gloss Fabuleux,Bourjois,Luciu de buze,40.0,toate,cald|rece,toate,luciu,zi,toate,,Nu,Nu,4.0,Francez,makeup,toate,toate,Europa (FR),,,toate,toate,1
+303,3D Hydra Lipgloss,Kiko Milano,Luciu de buze,40.0,toate,cald|rece|neutru,toate,luciu,zi,toate,,Nu,Nu,4.0,Gama mare,makeup,toate,toate,Europa (IT),,,toate,toate,1
+304,Juicy Bomb / Pout Bomb Gloss,Revolution,Luciu de buze,32.5,toate,cald|rece|neutru,toate,luciu plumping,zi,toate,,Nu,Nu,4.0,Multe nuante,makeup,toate,toate,Europa (UK),,,toate,toate,1
+305,Miss Pupa Gloss,Pupa,Luciu de buze,32.5,toate,cald|rece,toate,luciu,zi,toate,,Nu,Nu,4.0,Italian,makeup,toate,toate,Europa (IT),,,toate,toate,1
+306,Glow & Go / Lip Gloss,Eveline,Luciu de buze,20.0,toate,cald|rece,toate,luciu,zi,toate,,Nu,Nu,4.0,Ieftin,makeup,toate,toate,Europa (PL),,,toate,toate,1
+307,Lip Gloss,Wibo,Luciu de buze,20.0,toate,cald|rece,toate,luciu,zi,toate,,Nu,Nu,4.0,Foarte ieftin,makeup,toate,toate,Europa (PL),,,toate,toate,1
+308,Tint Fit Gloss,Moonshot,Luciu de buze,40.0,toate,cald|rece,toate,luciu,zi,toate,,Nu,Nu,4.0,Natural,makeup,toate,toate,Coreea,,,toate,toate,1
+309,Lash Perm Curl Fix Mascara,Etude,Mascara,40.0,toate,toate,negru|maro,natural,zi,toate,,Nu,Nu,4.0,"Cult, curl long-wear",makeup,toate,toate,Coreea,,,toate,toate,1
+310,Kill Lash Superproof Mascara,CLIO,Mascara,50.0,toate,toate,negru,natural,zi,toate,,Nu,Nu,4.0,"Waterproof, smudge-proof",makeup,toate,toate,Coreea,,,toate,toate,1
+311,Ink Tatto Brush Cara,Peripera,Mascara,50.0,toate,toate,negru|maro,natural,zi,toate,,Nu,Nu,4.0,Definire,makeup,toate,toate,Coreea,,,toate,toate,1
+312,Skinny Microcara,Innisfree,Mascara,50.0,toate,toate,negru|maro,natural,zi,toate,,Nu,Nu,4.0,"Pt gene fine, jos",makeup,toate,toate,Coreea,,,toate,toate,1
+313,Magic Pole Mascara,Holika Holika,Mascara,40.0,toate,toate,negru,natural,zi,toate,,Nu,Nu,4.0,Volum/lungime,makeup,toate,toate,Coreea,,,toate,toate,1
+314,The Style 4D Mascara,Missha,Mascara,40.0,toate,toate,negru,natural,zi,toate,,Nu,Nu,4.0,Clasic,makeup,toate,toate,Coreea,,,toate,toate,1
+315,Edge Lash Mascara,A'pieu,Mascara,40.0,toate,toate,negru,natural,zi,toate,,Nu,Nu,4.0,Accesibil,makeup,toate,toate,Coreea,,,toate,toate,1
+316,Big Big Mascara,Espoir,Mascara,80.0,toate,toate,negru,natural,zi,toate,,Nu,Nu,4.0,Volum,makeup,toate,toate,Coreea,,,toate,toate,1
+317,Han All Fix Mascara,rom&nd,Mascara,50.0,toate,toate,negru|maro,natural,zi,toate,,Nu,Nu,4.0,"Natural, smudge-proof",makeup,toate,toate,Coreea,,,toate,toate,1
+318,AM9 to PM9 Mascara,Lilybyred,Mascara,50.0,toate,toate,negru|maro,natural,zi,toate,,Nu,Nu,4.0,Long-wear,makeup,toate,toate,Coreea,,,toate,toate,1
+319,Kill Black Fixing Cara,Wakemake,Mascara,50.0,toate,toate,negru,natural,zi,toate,,Nu,Nu,4.0,Curl fix,makeup,toate,toate,Coreea,,,toate,toate,1
+320,I'm Mascara,I'm Meme,Mascara,40.0,toate,toate,negru,natural,zi,toate,,Nu,Nu,4.0,Accesibil,makeup,toate,toate,Coreea,,,toate,toate,1
+321,Double Needs Mascara,Tony Moly,Mascara,40.0,toate,toate,negru,natural,zi,toate,,Nu,Nu,4.0,Definire,makeup,toate,toate,Coreea,,,toate,toate,1
+322,Dailism Mascara,Heimish,Mascara,50.0,toate,toate,negru|maro,natural,zi,toate,,Nu,Nu,4.0,Natural,makeup,toate,toate,Coreea,,,toate,toate,1
+323,Tail Lash Mascara,Moonshot,Mascara,50.0,toate,toate,negru,natural,zi,toate,,Nu,Nu,4.0,Definire colt,makeup,toate,toate,Coreea,,,toate,toate,1
+324,Glam & Doll / False Lash Mascara,Catrice,Mascara,40.0,toate,toate,negru,natural,zi,toate,,Nu,Nu,4.0,"Cult ieftin, volum",makeup,toate,toate,Europa (DE),,,toate,toate,1
+325,Lash Princess False Lash Effect,Essence,Mascara,27.5,toate,toate,negru,natural,zi,toate,,Nu,Nu,4.0,"Cult viral, volum",makeup,toate,toate,Europa (DE),,,toate,toate,1
+326,Lash Sensational Sky High,Maybelline,Mascara,40.0,toate,toate,negru|maro,natural,zi,toate,,Nu,Nu,4.0,"Bestseller, lungime",makeup,toate,toate,Europa/global,,,toate,toate,1
+327,The Falsies Surreal Extensions,Maybelline,Mascara,40.0,toate,toate,negru,natural,zi,toate,,Nu,Nu,4.0,Volum/lungime,makeup,toate,toate,Europa/global,,,toate,toate,1
+328,Telescopic / Paradise Mascara,L'Oreal Paris,Mascara,50.0,toate,toate,negru|maro,natural,zi,toate,,Nu,Nu,4.0,Lungime / volum,makeup,toate,toate,Europa,,,toate,toate,1
+329,Wonder'Luxe / Scandaleyes,Rimmel,Mascara,40.0,toate,toate,negru,natural,zi,toate,,Nu,Nu,4.0,Volum,makeup,toate,toate,Europa (UK),,,toate,toate,1
+330,Volume Glamour / Twist Up,Bourjois,Mascara,50.0,toate,toate,negru,natural,zi,toate,,Nu,Nu,4.0,Volum,makeup,toate,toate,Europa (FR),,,toate,toate,1
+331,On The Rise / Worth The Hype,NYX,Mascara,40.0,toate,toate,negru,natural,zi,toate,,Nu,Nu,4.0,Vegan,makeup,toate,toate,Europa/global,,,toate,toate,1
+332,Maxi Mod / Lengthening Mascara,Kiko Milano,Mascara,50.0,toate,toate,negru,natural,zi,toate,,Nu,Nu,4.0,Gama buna,makeup,toate,toate,Europa (IT),,,toate,toate,1
+333,Vamp! Mascara,Pupa,Mascara,40.0,toate,toate,negru,natural,zi,toate,,Nu,Nu,4.0,Volum intens,makeup,toate,toate,Europa (IT),,,toate,toate,1
+334,Volume Celebrities Mascara,Eveline,Mascara,27.5,toate,toate,negru,natural,zi,toate,,Nu,Nu,4.0,Ieftin,makeup,toate,toate,Europa (PL),,,toate,toate,1
+335,Big & Beautiful Mascara,Astor,Mascara,40.0,toate,toate,negru,natural,zi,toate,,Nu,Nu,4.0,Volum,makeup,toate,toate,Europa,,,toate,toate,1
+336,Feel It Mascara,Wibo,Mascara,27.5,toate,toate,negru,natural,zi,toate,,Nu,Nu,4.0,Foarte ieftin,makeup,toate,toate,Europa (PL),,,toate,toate,1
+337,5D Mascara,Revolution,Mascara,40.0,toate,toate,negru,natural,zi,toate,,Nu,Nu,4.0,"Volum, ieftin",makeup,toate,toate,Europa (UK),,,toate,toate,1
+338,2000 Calorie / False Lash Effect,Max Factor,Mascara,50.0,toate,toate,negru|maro,natural,zi,toate,,Nu,Nu,4.0,Clasic volum,makeup,toate,toate,Europa (UK),,,toate,toate,1
+339,No Sebum Blur Primer,Innisfree,Primer,60.0,gras|mixt,neutru,toate,mat|blur,zi,toate,,Nu,Nu,4.0,"Control sebum, minimizeaza pori",makeup,toate,toate,Coreea,,,toate,toate,1
+340,Kill Cover The New Founwear Primer,CLIO,Primer,60.0,mixt|normal,neutru,toate,natural,zi,toate,,Nu,Nu,4.0,Aderenta machiaj,makeup,toate,toate,Coreea,,,toate,toate,1
+341,Water Splash Sun Primer,Espoir,Primer,95.0,toate,neutru,toate,natural,zi,toate,,Nu,Nu,4.0,SPF + primer,makeup,toate,toate,Coreea,,,toate,toate,1
+342,Beauty Shot Face Blur / Mineral Primer,Etude,Primer,45.0,gras|mixt,neutru,toate,blur,zi,toate,,Nu,Nu,4.0,Efect blur,makeup,toate,toate,Coreea,,,toate,toate,1
+343,Saemmul Perfect Pore Primer,The Saem,Primer,45.0,gras|mixt,neutru,toate,mat,zi,toate,,Nu,Nu,4.0,Minimizeaza pori,makeup,toate,toate,Coreea,,,toate,toate,1
+344,De-Glow Setting / Zero Primer,rom&nd,Primer,60.0,mixt|normal,neutru,toate,natural|mat,zi,toate,,Nu,Nu,4.0,Setare,makeup,toate,toate,Coreea,,,toate,toate,1
+345,Face2Change Photo Ready Primer,Holika Holika,Primer,45.0,toate,neutru,toate,natural,zi,toate,,Nu,Nu,4.0,Iluminator/mat,makeup,toate,toate,Coreea,,,toate,toate,1
+346,Pro Touch / Layering Cover Primer,Missha,Primer,45.0,toate,neutru,toate,natural,zi,toate,,Nu,Nu,4.0,Clasic,makeup,toate,toate,Coreea,,,toate,toate,1
+347,Egg Pore Primer,Tony Moly,Primer,45.0,gras|mixt,neutru,toate,mat|blur,zi,toate,,Nu,Nu,4.0,Minimizeaza pori,makeup,toate,toate,Coreea,,,toate,toate,1
+348,No Sebum Primer,A'pieu,Primer,45.0,gras,neutru,toate,mat,zi,toate,,Nu,Nu,4.0,Control sebum,makeup,toate,toate,Coreea,,,toate,toate,1
+349,Oil Control Primer,Wakemake,Primer,60.0,gras|mixt,neutru,toate,mat,zi,toate,,Nu,Nu,4.0,Ten gras,makeup,toate,toate,Coreea,,,toate,toate,1
+350,Prime Primer (Hydrating/Blur),Banila Co,Primer,95.0,toate,neutru,toate,natural|blur,zi,toate,,Nu,Nu,4.0,Doua variante,makeup,toate,toate,Coreea,,,toate,toate,1
+351,Skin Fit Primer,Lilybyred,Primer,60.0,mixt|normal,neutru,toate,natural,zi,toate,,Nu,Nu,4.0,Aderenta,makeup,toate,toate,Coreea,,,toate,toate,1
+352,Prime And Fine Pore Refining / Hydrating,Catrice,Primer,45.0,gras|mixt|uscat,neutru,toate,mat|glow,zi,toate,,Nu,Nu,4.0,"Cult ieftin, mai multe variante",makeup,toate,toate,Europa (DE),,,toate,toate,1
+353,All About Matt! / Hydrating Primer,Essence,Primer,32.5,gras|uscat,neutru,toate,mat|hidratant,zi,toate,,Nu,Nu,4.0,Foarte ieftin,makeup,toate,toate,Europa (DE),,,toate,toate,1
+354,Baby Skin Pore Eraser / Instant Perfector,Maybelline,Primer,45.0,gras|mixt,neutru,toate,blur|mat,zi,toate,,Nu,Nu,4.0,Minimizeaza pori,makeup,toate,toate,Europa/global,,,toate,toate,1
+355,Infaillible / Prime Lab Primer,L'Oreal Paris,Primer,60.0,toate,neutru,toate,mat|glow,zi,toate,,Nu,Nu,4.0,Mai multe variante,makeup,toate,toate,Europa,,,toate,toate,1
+356,Pore Filler / Honey Dew Primer,NYX,Primer,45.0,gras|mixt|uscat,neutru,toate,blur|glow,zi,toate,,Nu,Nu,4.0,"Cult, mai multe variante",makeup,toate,toate,Europa/global,,,toate,toate,1
+357,Marshmellow Smoothing Primer,NYX,Primer,45.0,toate,neutru,toate,blur,zi,toate,,Nu,Nu,4.0,Neteziste textura,makeup,toate,toate,Europa/global,,,toate,toate,1
+358,Stay Matte Primer,Rimmel,Primer,45.0,gras|mixt,neutru,toate,mat,zi,toate,,Nu,Nu,4.0,Accesibil,makeup,toate,toate,Europa (UK),,,toate,toate,1
+359,Happy Light / 123 Perfect Primer,Bourjois,Primer,60.0,toate,neutru,toate,glow,zi,toate,,Nu,Nu,4.0,Iluminator,makeup,toate,toate,Europa (FR),,,toate,toate,1
+360,Unlimited / Smart Eyeshadow & Face Primer,Kiko Milano,Primer,60.0,toate,neutru,toate,natural,zi,toate,,Nu,Nu,4.0,Gama buna,makeup,toate,toate,Europa (IT),,,toate,toate,1
+361,Pore & Blur / Matte Primer,Revolution,Primer,45.0,gras|mixt,neutru,toate,blur|mat,zi,toate,,Nu,Nu,4.0,Ieftin,makeup,toate,toate,Europa (UK),,,toate,toate,1
+362,Prime Me Face Primer,Pupa,Primer,45.0,toate,neutru,toate,natural,zi,toate,,Nu,Nu,4.0,Italian,makeup,toate,toate,Europa (IT),,,toate,toate,1
+363,Art Scenic Primer,Eveline,Primer,32.5,toate,neutru,toate,natural,zi,toate,,Nu,Nu,4.0,Ieftin,makeup,toate,toate,Europa (PL),,,toate,toate,1
+364,Smooth & Matt Primer,Wibo,Primer,32.5,gras|mixt,neutru,toate,mat,zi,toate,,Nu,Nu,4.0,Foarte ieftin,makeup,toate,toate,Europa (PL),,,toate,toate,1
+365,Power Grip Primer,e.l.f.,Primer,32.5,toate,neutru,toate,grip|glow,zi,toate,,Nu,Nu,4.0,"Viral, aderenta mare",makeup,toate,toate,Europa/global,,,toate,toate,1
+366,Poreless Putty Primer,e.l.f.,Primer,32.5,gras|mixt,neutru,toate,blur,zi,toate,,Nu,Nu,4.0,Minimizeaza pori,makeup,toate,toate,Europa/global,,,toate,toate,1
+367,Artless Glow Base / Primer,Heimish,Primer,60.0,uscat|normal,neutru,toate,glow,zi,toate,,Nu,Nu,4.0,Iluminator subtil,makeup,toate,toate,Coreea,,,toate,toate,1
+368,Cicapair Re-Cover Primer,Dr.Jart+,Primer,95.0,sensibil|toate,neutru,toate,natural,zi,toate,,Nu,Nu,4.0,"Corectare roseata, ten sensibil",makeup,toate,toate,Coreea,,,toate,toate,1
+369,Zero Velvet Tint,rom&nd,Ruj,45.0,toate,cald|rece|neutru,toate,velvet mat,zi,toate,,Nu,Nu,4.0,"Cult, MLBB, confortabil",makeup,toate,toate,Coreea,,,toate,toate,1
+370,Zero Matte Lipstick,rom&nd,Ruj,45.0,toate,cald|rece|neutru,toate,mat,zi,toate,,Nu,Nu,4.0,Mat moale,makeup,toate,toate,Coreea,,,toate,toate,1
+371,Blur Fudge Tint,rom&nd,Ruj,45.0,toate,cald|rece|neutru,toate,mat|blur,zi,toate,,Nu,Nu,4.0,Efect blur,makeup,toate,toate,Coreea,,,toate,toate,1
+372,Ink Velvet Tint,Peripera,Ruj,45.0,toate,cald|rece,toate,velvet,zi,toate,,Nu,Nu,4.0,"Cult, long-wear",makeup,toate,toate,Coreea,,,toate,toate,1
+373,Ink Mood Matte Stick,Peripera,Ruj,45.0,toate,cald|rece,toate,mat,zi,toate,,Nu,Nu,4.0,Stick,makeup,toate,toate,Coreea,,,toate,toate,1
+374,Chiffon Mood / Melting Sheer Lipstick,CLIO,Ruj,45.0,toate,cald|rece|neutru,toate,sheer|velvet,zi,toate,,Nu,Nu,4.0,Confortabil,makeup,toate,toate,Coreea,,,toate,toate,1
+375,Velvet Lip Tint,3CE,Ruj,72.5,toate,cald|rece|neutru,toate,velvet mat,zi,toate,,Nu,Nu,4.0,"Trendy, estompat",makeup,toate,toate,Coreea,,,toate,toate,1
+376,Soft Matte Lipstick,3CE,Ruj,72.5,toate,cald|rece|neutru,toate,mat moale,zi,toate,,Nu,Nu,4.0,Nuante nude,makeup,toate,toate,Coreea,,,toate,toate,1
+377,Fixing Tint / Dear Darling Tint,Etude,Ruj,35.0,toate,cald|rece,toate,tint,zi,toate,,Nu,Nu,4.0,Accesibil,makeup,toate,toate,Coreea,,,toate,toate,1
+378,Mood Blur Tint,Dasique,Ruj,45.0,toate,cald|rece,toate,mat|blur,zi,toate,,Nu,Nu,4.0,Trendy,makeup,toate,toate,Coreea,,,toate,toate,1
+379,Mood Liar Velvet Tint,Lilybyred,Ruj,45.0,toate,cald|rece,toate,velvet,zi,toate,,Nu,Nu,4.0,Accesibil,makeup,toate,toate,Coreea,,,toate,toate,1
+380,Chou Velvet / Dew Tint,Amuse,Ruj,45.0,toate,cald|rece,toate,velvet|dew,zi,toate,,Nu,Nu,4.0,Vegan,makeup,toate,toate,Coreea,,,toate,toate,1
+381,Mood Enhancer Matte/Glow,Hince,Ruj,72.5,toate,cald|rece|neutru,toate,mat|glow,zi,toate,,Nu,Nu,4.0,Premium,makeup,toate,toate,Coreea,,,toate,toate,1
+382,Kissholic Lipstick,Wakemake,Ruj,45.0,toate,cald|rece,toate,mat|satinat,zi,toate,,Nu,Nu,4.0,Gama buna,makeup,toate,toate,Coreea,,,toate,toate,1
+383,Couture Lipstick (Velvet/Intense),Espoir,Ruj,72.5,toate,cald|rece|neutru,toate,velvet|intens,zi,toate,,Nu,Nu,4.0,Calitate buna,makeup,toate,toate,Coreea,,,toate,toate,1
+384,Velvet / Matte Lipstick,Mille,Ruj,35.0,toate,cald|rece,toate,mat,zi,toate,,Nu,Nu,4.0,Accesibil,makeup,toate,toate,Coreea/Asia,,,toate,toate,1
+385,Scandalous Matte / Power Plumping Lipstick,Catrice,Ruj,35.0,toate,cald|rece|neutru,toate,mat|cremos,zi,toate,,Nu,Nu,4.0,Cult ieftin,makeup,toate,toate,Europa (DE),,,toate,toate,1
+386,Hydra Matte / Caring Shine Lipstick,Essence,Ruj,25.0,toate,cald|rece|neutru,toate,mat|satinat,zi,toate,,Nu,Nu,4.0,Foarte ieftin,makeup,toate,toate,Europa (DE),,,toate,toate,1
+387,SuperStay Matte Ink,Maybelline,Ruj,35.0,toate,cald|rece|neutru,toate,mat lichid long|wear,zi,toate,,Nu,Nu,4.0,"Bestseller, rezistent",makeup,toate,toate,Europa/global,,,toate,toate,1
+388,Color Sensational Lipstick,Maybelline,Ruj,35.0,toate,cald|rece|neutru,toate,cremos,zi,toate,,Nu,Nu,4.0,"Clasic, gama mare",makeup,toate,toate,Europa/global,,,toate,toate,1
+389,Color Riche / Rouge Signature,L'Oreal Paris,Ruj,45.0,toate,cald|rece|neutru,toate,satinat|mat,zi,toate,,Nu,Nu,4.0,Gama mare,makeup,toate,toate,Europa,,,toate,toate,1
+390,Lasting Finish / Provocalips,Rimmel,Ruj,35.0,toate,cald|rece,toate,satinat|long|wear,zi,toate,,Nu,Nu,4.0,Accesibil,makeup,toate,toate,Europa (UK),,,toate,toate,1
+391,Rouge Velvet / Rouge Edition,Bourjois,Ruj,45.0,toate,cald|rece|neutru,toate,velvet mat,zi,toate,,Nu,Nu,4.0,Cult francez,makeup,toate,toate,Europa (FR),,,toate,toate,1
+392,Soft Matte Lip Cream,NYX,Ruj,35.0,toate,cald|rece|neutru,toate,mat cremos,zi,toate,,Nu,Nu,4.0,"Cult, gama uriasa",makeup,toate,toate,Europa/global,,,toate,toate,1
+393,Lip Lingerie XXL,NYX,Ruj,35.0,toate,cald|rece|neutru,toate,mat lichid,zi,toate,,Nu,Nu,4.0,Long-wear nude,makeup,toate,toate,Europa/global,,,toate,toate,1
+394,Powder Power / Velvet Passion Lipstick,Kiko Milano,Ruj,45.0,toate,cald|rece|neutru,toate,mat,zi,toate,,Nu,Nu,4.0,Gama foarte mare,makeup,toate,toate,Europa (IT),,,toate,toate,1
+395,Pro Supreme / Lip Allure,Revolution,Ruj,35.0,toate,cald|rece|neutru,toate,mat|satinat,zi,toate,,Nu,Nu,4.0,"Ieftin, multe nuante",makeup,toate,toate,Europa (UK),,,toate,toate,1
+396,I'm Lipstick,Pupa,Ruj,35.0,toate,cald|rece,toate,cremos,zi,toate,,Nu,Nu,4.0,Italian,makeup,toate,toate,Europa (IT),,,toate,toate,1
+397,Variete / Velvet Pure Lipstick,Eveline,Ruj,25.0,toate,cald|rece,toate,mat|satinat,zi,toate,,Nu,Nu,4.0,Ieftin,makeup,toate,toate,Europa (PL),,,toate,toate,1
+398,Feel It / Lip Sensation,Wibo,Ruj,25.0,toate,cald|rece,toate,mat|satinat,zi,toate,,Nu,Nu,4.0,Foarte ieftin,makeup,toate,toate,Europa (PL),,,toate,toate,1
+399,Better Than Shaping (shade),rom&nd,Bronzer,55.0,toate,neutru|rece,toate,mat,zi,toate,,Nu,Nu,4.0,"Shading pudra, ton racoros pt contur",makeup,mediu|inchis,toate,Coreea,,,toate,toate,1
+400,Prism Air Shading,CLIO,Bronzer,55.0,toate,neutru|rece,toate,mat,zi,toate,,Nu,Nu,4.0,"Pt contur, fin",makeup,toate,toate,Coreea,,,toate,toate,1
+401,Dailism Shading Powder,Heimish,Bronzer,55.0,toate,neutru,toate,mat,zi,toate,,Nu,Nu,4.0,Natural,makeup,toate,toate,Coreea,,,toate,toate,1
+402,Define My Face Shading,Wakemake,Bronzer,55.0,toate,neutru,toate,mat,zi,toate,,Nu,Nu,4.0,Contur subtil,makeup,toate,toate,Coreea,,,toate,toate,1
+403,Face Blush / Contour (shade),3CE,Bronzer,87.5,toate,neutru|rece,toate,mat,zi,toate,,Nu,Nu,4.0,Estompabil,makeup,toate,toate,Coreea,,,toate,toate,1
+404,The Sculpting Powder,Espoir,Bronzer,87.5,toate,neutru,toate,mat,zi,toate,,Nu,Nu,4.0,Contur,makeup,toate,toate,Coreea,,,toate,toate,1
+405,True Dimension Shadow Contour,Hince,Bronzer,87.5,toate,neutru|rece,toate,mat,zi,toate,,Nu,Nu,4.0,Aspect natural,makeup,toate,toate,Coreea,,,toate,toate,1
+406,My Palette Shading,Innisfree,Bronzer,55.0,toate,neutru,toate,mat,zi,toate,,Nu,Nu,4.0,Refill,makeup,toate,toate,Coreea,,,toate,toate,1
+407,Tailored Contour,Moonshot,Bronzer,55.0,toate,neutru,toate,mat,zi,toate,,Nu,Nu,4.0,Subtil,makeup,toate,toate,Coreea,,,toate,toate,1
+408,Play 101 / Contour Stick,Etude,Bronzer,42.5,toate,neutru|cald,toate,mat,zi,toate,,Nu,Nu,4.0,Stick,makeup,toate,toate,Coreea,,,toate,toate,1
+409,Sun Glow Matt Bronzing Powder,Catrice,Bronzer,42.5,toate,cald|neutru,toate,mat,zi,toate,,Nu,Nu,4.0,Cult ieftin,makeup,toate,toate,Europa (DE),,,toate,toate,1
+410,Bronze Away / Endless Summer Bronzer,Catrice,Bronzer,42.5,toate,cald|neutru,toate,mat,zi,toate,,Nu,Nu,4.0,Accesibil,makeup,toate,toate,Europa (DE),,,toate,toate,1
+411,Sun Club / Bronzing Powder,Essence,Bronzer,30.0,toate,cald,toate,mat,zi,toate,,Nu,Nu,4.0,Foarte ieftin,makeup,toate,toate,Europa (DE),,,toate,toate,1
+412,City Bronzer,Maybelline,Bronzer,42.5,toate,cald|neutru,toate,mat,zi,toate,,Nu,Nu,4.0,"Contur + bronz, gama buna",makeup,toate,toate,Europa/global,,,toate,toate,1
+413,Back to Bronze / Glow Mon Amour,L'Oreal Paris,Bronzer,55.0,toate,cald|neutru,toate,mat|glow,zi,toate,,Nu,Nu,4.0,Mai multe variante,makeup,toate,toate,Europa,,,toate,toate,1
+414,Delice de Poudre / Bronzing Powder,Bourjois,Bronzer,55.0,toate,cald,toate,mat|satinat,zi,toate,,Nu,Nu,4.0,Cult francez,makeup,toate,toate,Europa (FR),,,toate,toate,1
+415,Matte Bronzer,NYX,Bronzer,42.5,toate,cald|neutru,toate,mat,zi,toate,,Nu,Nu,4.0,"Gama buna, ten inchis ok",makeup,toate,toate,Europa/global,,,toate,toate,1
+416,Natural Bronzer,Rimmel,Bronzer,42.5,toate,cald,toate,mat|satinat,zi,toate,,Nu,Nu,4.0,Accesibil,makeup,toate,toate,Europa (UK),,,toate,toate,1
+417,Unlimited / Flawless Fusion Bronzer,Kiko Milano,Bronzer,55.0,toate,cald|neutru,toate,mat,zi,toate,,Nu,Nu,4.0,Gama mare,makeup,toate,toate,Europa (IT),,,toate,toate,1
+418,Solstice / Bronze Block,Sleek,Bronzer,42.5,toate,cald|neutru,toate,mat|shimmer,zi,toate,,Nu,Nu,4.0,Tonuri pt ten inchis,makeup,toate,toate,Europa (UK),,,toate,toate,1
+419,Butter Bronzer,Physicians Formula,Bronzer,55.0,toate,cald,toate,satinat,zi,toate,,Nu,Nu,4.0,"Parfumat, cult",makeup,toate,toate,Europa/global,,,toate,toate,1
+420,Ultra Bronzer / Reloaded Bronzer,Revolution,Bronzer,42.5,toate,cald|neutru,toate,mat,zi,toate,,Nu,Nu,4.0,"Ieftin, multe nuante",makeup,toate,toate,Europa (UK),,,toate,toate,1
+421,Extreme Bronze,Pupa,Bronzer,42.5,toate,cald,toate,mat|satinat,zi,toate,,Nu,Nu,4.0,Italian,makeup,toate,toate,Europa (IT),,,toate,toate,1
+422,Bronzing Powder,Eveline,Bronzer,30.0,toate,cald,toate,mat,zi,toate,,Nu,Nu,4.0,Ieftin,makeup,toate,toate,Europa (PL),,,toate,toate,1
+423,Bronzer / Sun Powder,Wibo,Bronzer,30.0,toate,cald,toate,mat,zi,toate,,Nu,Nu,4.0,Foarte ieftin,makeup,toate,toate,Europa (PL),,,toate,toate,1
+424,Facefinity Bronzer,Max Factor,Bronzer,55.0,toate,cald|neutru,toate,mat,zi,toate,,Nu,Nu,4.0,Long-wear,makeup,toate,toate,Europa (UK),,,toate,toate,1
+425,Putty Bronzer,e.l.f.,Bronzer,30.0,toate,cald|neutru,toate,crema|mat,zi,toate,,Nu,Nu,4.0,"Viral, cremos",makeup,toate,toate,Europa/global,,,toate,toate,1
+426,Bronze Away Liquid Bronzer,Catrice,Bronzer,42.5,toate,cald|neutru,toate,lichid,zi,toate,,Nu,Nu,4.0,Drops lichide,makeup,toate,toate,Europa (DE),,,toate,toate,1
+427,Bronzing Primer / Liquid Bronzer,Bourjois,Bronzer,55.0,toate,cald,toate,lichid|glow,zi,toate,,Nu,Nu,4.0,Lichid,makeup,toate,toate,Europa (FR),,,toate,toate,1
+428,Sunshine Bronzing Powder,Astor,Bronzer,42.5,toate,cald,toate,mat,zi,toate,,Nu,Nu,4.0,Accesibil,makeup,toate,toate,Europa,,,toate,toate,1
+429,Kill Cover Skin Fixer Mist,CLIO,Spray de fixare,55.0,toate,neutru,toate,natural,zi,toate,,Nu,Nu,4.0,Fixare machiaj K-beauty,makeup,toate,toate,Coreea,,,toate,toate,1
+430,Long Lasting Setting Mist,rom&nd,Spray de fixare,55.0,toate,neutru,toate,natural,zi,toate,,Nu,Nu,4.0,Setare lejera,makeup,toate,toate,Coreea,,,toate,toate,1
+431,Water Splash Fixer Mist,Espoir,Spray de fixare,87.5,toate,neutru,toate,glow,zi,toate,,Nu,Nu,4.0,Hidratant,makeup,toate,toate,Coreea,,,toate,toate,1
+432,Fixing Tint Mist / Soonjung Mist,Etude,Spray de fixare,42.5,sensibil|toate,neutru,toate,natural,zi,toate,,Nu,Nu,4.0,Ten sensibil,makeup,toate,toate,Coreea,,,toate,toate,1
+433,Daily UV / Green Tea Mist (setting),Innisfree,Spray de fixare,55.0,toate,neutru,toate,glow,zi,toate,,Nu,Nu,4.0,Hidratant,makeup,toate,toate,Coreea,,,toate,toate,1
+434,All Around Safe Block / Fixer Mist,Missha,Spray de fixare,42.5,toate,neutru,toate,natural,zi,toate,,Nu,Nu,4.0,Clasic,makeup,toate,toate,Coreea,,,toate,toate,1
+435,Glass Skin Fixer / Mist,A'pieu,Spray de fixare,42.5,toate,neutru,toate,glow,zi,toate,,Nu,Nu,4.0,Accesibil,makeup,toate,toate,Coreea,,,toate,toate,1
+436,Face2Change Fixer,Holika Holika,Spray de fixare,42.5,toate,neutru,toate,natural,zi,toate,,Nu,Nu,4.0,Setare,makeup,toate,toate,Coreea,,,toate,toate,1
+437,Snail Truecica Mist (setting),Some By Mi,Spray de fixare,55.0,sensibil|uscat,neutru,toate,glow,zi,toate,,Nu,Nu,4.0,Calmant,makeup,toate,toate,Coreea,,,toate,toate,1
+438,Watermax / Hydrating Mist,Heimish,Spray de fixare,55.0,uscat|normal,neutru,toate,glow,zi,toate,,Nu,Nu,4.0,Hidratant,makeup,toate,toate,Coreea,,,toate,toate,1
+439,Prime And Fine Fixing Spray,Catrice,Spray de fixare,42.5,toate,neutru,toate,natural,zi,toate,,Nu,Nu,4.0,Cult ieftin,makeup,toate,toate,Europa (DE),,,toate,toate,1
+440,Stay All Day / Fixing Spray,Essence,Spray de fixare,30.0,toate,neutru,toate,natural,zi,toate,,Nu,Nu,4.0,Foarte ieftin,makeup,toate,toate,Europa (DE),,,toate,toate,1
+441,Lasting Fix Setting Spray,Maybelline,Spray de fixare,42.5,toate,neutru,toate,natural|mat,zi,toate,,Nu,Nu,4.0,Long-wear,makeup,toate,toate,Europa/global,,,toate,toate,1
+442,Infaillible Setting Mist,L'Oreal Paris,Spray de fixare,55.0,toate,neutru,toate,natural|mat,zi,toate,,Nu,Nu,4.0,Mai multe variante,makeup,toate,toate,Europa,,,toate,toate,1
+443,Setting Spray (Matte/Dewy),NYX,Spray de fixare,42.5,toate,neutru,toate,mat|dewy,zi,toate,,Nu,Nu,4.0,"Cult, doua variante",makeup,toate,toate,Europa/global,,,toate,toate,1
+444,Insta Fix & Go Setting Spray,Rimmel,Spray de fixare,42.5,toate,neutru,toate,natural,zi,toate,,Nu,Nu,4.0,Accesibil,makeup,toate,toate,Europa (UK),,,toate,toate,1
+445,Smart / 3D Mat Fixing Spray,Kiko Milano,Spray de fixare,55.0,toate,neutru,toate,mat|natural,zi,toate,,Nu,Nu,4.0,Gama buna,makeup,toate,toate,Europa (IT),,,toate,toate,1
+446,Pro Fix / Glow Fixing Spray,Revolution,Spray de fixare,42.5,toate,neutru,toate,mat|glow,zi,toate,,Nu,Nu,4.0,Ieftin,makeup,toate,toate,Europa (UK),,,toate,toate,1
+447,Fixing Spray,Wibo,Spray de fixare,30.0,toate,neutru,toate,natural,zi,toate,,Nu,Nu,4.0,Foarte ieftin,makeup,toate,toate,Europa (PL),,,toate,toate,1
+448,All Day Setting Spray,Eveline,Spray de fixare,30.0,toate,neutru,toate,natural,zi,toate,,Nu,Nu,4.0,Ieftin,makeup,toate,toate,Europa (PL),,,toate,toate,1
+449,Power Grip / Matte Magic Setting Spray,e.l.f.,Spray de fixare,30.0,toate,neutru,toate,glow|mat,zi,toate,,Nu,Nu,4.0,"Viral, accesibil",makeup,toate,toate,Europa/global,,,toate,toate,1
+450,Setting Spray,Bourjois,Spray de fixare,55.0,toate,neutru,toate,natural,zi,toate,,Nu,Nu,4.0,Francez,makeup,toate,toate,Europa (FR),,,toate,toate,1
+451,Make Up Fixing Spray,Pupa,Spray de fixare,42.5,toate,neutru,toate,natural,zi,toate,,Nu,Nu,4.0,Italian,makeup,toate,toate,Europa (IT),,,toate,toate,1
+452,Photo Focus Setting Spray,Wet n Wild,Spray de fixare,30.0,toate,neutru,toate,mat|dewy,zi,toate,,Nu,Nu,4.0,Ieftin,makeup,toate,toate,Europa/global,,,toate,toate,1
+453,Dynasty Mist / hydrating mist,Beauty of Joseon,Spray de fixare,55.0,uscat|normal|sensibil,neutru,toate,glow,zi,toate,,Nu,Nu,4.0,"Hidratant, calmant",makeup,toate,toate,Coreea,,,toate,toate,1
+454,Centella / Soothing Mist,Mixsoon,Spray de fixare,55.0,sensibil|toate,neutru,toate,glow,zi,toate,,Nu,Nu,4.0,Calmant,makeup,toate,toate,Coreea,,,toate,toate,1
+455,Fundamental Watery Oil Drop / Mist,Klairs,Spray de fixare,55.0,uscat|sensibil,neutru,toate,glow,zi,toate,,Nu,Nu,4.0,Hidratant ten sensibil,makeup,toate,toate,Coreea,,,toate,toate,1
+456,Glow Lover / Dewy Fixing Spray,Catrice,Spray de fixare,42.5,uscat|normal,neutru,toate,glow,zi,toate,,Nu,Nu,4.0,Iluminator,makeup,toate,toate,Europa (DE),,,toate,toate,1
+457,Mist & Fix (dupe-uri europene),Make Up For Ever,Spray de fixare,87.5,toate,neutru,toate,natural,zi,toate,,Nu,Nu,4.0,"Premium, long-wear",makeup,toate,toate,Europa (FR),,,toate,toate,1
+458,Setting Fixer Mist,Wakemake,Spray de fixare,55.0,toate,neutru,toate,natural,zi,toate,,Nu,Nu,4.0,Lejer,makeup,toate,toate,Coreea,,,toate,toate,1
+459,Radiance Cleansing Balm,Beauty of Joseon,Oil cleanser / Balsam demachiant,70.0,toate,toate,toate,natural,zi,toate,ulei masline|vit e,Nu,Nu,4.0,"Cult, demachiaza SPF/machiaj",skincare,toate,toate,Coreea,puncte negre|filamente sebacee|pori infundati,Da,toate,toate,1
+460,Clean It Zero Cleansing Balm,Banila Co,Oil cleanser / Balsam demachiant,110.0,toate,toate,toate,natural,zi,toate,papaya|acerola,Nu,Nu,4.0,Cel mai cunoscut balsam,skincare,toate,toate,Coreea,puncte negre|pori infundati,Nu,toate,toate,1
+461,All Clean Balm,Heimish,Oil cleanser / Balsam demachiant,70.0,toate,toate,toate,natural,zi,toate,uleiuri vegetale,Nu,Nu,4.0,"Popular, bland",skincare,toate,toate,Coreea,puncte negre|filamente sebacee,Nu,toate,toate,1
+462,Madagascar Centella Cleansing Oil,Skin1004,Oil cleanser / Balsam demachiant,70.0,sensibil|toate,toate,toate,natural,zi,toate,centella|ulei masline,Nu,Nu,4.0,Calmant,skincare,toate,toate,Coreea,inflamatii|sensibilitate,Da,toate,toate,1
+463,Heartleaf Pore Control Cleansing Oil,Anua,Oil cleanser / Balsam demachiant,70.0,gras|mixt,toate,toate,natural,zi,toate,heartleaf,Nu,Nu,4.0,Viral pt pori/filamente,skincare,toate,toate,Coreea,pori largi|filamente sebacee|puncte negre,Da,toate,toate,1
+464,Pure Cleansing Oil,Manyo,Oil cleanser / Balsam demachiant,70.0,toate,toate,toate,natural,zi,toate,uleiuri vegetale|herbal,Nu,Nu,4.0,Demachiere profunda,skincare,toate,toate,Coreea,puncte negre|pori infundati,Nu,toate,toate,1
+465,Bifida Biome Cleansing Oil,Ma:nyo,Oil cleanser / Balsam demachiant,70.0,sensibil|uscat,toate,toate,natural,zi,toate,bifida|uleiuri,Nu,Nu,4.0,Pt bariera,skincare,toate,toate,Coreea,bariera distrusa,Nu,toate,toate,1
+466,Bean Cleansing Oil,Mixsoon,Oil cleanser / Balsam demachiant,70.0,toate,toate,toate,natural,zi,toate,ulei de soia fermentat,Nu,Nu,4.0,"Bland, fermentat",skincare,toate,toate,Coreea,filamente sebacee|textura,Nu,toate,toate,1
+467,Deep Clear Cleansing Oil,Pyunkang Yul,Oil cleanser / Balsam demachiant,70.0,sensibil|uscat,toate,toate,natural,zi,toate,uleiuri minimale,Nu,Nu,4.0,Formula simpla,skincare,toate,toate,Coreea,sensibilitate|pori infundati,Nu,toate,toate,1
+468,Gentle Black Deep Cleansing Oil,Klairs,Oil cleanser / Balsam demachiant,70.0,sensibil|toate,toate,toate,natural,zi,toate,ulei negru de susan,Nu,Nu,4.0,Bland ten sensibil,skincare,toate,toate,Coreea,puncte negre|sensibilitate,Nu,toate,toate,1
+469,Onion Newpair Cleansing Oil,Isntree,Oil cleanser / Balsam demachiant,70.0,gras|mixt,toate,toate,natural,zi,toate,onion|niacinamide,Nu,Nu,4.0,Pt pori/puncte negre,skincare,toate,toate,Coreea,puncte negre|pori,Da,toate,toate,1
+470,Pine Calming Cleansing Oil,Round Lab,Oil cleanser / Balsam demachiant,70.0,sensibil|toate,toate,toate,natural,zi,toate,pin|panthenol,Nu,Nu,4.0,Calmant,skincare,toate,toate,Coreea,inflamatii|sensibilitate,Da,toate,toate,1
+471,No.5 Cleansing Oil,Numbuzin,Oil cleanser / Balsam demachiant,70.0,toate,toate,toate,natural,zi,toate,uleiuri|pdrn,Nu,Nu,4.0,Hidratant,skincare,toate,toate,Coreea,filamente sebacee|textura,Nu,toate,toate,1
+472,Balanceful Cica Cleansing Oil,Torriden,Oil cleanser / Balsam demachiant,70.0,sensibil|gras,toate,toate,natural,zi,toate,cica|uleiuri,Nu,Nu,4.0,Calmant,skincare,toate,toate,Coreea,inflamatii|pori,Da,toate,toate,1
+473,Cleansing Oil,Mary&May,Oil cleanser / Balsam demachiant,70.0,sensibil|toate,toate,toate,natural,zi,toate,uleiuri vegetale,Nu,Nu,4.0,Vegan bland,skincare,toate,toate,Coreea,sensibilitate,Nu,toate,toate,1
+474,Cleanse Me Softly Milk Cleanser,Sioris,Oil cleanser / Balsam demachiant,70.0,uscat|sensibil,toate,toate,natural,zi,toate,ingrediente naturale,Nu,Nu,4.0,Bland,skincare,toate,toate,Coreea,sensibilitate|bariera,Nu,toate,toate,1
+475,Deep Cleansing Oil,DHC,Oil cleanser / Balsam demachiant,70.0,toate,toate,toate,natural,zi,toate,ulei masline,Nu,Nu,4.0,Cult J-beauty,skincare,toate,toate,Japonia,puncte negre|pori infundati,Nu,toate,toate,1
+476,Cleansing Oil,Hada Labo,Oil cleanser / Balsam demachiant,70.0,toate,toate,toate,natural,zi,toate,uleiuri,Nu,Nu,4.0,Accesibil,skincare,toate,toate,Japonia,pori infundati,Nu,toate,toate,1
+477,Atoderm / Cleansing Oil,Bioderma,Oil cleanser / Balsam demachiant,70.0,uscat|sensibil,toate,toate,natural,zi,toate,uleiuri lipidice,Nu,Nu,4.0,"Farmacie, ten uscat",skincare,toate,toate,Europa (FR),uscaciune|bariera,Nu,toate,toate,1
+478,Lipikar Cleansing Oil,La Roche-Posay,Oil cleanser / Balsam demachiant,70.0,uscat|sensibil,toate,toate,natural,zi,toate,niacinamide|shea,Nu,Nu,4.0,Ten atopic,skincare,toate,toate,Europa (FR),bariera distrusa|uscaciune,Nu,toate,toate,1
+479,Hydrating Oil Cleanser,CeraVe,Oil cleanser / Balsam demachiant,70.0,uscat|normal|sensibil,toate,toate,natural,zi,toate,ceramide|ulei,Nu,Nu,4.0,Cu ceramide,skincare,toate,toate,Europa/global,bariera|uscaciune,Nu,toate,toate,1
+480,Cleansing Oil,Avene,Oil cleanser / Balsam demachiant,70.0,sensibil|uscat,toate,toate,natural,zi,toate,apa termala,Nu,Nu,4.0,Ten sensibil,skincare,toate,toate,Europa (FR),sensibilitate,Nu,toate,toate,1
+481,DermatoCLEAN Cleansing Oil,Eucerin,Oil cleanser / Balsam demachiant,70.0,uscat|normal,toate,toate,natural,zi,toate,uleiuri blande,Nu,Nu,4.0,Farmacie,skincare,toate,toate,Europa (DE),uscaciune,Nu,toate,toate,1
+482,Camomile Cleansing Butter,The Body Shop,Oil cleanser / Balsam demachiant,70.0,toate,toate,toate,natural,zi,toate,musetel|uleiuri,Nu,Nu,4.0,Demachiant balsam,skincare,toate,toate,Europa (UK),puncte negre,Nu,toate,toate,1
+483,Oil Infused Micellar / Cleansing Oil,Garnier,Oil cleanser / Balsam demachiant,55.0,toate,toate,toate,natural,zi,toate,uleiuri,Nu,Nu,4.0,Accesibil,skincare,toate,toate,Europa,machiaj rezistent,Nu,toate,toate,1
+484,Snail Truecica Cleansing Oil,Some By Mi,Oil cleanser / Balsam demachiant,70.0,sensibil|toate,toate,toate,natural,zi,toate,mucina melc|cica,Nu,Nu,4.0,Reparator,skincare,toate,toate,Coreea,semne postacneice|inflamatii,Nu,toate,toate,1
+485,Heartleaf Cleansing Oil,Abib,Oil cleanser / Balsam demachiant,70.0,gras|sensibil,toate,toate,natural,zi,toate,heartleaf,Nu,Nu,4.0,Calmant,skincare,toate,toate,Coreea,inflamatii|pori,Da,toate,toate,1
+486,Pro Balance Cleansing Oil,Dr.Ceuracle,Oil cleanser / Balsam demachiant,70.0,gras|mixt,toate,toate,natural,zi,toate,probiotice,Nu,Nu,4.0,Echilibrant,skincare,toate,toate,Coreea,echilibru sebum,Nu,toate,toate,1
+487,Rice Cleansing Oil,I'm From,Oil cleanser / Balsam demachiant,70.0,uscat|normal,toate,toate,natural,zi,toate,extract de orez,Nu,Nu,4.0,Stralucire,skincare,toate,toate,Coreea,luminozitate|textura,Nu,toate,toate,1
+488,Coconut Clay Cleansing Oil/Balm,Tocobo,Oil cleanser / Balsam demachiant,70.0,toate,toate,toate,natural,zi,toate,argila|cocos,Nu,Nu,4.0,Demachiere profunda,skincare,toate,toate,Coreea,puncte negre|pori,Nu,toate,toate,1
+489,Green Plum Refreshing Cleanser,Beauty of Joseon,Cleanser (apos) / Gel de curatare,55.0,gras|mixt,toate,toate,natural,zi,toate,bha|green plum,Nu,Nu,4.0,pH echilibrat,skincare,toate,toate,Coreea,pori|sebum,Da,toate,toate,1
+490,Heartleaf Quercetinol Pore Deep Cleansing Foam,Anua,Cleanser (apos) / Gel de curatare,55.0,gras|mixt,toate,toate,natural,zi,toate,heartleaf|pha,Nu,Nu,4.0,Curatare pori,skincare,toate,toate,Coreea,pori largi|sebum,Da,toate,toate,1
+491,Low pH Good Morning Gel Cleanser,COSRX,Cleanser (apos) / Gel de curatare,55.0,toate,toate,toate,natural,zi,toate,bha|tea tree,Nu,Nu,4.0,"Cult, pH scazut",skincare,toate,toate,Coreea,sensibilitate|sebum,Da,toate,toate,1
+492,Salicylic Acid Daily Gentle Cleanser,COSRX,Cleanser (apos) / Gel de curatare,55.0,gras|mixt,toate,toate,natural,zi,toate,bha,Nu,Nu,4.0,Pt ten acneic,skincare,toate,toate,Coreea,acnee|puncte negre,Da,toate,toate,1
+493,Dokdo / 1025 Cleanser,Round Lab,Cleanser (apos) / Gel de curatare,55.0,toate,toate,toate,natural,zi,toate,minerale marine,Nu,Nu,4.0,Bland,skincare,toate,toate,Coreea,sensibilitate,Nu,toate,toate,1
+494,Yam Root Vegan Milk Cleanser,Isntree,Cleanser (apos) / Gel de curatare,55.0,uscat|sensibil,toate,toate,natural,zi,toate,yam root,Nu,Nu,4.0,Hidratant,skincare,toate,toate,Coreea,uscaciune|bariera,Nu,toate,toate,1
+495,AHA BHA PHA 30 Days Miracle Cleanser,Some By Mi,Cleanser (apos) / Gel de curatare,55.0,gras|mixt,toate,toate,natural,zi,toate,aha bha pha|tea tree,Nu,Nu,4.0,Cult pt acnee,skincare,toate,toate,Coreea,acnee|textura|puncte negre,Da,toate,toate,1
+496,Balanceful Cica Cleansing Foam,Torriden,Cleanser (apos) / Gel de curatare,55.0,sensibil|gras,toate,toate,natural,zi,toate,cica,Nu,Nu,4.0,Calmant,skincare,toate,toate,Coreea,inflamatii,Da,toate,toate,1
+497,Low pH Pore Deep Cleansing Foam,Pyunkang Yul,Cleanser (apos) / Gel de curatare,55.0,gras|mixt,toate,toate,natural,zi,toate,formula simpla,Nu,Nu,4.0,Bland,skincare,toate,toate,Coreea,pori,Nu,toate,toate,1
+498,Pro Balance / Cica Foam,Dr.Ceuracle,Cleanser (apos) / Gel de curatare,55.0,gras|mixt,toate,toate,natural,zi,toate,probiotice|cica,Nu,Nu,4.0,Echilibrant,skincare,toate,toate,Coreea,echilibru sebum,Nu,toate,toate,1
+499,Madagascar Centella Foaming Cleanser,Skin1004,Cleanser (apos) / Gel de curatare,55.0,sensibil|toate,toate,toate,natural,zi,toate,centella,Nu,Nu,4.0,Calmant,skincare,toate,toate,Coreea,inflamatii,Da,toate,toate,1
+500,No.3 / Cleanser,Numbuzin,Cleanser (apos) / Gel de curatare,55.0,toate,toate,toate,natural,zi,toate,niacinamide,Nu,Nu,4.0,Stralucire,skincare,toate,toate,Coreea,luminozitate,Nu,toate,toate,1
+501,SoonJung pH 5.5 Foam Cleanser,Etude,Cleanser (apos) / Gel de curatare,42.5,sensibil|uscat,toate,toate,natural,zi,toate,panthenol,Nu,Nu,4.0,Ten sensibil,skincare,toate,toate,Coreea,sensibilitate|bariera,Nu,toate,toate,1
+502,Rich Moist Foaming Cleanser,Klairs,Cleanser (apos) / Gel de curatare,55.0,uscat|normal,toate,toate,natural,zi,toate,ceramide,Nu,Nu,4.0,Hidratant,skincare,toate,toate,Coreea,uscaciune,Nu,toate,toate,1
+503,Heartleaf Foaming Cleanser / Mild Acidic,Abib,Cleanser (apos) / Gel de curatare,55.0,sensibil|gras,toate,toate,natural,zi,toate,heartleaf,Nu,Nu,4.0,Calmant,skincare,toate,toate,Coreea,inflamatii,Da,toate,toate,1
+504,Foaming / Hydrating Cleanser,CeraVe,Cleanser (apos) / Gel de curatare,55.0,gras|uscat,toate,toate,natural,zi,toate,ceramide|niacinamide,Nu,Nu,4.0,"Cult farmacie, doua variante",skincare,toate,toate,Europa/global,bariera|sebum,Da,toate,toate,1
+505,Effaclar Gel / Toleriane Caring Wash,La Roche-Posay,Cleanser (apos) / Gel de curatare,55.0,gras|sensibil,toate,toate,natural,zi,toate,zinc|niacinamide,Nu,Nu,4.0,Farmacie,skincare,toate,toate,Europa (FR),acnee|sensibilitate,Da,toate,toate,1
+506,Sebium Gel Moussant,Bioderma,Cleanser (apos) / Gel de curatare,55.0,gras|mixt,toate,toate,natural,zi,toate,zinc|copper,Nu,Nu,4.0,Ten gras/acneic,skincare,toate,toate,Europa (FR),acnee|sebum,Da,toate,toate,1
+507,Cleanance Cleansing Gel,Avene,Cleanser (apos) / Gel de curatare,55.0,gras|mixt,toate,toate,natural,zi,toate,monolaurin,Nu,Nu,4.0,Ten gras,skincare,toate,toate,Europa (FR),acnee|sebum,Nu,toate,toate,1
+508,DermoPure Cleansing Gel,Eucerin,Cleanser (apos) / Gel de curatare,55.0,gras|mixt,toate,toate,natural,zi,toate,licochalcone,Nu,Nu,4.0,Ten impur,skincare,toate,toate,Europa (DE),acnee,Nu,toate,toate,1
+509,Squalane Cleanser,The Ordinary,Cleanser (apos) / Gel de curatare,30.0,uscat|normal|sensibil,toate,toate,natural,zi,toate,squalane,Nu,Nu,4.0,Balsam-gel bland,skincare,toate,toate,Canada/Europa,uscaciune,Nu,toate,toate,1
+510,Glucoside Foaming Cleanser,The Ordinary,Cleanser (apos) / Gel de curatare,30.0,toate,toate,toate,natural,zi,toate,glucoside,Nu,Nu,4.0,Bland,skincare,toate,toate,Canada/Europa,curatare zilnica,Da,toate,toate,1
+511,Pure Active / Vitamin C Wash,Garnier,Cleanser (apos) / Gel de curatare,42.5,gras|mixt,toate,toate,natural,zi,toate,bha|vit c,Nu,Nu,4.0,Accesibil,skincare,toate,toate,Europa,acnee|luminozitate,Da,toate,toate,1
+512,Gentle Skin Cleanser,Cetaphil,Cleanser (apos) / Gel de curatare,55.0,sensibil|uscat,toate,toate,natural,zi,toate,formula blanda,Nu,Nu,4.0,Clasic dermatologic,skincare,toate,toate,Europa/global,sensibilitate|bariera,Nu,toate,toate,1
+513,Gokujyun Face Wash,Hada Labo,Cleanser (apos) / Gel de curatare,55.0,uscat|normal,toate,toate,natural,zi,toate,acid hialuronic,Nu,Nu,4.0,Hidratant,skincare,toate,toate,Japonia,uscaciune,Nu,toate,toate,1
+514,Perfect Whip Foam,Senka,Cleanser (apos) / Gel de curatare,42.5,toate,toate,toate,natural,zi,toate,matase|hialuronic,Nu,Nu,4.0,Cult J-beauty,skincare,toate,toate,Japonia,curatare,Nu,toate,toate,1
+515,Defence Barrier pH Cleanser,Purito,Cleanser (apos) / Gel de curatare,55.0,sensibil|uscat,toate,toate,natural,zi,toate,ceramide|probiotice,Nu,Nu,4.0,Pt bariera,skincare,toate,toate,Coreea,bariera,Nu,toate,toate,1
+516,Centella Cleanser,Mixsoon,Cleanser (apos) / Gel de curatare,55.0,sensibil|gras,toate,toate,natural,zi,toate,centella fermentat,Nu,Nu,4.0,Calmant,skincare,toate,toate,Coreea,inflamatii,Da,toate,toate,1
+517,Aloe BHA Cleanser,Benton,Cleanser (apos) / Gel de curatare,55.0,gras|mixt,toate,toate,natural,zi,toate,aloe|bha,Nu,Nu,4.0,Ten gras,skincare,toate,toate,Coreea,acnee|sebum,Da,toate,toate,1
+518,Acid-Duo / Pre & Probiotic Cleanser,By Wishtrend,Cleanser (apos) / Gel de curatare,55.0,gras|mixt,toate,toate,natural,zi,toate,probiotice,Nu,Nu,4.0,Echilibrant,skincare,toate,toate,Coreea,sebum|microbiom,Nu,toate,toate,1
+519,Heartleaf 77% Soothing Toner,Anua,Toner,65.0,sensibil|gras|toate,toate,toate,natural,zi,toate,heartleaf 77%,Nu,Nu,4.0,"Viral, calmant",skincare,toate,toate,Coreea,inflamatii|roseata|pori,Da,toate,toate,1
+520,Glow Replenishing / Ginseng Essence Water,Beauty of Joseon,Toner,65.0,uscat|normal,toate,toate,natural,zi,toate,ginseng|niacinamide,Nu,Nu,4.0,Hidratant,skincare,toate,toate,Coreea,luminozitate|uscaciune,Nu,toate,toate,1
+521,AHA/BHA Clarifying Treatment Toner,COSRX,Toner,65.0,gras|mixt,toate,toate,natural,zi,toate,aha|bha,Nu,Nu,4.0,Exfoliere usoara zilnica,skincare,toate,toate,Coreea,puncte negre|textura|pori,Da,toate,toate,1
+522,Hyaluronic Acid Toner,Isntree,Toner,65.0,uscat|toate,toate,toate,natural,zi,toate,acid hialuronic,Nu,Nu,4.0,Hidratant cult,skincare,toate,toate,Coreea,uscaciune|bariera,Da,toate,toate,1
+523,Green Tea Fresh Toner,Isntree,Toner,65.0,gras|mixt,toate,toate,natural,zi,toate,ceai verde,Nu,Nu,4.0,Pt ten gras,skincare,toate,toate,Coreea,sebum|pori,Da,toate,toate,1
+524,1025 Dokdo Toner,Round Lab,Toner,65.0,sensibil|toate,toate,toate,natural,zi,toate,minerale|panthenol,Nu,Nu,4.0,"Bland, hidratant",skincare,toate,toate,Coreea,sensibilitate|bariera,Da,toate,toate,1
+525,No.3 Skin Softening Serum Toner,Numbuzin,Toner,65.0,toate,toate,toate,natural,zi,toate,niacinamide|pdrn,Nu,Nu,4.0,Stralucire,skincare,toate,toate,Coreea,luminozitate|textura,Nu,toate,toate,1
+526,AHA BHA PHA Miracle Toner,Some By Mi,Toner,65.0,gras|mixt,toate,toate,natural,zi,toate,aha bha pha,Nu,Nu,4.0,Pt ten acneic,skincare,toate,toate,Coreea,acnee|puncte negre|textura,Da,toate,toate,1
+527,Essence Toner,Pyunkang Yul,Toner,65.0,uscat|sensibil,toate,toate,natural,zi,toate,coptis japonica,Nu,Nu,4.0,"Vascos, hidratant",skincare,toate,toate,Coreea,uscaciune|bariera,Nu,toate,toate,1
+528,Supple Preparation Unscented Toner,Klairs,Toner,65.0,sensibil|uscat,toate,toate,natural,zi,toate,hialuronic|beta|glucan,Nu,Nu,4.0,Clasic ten sensibil,skincare,toate,toate,Coreea,sensibilitate|bariera,Nu,toate,toate,1
+529,Madagascar Centella Toning Toner,Skin1004,Toner,65.0,sensibil|gras,toate,toate,natural,zi,toate,centella,Nu,Nu,4.0,Calmant,skincare,toate,toate,Coreea,inflamatii,Da,toate,toate,1
+530,Dive-In Low Molecule HA Toner,Torriden,Toner,65.0,toate,toate,toate,natural,zi,toate,hialuronic 5d,Nu,Nu,4.0,Hidratant lejer,skincare,toate,toate,Coreea,uscaciune|bariera,Da,toate,toate,1
+531,Bean / Centella Toner,Mixsoon,Toner,65.0,sensibil|gras,toate,toate,natural,zi,toate,fermentat|centella,Nu,Nu,4.0,Bland,skincare,toate,toate,Coreea,inflamatii|textura,Da,toate,toate,1
+532,Wonder Black Rice Toner,Haruharu,Toner,65.0,uscat|toate,toate,toate,natural,zi,toate,orez negru fermentat,Nu,Nu,4.0,Hidratant natural,skincare,toate,toate,Coreea,uscaciune|luminozitate,Nu,toate,toate,1
+533,Aloe BHA Skin Toner,Benton,Toner,65.0,gras|mixt,toate,toate,natural,zi,toate,aloe|bha,Nu,Nu,4.0,Cult ten gras,skincare,toate,toate,Coreea,acnee|sebum,Da,toate,toate,1
+534,Centella Unscented Toner,Purito,Toner,65.0,sensibil|toate,toate,toate,natural,zi,toate,centella,Nu,Nu,4.0,Calmant,skincare,toate,toate,Coreea,inflamatii|bariera,Da,toate,toate,1
+535,Houttuynia Cordata Calming Toner,Goodal,Toner,65.0,sensibil|gras,toate,toate,natural,zi,toate,houttuynia,Nu,Nu,4.0,Calmant,skincare,toate,toate,Coreea,inflamatii|roseata,Da,toate,toate,1
+536,Mugwort Essence (toner),I'm From,Toner,65.0,sensibil|gras,toate,toate,natural,zi,toate,pelin,Nu,Nu,4.0,Calmant intens,skincare,toate,toate,Coreea,inflamatii,Da,toate,toate,1
+537,Heartleaf Spot Pad / Toner,Abib,Toner,65.0,sensibil|gras,toate,toate,natural,zi,toate,heartleaf,Nu,Nu,4.0,Calmant,skincare,toate,toate,Coreea,inflamatii,Da,toate,toate,1
+538,Mandelic Acid 5% Skin Prep Water,By Wishtrend,Toner,65.0,gras|mixt,toate,toate,natural,zi,toate,acid mandelic,Nu,Nu,4.0,Exfoliant bland,skincare,toate,toate,Coreea,acnee|textura|pori,Da,toate,toate,1
+539,Effaclar Astringent / Micellar Toner,La Roche-Posay,Toner,65.0,gras|mixt,toate,toate,natural,zi,toate,lha|zinc,Nu,Nu,4.0,Farmacie,skincare,toate,toate,Europa (FR),sebum|pori,Da,toate,toate,1
+540,Sebium / Hydrabio Toner,Bioderma,Toner,65.0,gras|uscat,toate,toate,natural,zi,toate,zinc|hialuronic,Nu,Nu,4.0,Farmacie,skincare,toate,toate,Europa (FR),sebum|uscaciune,Nu,toate,toate,1
+541,Gentle Toning Lotion,Avene,Toner,65.0,sensibil,toate,toate,natural,zi,toate,apa termala,Nu,Nu,4.0,Ten sensibil,skincare,toate,toate,Europa (FR),sensibilitate,Nu,toate,toate,1
+542,Glycolic Acid 7% Toning Solution,The Ordinary,Toner,37.5,normal|gras,toate,toate,natural,zi,toate,acid glicolic,Nu,Nu,4.0,Exfoliere AHA,skincare,toate,toate,Canada/Europa,textura|luminozitate|pori,Da,toate,toate,1
+543,Skin Perfecting 2% BHA Liquid,Paula's Choice,Toner,102.5,gras|mixt,toate,toate,natural,zi,toate,acid salicilic,Nu,Nu,4.0,Cult pt pori/BHA,skincare,toate,toate,SUA/Europa,puncte negre|pori|textura|filamente sebacee,Da,toate,toate,1
+544,Glow Tonic,Pixi,Toner,65.0,normal|mixt,toate,toate,natural,zi,toate,acid glicolic,Nu,Nu,4.0,Cult,skincare,toate,toate,Europa (UK),textura|luminozitate,Da,toate,toate,1
+545,DermoPure Toner,Eucerin,Toner,65.0,gras|mixt,toate,toate,natural,zi,toate,licochalcone,Nu,Nu,4.0,Ten impur,skincare,toate,toate,Europa (DE),acnee,Nu,toate,toate,1
+546,Vitamin C / Micellar Toner,Garnier,Toner,50.0,toate,toate,toate,natural,zi,toate,vit c,Nu,Nu,4.0,Accesibil,skincare,toate,toate,Europa,luminozitate,Nu,toate,toate,1
+547,Gokujyun Hydrating Lotion,Hada Labo,Toner,65.0,uscat|toate,toate,toate,natural,zi,toate,hialuronic multiplu,Nu,Nu,4.0,Hidratant cult,skincare,toate,toate,Japonia,uscaciune,Da,toate,toate,1
+548,AHA Milk Toner,Tocobo,Toner,65.0,normal|mixt,toate,toate,natural,zi,toate,aha|lapte,Nu,Nu,4.0,Exfoliere blanda,skincare,toate,toate,Coreea,textura|luminozitate,Nu,toate,toate,1
+549,BHA Blackhead Power Liquid,COSRX,Exfoliant (AHA/BHA/PHA),70.0,gras|mixt,toate,toate,natural,zi,toate,betaine salicilat,Nu,Nu,4.0,Cult pt puncte negre,skincare,toate,toate,Coreea,puncte negre|pori|filamente sebacee,Da,toate,toate,1
+550,AHA 7 Whitehead Power Liquid,COSRX,Exfoliant (AHA/BHA/PHA),70.0,normal|mixt,toate,toate,natural,zi,toate,acid glicolic,Nu,Nu,4.0,Pt puncte albe,skincare,toate,toate,Coreea,puncte albe|textura,Da,toate,toate,1
+551,AHA BHA PHA Miracle Serum/Toner,Some By Mi,Exfoliant (AHA/BHA/PHA),70.0,gras|mixt,toate,toate,natural,zi,toate,aha bha pha,Nu,Nu,4.0,Multi-acid,skincare,toate,toate,Coreea,acnee|textura,Da,toate,toate,1
+552,Mandelic Acid 5%,By Wishtrend,Exfoliant (AHA/BHA/PHA),70.0,gras|sensibil,toate,toate,natural,zi,toate,acid mandelic,Nu,Nu,4.0,"Bland, ten sensibil",skincare,toate,toate,Coreea,acnee|textura|semne postacneice,Da,toate,toate,1
+553,No.1 Pore & Sebum Centella Pad,Numbuzin,Exfoliant (AHA/BHA/PHA),70.0,gras|mixt,toate,toate,natural,zi,toate,bha|centella,Nu,Nu,4.0,Disc exfoliant,skincare,toate,toate,Coreea,pori|sebum,Da,toate,toate,1
+554,Clear Skin BHA Toner,Isntree,Exfoliant (AHA/BHA/PHA),70.0,gras|mixt,toate,toate,natural,zi,toate,bha|salcer,Nu,Nu,4.0,Exfoliere blanda,skincare,toate,toate,Coreea,pori|puncte negre,Da,toate,toate,1
+555,ATO / Mild Exfoliant,Pyunkang Yul,Exfoliant (AHA/BHA/PHA),70.0,sensibil,toate,toate,natural,zi,toate,pha bland,Nu,Nu,4.0,Foarte bland,skincare,toate,toate,Coreea,textura blanda,Da,toate,toate,1
+556,Vegan Kombucha Tea / Pore Pad,Dr.Ceuracle,Exfoliant (AHA/BHA/PHA),70.0,gras|mixt,toate,toate,natural,zi,toate,bha|kombucha,Nu,Nu,4.0,Disc,skincare,toate,toate,Coreea,pori|textura,Da,toate,toate,1
+557,AHA BHA PHA Refreshing Toner Pad,Mary&May,Exfoliant (AHA/BHA/PHA),70.0,gras|mixt,toate,toate,natural,zi,toate,aha bha pha,Nu,Nu,4.0,Discuri,skincare,toate,toate,Coreea,textura|pori,Da,toate,toate,1
+558,Heartleaf Spot Pad Calming,Abib,Exfoliant (AHA/BHA/PHA),70.0,sensibil|gras,toate,toate,natural,zi,toate,heartleaf|bha bland,Nu,Nu,4.0,Calmant,skincare,toate,toate,Coreea,inflamatii|pori,Da,toate,toate,1
+559,One Step Original Clear Pad,Cosrx,Exfoliant (AHA/BHA/PHA),70.0,gras|mixt,toate,toate,natural,zi,toate,bha|willow bark,Nu,Nu,4.0,Discuri zilnice,skincare,toate,toate,Coreea,acnee|pori,Da,toate,toate,1
+560,Gentle Black Sugar / Exfoliant,Klairs,Exfoliant (AHA/BHA/PHA),70.0,sensibil|normal,toate,toate,natural,zi,toate,zahar negru,Nu,Nu,4.0,Scrub bland,skincare,toate,toate,Coreea,textura,Nu,toate,toate,1
+561,Phyto Enzyme / Exfoliant,Mediheal,Exfoliant (AHA/BHA/PHA),70.0,toate,toate,toate,natural,zi,toate,enzime,Nu,Nu,4.0,Enzimatic,skincare,toate,toate,Coreea,textura,Nu,toate,toate,1
+562,Poremizing / BHA,Skin1004,Exfoliant (AHA/BHA/PHA),70.0,gras|mixt,toate,toate,natural,zi,toate,bha|centella,Nu,Nu,4.0,Pt pori,skincare,toate,toate,Coreea,pori|filamente sebacee,Da,toate,toate,1
+563,Aloe BHA / PHA,Benton,Exfoliant (AHA/BHA/PHA),70.0,gras|mixt,toate,toate,natural,zi,toate,bha|pha,Nu,Nu,4.0,Bland,skincare,toate,toate,Coreea,acnee|textura,Da,toate,toate,1
+564,Skin Perfecting 2% BHA,Paula's Choice,Exfoliant (AHA/BHA/PHA),110.0,gras|mixt,toate,toate,natural,zi,toate,acid salicilic,Nu,Nu,4.0,Standard de aur BHA,skincare,toate,toate,SUA/Europa,puncte negre|pori|filamente sebacee,Da,toate,toate,1
+565,Skin Perfecting 8% AHA Gel,Paula's Choice,Exfoliant (AHA/BHA/PHA),110.0,normal|mixt,toate,toate,natural,zi,toate,acid glicolic,Nu,Nu,4.0,AHA puternic,skincare,toate,toate,SUA/Europa,textura|luminozitate,Da,toate,toate,1
+566,Salicylic Acid 2% Solution,The Ordinary,Exfoliant (AHA/BHA/PHA),37.5,gras|mixt,toate,toate,natural,zi,toate,acid salicilic,Nu,Nu,4.0,Accesibil BHA,skincare,toate,toate,Canada/Europa,puncte negre|pori|acnee,Da,toate,toate,1
+567,AHA 30% + BHA 2% Peeling Solution,The Ordinary,Exfoliant (AHA/BHA/PHA),37.5,normal|gras,toate,toate,natural,zi,toate,aha+bha,Nu,Nu,4.0,Masca peeling 10 min,skincare,toate,toate,Canada/Europa,textura|semne postacneice,Da,toate,toate,1
+568,Lactic Acid 5%/10%,The Ordinary,Exfoliant (AHA/BHA/PHA),37.5,sensibil|normal,toate,toate,natural,zi,toate,acid lactic,Nu,Nu,4.0,Blandet/intens,skincare,toate,toate,Canada/Europa,textura|luminozitate,Da,toate,toate,1
+569,Mandelic Acid 10%,The Ordinary,Exfoliant (AHA/BHA/PHA),37.5,gras|sensibil,toate,toate,natural,zi,toate,acid mandelic,Nu,Nu,4.0,Bland,skincare,toate,toate,Canada/Europa,acnee|textura,Da,toate,toate,1
+570,Effaclar Serum / Ultra Concentrated,La Roche-Posay,Exfoliant (AHA/BHA/PHA),70.0,gras|mixt,toate,toate,natural,zi,toate,salicilic|lha|niacinamide,Nu,Nu,4.0,Multi-acid farmacie,skincare,toate,toate,Europa (FR),acnee|semne postacneice|textura,Da,toate,toate,1
+571,Sebium Serum / Pore Refiner,Bioderma,Exfoliant (AHA/BHA/PHA),70.0,gras|mixt,toate,toate,natural,zi,toate,bha|zinc,Nu,Nu,4.0,Pori,skincare,toate,toate,Europa (FR),pori|sebum,Da,toate,toate,1
+572,AHA & BHA Daily Clean Toner,Mizon,Exfoliant (AHA/BHA/PHA),55.0,gras|mixt,toate,toate,natural,zi,toate,aha|bha,Nu,Nu,4.0,"Accesibil, exfoliere blanda",skincare,toate,toate,Coreea,textura|pori|puncte negre,Da,toate,toate,1
+573,Salicylic / Pure Active Serum,Garnier,Exfoliant (AHA/BHA/PHA),55.0,gras|mixt,toate,toate,natural,zi,toate,bha,Nu,Nu,4.0,Accesibil,skincare,toate,toate,Europa,acnee|pori,Da,toate,toate,1
+574,BHA Liquid Exfoliant,Naturium,Exfoliant (AHA/BHA/PHA),37.5,gras|mixt,toate,toate,natural,zi,toate,acid salicilic,Nu,Nu,4.0,Accesibil,skincare,toate,toate,SUA/Europa,pori|puncte negre,Da,toate,toate,1
+575,Mandelic / Lactic Acid,Good Molecules,Exfoliant (AHA/BHA/PHA),37.5,sensibil|normal,toate,toate,natural,zi,toate,acid mandelic|lactic,Nu,Nu,4.0,Accesibil,skincare,toate,toate,SUA/Europa,textura,Da,toate,toate,1
+576,AHA BHA Clear Pad,Medicube,Exfoliant (AHA/BHA/PHA),70.0,gras|mixt,toate,toate,natural,zi,toate,aha bha,Nu,Nu,4.0,Discuri,skincare,toate,toate,Coreea,acnee|pori,Da,toate,toate,1
+577,Advanced Snail 96 Mucin Power Essence,COSRX,Serum / Esenta,90.0,toate,toate,toate,natural,zi,toate,mucina melc 96%,Nu,Nu,4.7,"Cult, reparator",skincare,toate,toate,Coreea,bariera distrusa|semne postacneice|uscaciune,Da,toate,toate,1
+578,The Vitamin C 23 / Triple C,COSRX,Serum / Esenta,90.0,normal|mixt,toate,toate,natural,zi,toate,vitamina c,Nu,Nu,4.0,Pete intunecate,skincare,toate,toate,Coreea,semne postacneice|luminozitate,Da,toate,toate,1
+579,Glow Deep Serum (Rice + Alpha Arbutin),Beauty of Joseon,Serum / Esenta,90.0,toate,toate,toate,natural,zi,toate,orez|arbutin,Nu,Nu,4.8,Iluminare,skincare,toate,toate,Coreea,luminozitate|semne postacneice,Da,toate,toate,1
+580,Revive Serum Ginseng+Snail,Beauty of Joseon,Serum / Esenta,90.0,uscat|normal,toate,toate,natural,zi,toate,ginseng|mucina,Nu,Nu,4.0,Anti-age,skincare,toate,toate,Coreea,imbatranire|bariera,Da,toate,toate,1
+581,Niacinamide 10% + TXA 4% Serum,Anua,Serum / Esenta,90.0,gras|mixt,toate,toate,natural,zi,toate,niacinamide|acid tranexamic,Nu,Nu,4.7,Pt pete,skincare,toate,toate,Coreea,semne postacneice|pori|luminozitate,Da,toate,toate,1
+582,Heartleaf 80% Soothing Ampoule,Anua,Serum / Esenta,90.0,sensibil|gras,toate,toate,natural,zi,toate,heartleaf,Nu,Nu,4.0,Calmant,skincare,toate,toate,Coreea,inflamatii|roseata,Da,toate,toate,1
+583,No.3 Super Glowing Essence,Numbuzin,Serum / Esenta,90.0,toate,toate,toate,natural,zi,toate,niacinamide|galactomyces,Nu,Nu,4.2,Glow,skincare,toate,toate,Coreea,luminozitate|textura,Nu,toate,toate,1
+584,No.5 Vitamin Concentrated Serum,Numbuzin,Serum / Esenta,90.0,normal|mixt,toate,toate,natural,zi,toate,vit c derivati,Nu,Nu,4.0,Iluminare blanda,skincare,toate,toate,Coreea,luminozitate|semne postacneice,Nu,toate,toate,1
+585,Centella Ampoule,Skin1004,Serum / Esenta,90.0,sensibil|gras,toate,toate,natural,zi,toate,centella 100%,Nu,Nu,4.6,Calmant cult,skincare,toate,toate,Coreea,inflamatii|acnee,Da,toate,toate,1
+586,Hyalu-Cica Water-Fit Sun Serum,Skin1004,Serum / Esenta,90.0,sensibil|toate,toate,toate,natural,zi,toate,centella|hialuronic,Nu,Nu,4.0,SPF lejer,skincare,toate,toate,Coreea,hidratare + spf,Da,toate,toate,1
+587,Snail Truecica Miracle Repair Serum,Some By Mi,Serum / Esenta,90.0,sensibil|toate,toate,toate,natural,zi,toate,mucina|cica,Nu,Nu,4.0,Reparator,skincare,toate,toate,Coreea,semne postacneice|inflamatii,Nu,toate,toate,1
+588,Dive-In Low Molecule HA Serum,Torriden,Serum / Esenta,90.0,toate,toate,toate,natural,zi,toate,hialuronic 5d,Nu,Nu,4.7,Hidratant lejer,skincare,toate,toate,Coreea,uscaciune|bariera,Da,toate,toate,1
+589,TW-Real Bifida / Hyaluronic Serum,Isntree,Serum / Esenta,90.0,uscat|toate,toate,toate,natural,zi,toate,bifida|hialuronic,Nu,Nu,4.0,Hidratant,skincare,toate,toate,Coreea,bariera|uscaciune,Nu,toate,toate,1
+590,Galacto Niacin 97 Power Essence,Purito,Serum / Esenta,90.0,toate,toate,toate,natural,zi,toate,galactomyces|niacinamide,Nu,Nu,4.0,Glow,skincare,toate,toate,Coreea,luminozitate|textura,Nu,toate,toate,1
+591,Freshly Juiced Vitamin Drop,Klairs,Serum / Esenta,90.0,sensibil|normal,toate,toate,natural,zi,toate,vit c 5%,Nu,Nu,4.0,"Bland, incepatori",skincare,toate,toate,Coreea,luminozitate|semne postacneice,Nu,toate,toate,1
+592,Green Tangerine Vita C Serum,Goodal,Serum / Esenta,90.0,normal|mixt,toate,toate,natural,zi,toate,vit c|tangerine,Nu,Nu,4.0,Pete,skincare,toate,toate,Coreea,semne postacneice|luminozitate,Nu,toate,toate,1
+593,Pure Vitamin C 21.5 / Mandelic,By Wishtrend,Serum / Esenta,90.0,normal|mixt,toate,toate,natural,zi,toate,vit c|mandelic,Nu,Nu,4.0,Doua optiuni,skincare,toate,toate,Coreea,luminozitate|textura,Da,toate,toate,1
+594,Niacinamide / Centella Serum,Mary&May,Serum / Esenta,90.0,toate,toate,toate,natural,zi,toate,niacinamide|centella,Nu,Nu,4.0,Vegan,skincare,toate,toate,Coreea,pete|inflamatii,Da,toate,toate,1
+595,Collagen / PDRN Pink Serum,Medicube,Serum / Esenta,90.0,normal|uscat,toate,toate,natural,zi,toate,colagen|pdrn,Nu,Nu,4.0,Anti-age trendy,skincare,toate,toate,Coreea,imbatranire|fermitate,Nu,toate,toate,1
+596,Galactomyces Niacin Essence,Manyo,Serum / Esenta,90.0,toate,toate,toate,natural,zi,toate,galactomyces,Nu,Nu,4.0,Glow,skincare,toate,toate,Coreea,luminozitate,Nu,toate,toate,1
+597,Niacinamide 10% + Zinc 1%,The Ordinary,Serum / Esenta,50.0,gras|mixt,toate,toate,natural,zi,toate,niacinamide|zinc,Nu,Nu,4.3,Cult accesibil,skincare,toate,toate,Canada/Europa,pori|sebum|semne postacneice,Da,toate,toate,1
+598,Hyaluronic Acid 2% + B5,The Ordinary,Serum / Esenta,50.0,toate,toate,toate,natural,zi,toate,hialuronic,Nu,Nu,4.0,Hidratant,skincare,toate,toate,Canada/Europa,uscaciune,Da,toate,toate,1
+599,Alpha Arbutin 2% + HA,The Ordinary,Serum / Esenta,50.0,toate,toate,toate,natural,zi,toate,arbutin,Nu,Nu,4.0,Pete,skincare,toate,toate,Canada/Europa,semne postacneice|pete,Da,toate,toate,1
+600,Azelaic Acid 10% Suspension,The Ordinary,Serum / Esenta,50.0,sensibil|gras,toate,toate,natural,zi,toate,acid azelaic,Nu,Nu,4.0,Multifunctional,skincare,toate,toate,Canada/Europa,roseata|acnee|semne postacneice|inflamatii,Da,toate,toate,1
+601,Hyalu B5 Serum,La Roche-Posay,Serum / Esenta,90.0,toate,toate,toate,natural,zi,toate,hialuronic|b5,Nu,Nu,4.0,Farmacie,skincare,toate,toate,Europa (FR),uscaciune|imbatranire,Nu,toate,toate,1
+602,Pure Niacinamide 10,La Roche-Posay,Serum / Esenta,90.0,toate,toate,toate,natural,zi,toate,niacinamide,Nu,Nu,4.0,Pete,skincare,toate,toate,Europa (FR),pete|semne postacneice,Da,toate,toate,1
+603,Mineral 89 / Liftactiv B3 Serum,Vichy,Serum / Esenta,90.0,toate,toate,toate,natural,zi,toate,hialuronic|niacinamide,Nu,Nu,4.0,Farmacie,skincare,toate,toate,Europa (FR),hidratare|pete,Nu,toate,toate,1
+604,Niacinamide / Hyaluronic Serum,The Inkey List,Serum / Esenta,50.0,toate,toate,toate,natural,zi,toate,niacinamide|ha,Nu,Nu,4.0,Accesibil,skincare,toate,toate,Europa (UK),pori|uscaciune,Da,toate,toate,1
+605,10% Niacinamide Booster / C15,Paula's Choice,Serum / Esenta,142.5,gras|mixt,toate,toate,natural,zi,toate,niacinamide|vit c,Nu,Nu,4.0,Tintit,skincare,toate,toate,SUA/Europa,pori|luminozitate,Nu,toate,toate,1
+606,Bean / Centella Essence,Mixsoon,Serum / Esenta,90.0,sensibil|toate,toate,toate,natural,zi,toate,fermentat,Nu,Nu,4.0,Bland,skincare,toate,toate,Coreea,bariera|inflamatii,Da,toate,toate,1
+607,Advanced Snail 92 All In One Cream,COSRX,Crema hidratanta,85.0,toate,toate,toate,natural,zi,toate,mucina melc 92%,Nu,Nu,4.0,Reparator cult,skincare,toate,toate,Coreea,bariera|uscaciune|semne postacneice,Da,toate,toate,1
+608,Dynasty Cream,Beauty of Joseon,Crema hidratanta,85.0,uscat|normal,toate,toate,natural,zi,toate,ginseng|orhidee,Nu,Nu,4.0,"Bogat, anti-age",skincare,toate,toate,Coreea,uscaciune|imbatranire,Nu,toate,toate,1
+609,Ceramide Ato Concentrate Cream,Illiyoon,Crema hidratanta,85.0,uscat|sensibil,toate,toate,natural,zi,toate,ceramide,Nu,Nu,4.0,Cult ten uscat/atopic,skincare,toate,toate,Coreea,bariera distrusa|uscaciune,Da,toate,toate,1
+610,Madagascar Centella Light/Ampoule Cream,Skin1004,Crema hidratanta,85.0,sensibil|gras,toate,toate,natural,zi,toate,centella,Nu,Nu,4.0,"Lejer, calmant",skincare,toate,toate,Coreea,inflamatii|bariera,Da,toate,toate,1
+611,Dive-In Cream,Torriden,Crema hidratanta,85.0,toate,toate,toate,natural,zi,toate,hialuronic,Nu,Nu,4.0,Gel-crema lejer,skincare,toate,toate,Coreea,uscaciune|bariera,Da,toate,toate,1
+612,Moisture / Nutrition Cream,Pyunkang Yul,Crema hidratanta,85.0,uscat|sensibil,toate,toate,natural,zi,toate,coptis,Nu,Nu,4.0,"Simplu, bogat",skincare,toate,toate,Coreea,uscaciune|bariera,Nu,toate,toate,1
+613,Dermide Cica Barrier / Centella Recovery Cream,Purito,Crema hidratanta,85.0,sensibil|toate,toate,toate,natural,zi,toate,ceramide|centella,Nu,Nu,4.0,Pt bariera,skincare,toate,toate,Coreea,bariera|inflamatii,Da,toate,toate,1
+614,Cicapair Tiger Grass Cream,Dr.Jart+,Crema hidratanta,135.0,sensibil|toate,toate,toate,natural,zi,toate,centella,Nu,Nu,4.0,Calmant cult,skincare,toate,toate,Coreea,roseata|inflamatii,Nu,toate,toate,1
+615,Birch Juice / 1025 Cream,Round Lab,Crema hidratanta,85.0,toate,toate,toate,natural,zi,toate,seva mesteacan,Nu,Nu,4.0,Hidratant,skincare,toate,toate,Coreea,uscaciune,Nu,toate,toate,1
+616,No.5 Vitamin / No.3 Cream,Numbuzin,Crema hidratanta,85.0,normal|mixt,toate,toate,natural,zi,toate,niacinamide,Nu,Nu,4.0,Glow,skincare,toate,toate,Coreea,luminozitate|textura,Nu,toate,toate,1
+617,Snail Truecica Cream,Some By Mi,Crema hidratanta,85.0,sensibil|toate,toate,toate,natural,zi,toate,mucina|cica,Nu,Nu,4.0,Reparator,skincare,toate,toate,Coreea,semne postacneice|inflamatii,Nu,toate,toate,1
+618,Hyaluronic Acid Moist Cream,Isntree,Crema hidratanta,85.0,uscat|toate,toate,toate,natural,zi,toate,hialuronic,Nu,Nu,4.0,Hidratant,skincare,toate,toate,Coreea,uscaciune,Da,toate,toate,1
+619,The True Cream Aqua Bomb / Moisturizing Bomb,Belif,Crema hidratanta,135.0,gras|mixt|uscat,toate,toate,natural,zi,toate,plante,Nu,Nu,4.0,Gel sau bogat,skincare,toate,toate,Coreea,uscaciune,Nu,toate,toate,1
+620,Rich Moist Soothing Cream,Klairs,Crema hidratanta,85.0,uscat|sensibil,toate,toate,natural,zi,toate,ceramide,Nu,Nu,4.0,Ten sensibil,skincare,toate,toate,Coreea,uscaciune|sensibilitate,Nu,toate,toate,1
+621,Centella / Bean Cream,Mixsoon,Crema hidratanta,85.0,sensibil|toate,toate,toate,natural,zi,toate,fermentat|centella,Nu,Nu,4.0,Bland,skincare,toate,toate,Coreea,inflamatii|bariera,Da,toate,toate,1
+622,Pro Balance / Cica Cream,Dr.Ceuracle,Crema hidratanta,85.0,gras|mixt,toate,toate,natural,zi,toate,probiotice|cica,Nu,Nu,4.0,Echilibrant,skincare,toate,toate,Coreea,echilibru|inflamatii,Nu,toate,toate,1
+623,Red / Zero Pore Cream,Medicube,Crema hidratanta,85.0,gras|mixt,toate,toate,natural,zi,toate,azelaic|centella,Nu,Nu,4.0,Pt pori,skincare,toate,toate,Coreea,pori|acnee,Da,toate,toate,1
+624,Cica / Barrier Cream,Mary&May,Crema hidratanta,85.0,sensibil|toate,toate,toate,natural,zi,toate,cica,Nu,Nu,4.0,Vegan,skincare,toate,toate,Coreea,bariera|inflamatii,Nu,toate,toate,1
+625,Moisturising Cream / Lotion,CeraVe,Crema hidratanta,85.0,uscat|normal|sensibil,toate,toate,natural,zi,toate,ceramide|niacinamide|ha,Nu,Nu,4.0,Cult farmacie,skincare,toate,toate,Europa/global,bariera distrusa|uscaciune,Da,toate,toate,1
+626,Toleriane Sensitive / Cicaplast Baume B5,La Roche-Posay,Crema hidratanta,85.0,sensibil|uscat,toate,toate,natural,zi,toate,ceramide|panthenol,Nu,Nu,4.0,Reparator (balm),skincare,toate,toate,Europa (FR),bariera|inflamatii|sensibilitate,Nu,toate,toate,1
+627,Effaclar Mat / Duo+,La Roche-Posay,Crema hidratanta,85.0,gras|mixt,toate,toate,natural,zi,toate,niacinamide|zinc,Nu,Nu,4.0,Ten gras/acneic,skincare,toate,toate,Europa (FR),acnee|sebum|semne postacneice,Da,toate,toate,1
+628,Sebium / Hydrabio Cream,Bioderma,Crema hidratanta,85.0,gras|uscat,toate,toate,natural,zi,toate,zinc|hialuronic,Nu,Nu,4.0,Farmacie,skincare,toate,toate,Europa (FR),sebum|uscaciune,Nu,toate,toate,1
+629,Tolerance / Cicalfate Cream,Avene,Crema hidratanta,85.0,sensibil,toate,toate,natural,zi,toate,apa termala|zinc,Nu,Nu,4.0,Ten reactiv,skincare,toate,toate,Europa (FR),sensibilitate|reparare,Nu,toate,toate,1
+630,DermoPure / AtoControl Cream,Eucerin,Crema hidratanta,85.0,gras|uscat,toate,toate,natural,zi,toate,licochalcone|lipide,Nu,Nu,4.0,Farmacie,skincare,toate,toate,Europa (DE),acnee|uscaciune,Nu,toate,toate,1
+631,Mineralblend / Aqualia Thermal,Vichy,Crema hidratanta,85.0,toate,toate,toate,natural,zi,toate,apa termala|ha,Nu,Nu,4.0,Hidratant,skincare,toate,toate,Europa (FR),uscaciune,Nu,toate,toate,1
+632,Natural Moisturizing Factors + HA,The Ordinary,Crema hidratanta,45.0,toate,toate,toate,natural,zi,toate,nmf|ceramide,Nu,Nu,4.0,"Accesibil, lejer",skincare,toate,toate,Canada/Europa,uscaciune|bariera,Da,toate,toate,1
+633,Ceramide / Polyglutamic Cream,The Inkey List,Crema hidratanta,45.0,toate,toate,toate,natural,zi,toate,ceramide,Nu,Nu,4.0,Accesibil,skincare,toate,toate,Europa (UK),bariera|uscaciune,Da,toate,toate,1
+634,Moisturising Cream,Cetaphil,Crema hidratanta,85.0,sensibil|uscat,toate,toate,natural,zi,toate,formula blanda,Nu,Nu,4.0,Dermatologic,skincare,toate,toate,Europa/global,sensibilitate|bariera,Nu,toate,toate,1
+635,Multi Ceramide / Vita Cream,Tocobo,Crema hidratanta,85.0,uscat|normal,toate,toate,natural,zi,toate,ceramide,Nu,Nu,4.0,Hidratant,skincare,toate,toate,Coreea,bariera,Da,toate,toate,1
+636,Revive Eye Serum Ginseng+Retinal,Beauty of Joseon,Eye cream / Crema de ochi,90.0,toate,toate,toate,natural,zi,toate,ginseng|retinal,Nu,Nu,4.0,"Cult, anti-age + glow",skincare,toate,toate,Coreea,imbatranire|riduri fine|cearcane,Nu,toate,toate,1
+637,Advanced Snail Peptide Eye Cream,COSRX,Eye cream / Crema de ochi,90.0,toate,toate,toate,natural,zi,toate,mucina|peptide,Nu,Nu,4.0,Reparator,skincare,toate,toate,Coreea,riduri fine|bariera,Da,toate,toate,1
+638,Snail Repair Eye Cream,Mizon,Eye cream / Crema de ochi,70.0,toate,toate,toate,natural,zi,toate,mucina melc,Nu,Nu,4.0,Accesibil,skincare,toate,toate,Coreea,riduri fine|cearcane,Nu,toate,toate,1
+639,Hyalu-Cica / Eye Cream,Skin1004,Eye cream / Crema de ochi,90.0,sensibil|toate,toate,toate,natural,zi,toate,centella|hialuronic,Nu,Nu,4.0,Calmant,skincare,toate,toate,Coreea,inflamatii|uscaciune,Da,toate,toate,1
+640,No.5 Vitamin-Niacinamide Eye Cream,Numbuzin,Eye cream / Crema de ochi,90.0,normal|mixt,toate,toate,natural,zi,toate,niacinamide,Nu,Nu,4.0,Iluminare,skincare,toate,toate,Coreea,cearcane|luminozitate,Nu,toate,toate,1
+641,Dermide Cica / Centella Eye Cream,Purito,Eye cream / Crema de ochi,90.0,sensibil|toate,toate,toate,natural,zi,toate,centella|ceramide,Nu,Nu,4.0,Calmant,skincare,toate,toate,Coreea,bariera|riduri fine,Nu,toate,toate,1
+642,Retinol Intense Eye Cream,Some By Mi,Eye cream / Crema de ochi,90.0,normal|mixt,toate,toate,natural,zi,toate,retinol,Nu,Nu,4.0,Anti-age,skincare,toate,toate,Coreea,riduri fine|imbatranire,Nu,toate,toate,1
+643,Fundamental Nourishing Eye Butter,Klairs,Eye cream / Crema de ochi,90.0,uscat|sensibil,toate,toate,natural,zi,toate,shea|plante,Nu,Nu,4.0,Bogat,skincare,toate,toate,Coreea,uscaciune,Nu,toate,toate,1
+644,Hyaluronic Acid / Eye Cream,Isntree,Eye cream / Crema de ochi,90.0,toate,toate,toate,natural,zi,toate,hialuronic,Nu,Nu,4.0,Hidratant,skincare,toate,toate,Coreea,uscaciune,Da,toate,toate,1
+645,Idebenone / Eye Cream,Mary&May,Eye cream / Crema de ochi,90.0,normal|uscat,toate,toate,natural,zi,toate,idebenone,Nu,Nu,4.0,Anti-age vegan,skincare,toate,toate,Coreea,imbatranire,Nu,toate,toate,1
+646,Collagen / PDRN Eye Cream,Medicube,Eye cream / Crema de ochi,90.0,normal|uscat,toate,toate,natural,zi,toate,colagen|pdrn,Nu,Nu,4.0,Trendy,skincare,toate,toate,Coreea,fermitate|riduri,Nu,toate,toate,1
+647,Retinol Cica / Green Tea Eye Cream,Innisfree,Eye cream / Crema de ochi,90.0,toate,toate,toate,natural,zi,toate,retinol|ceai verde,Nu,Nu,4.0,Accesibil,skincare,toate,toate,Coreea,riduri fine|hidratare,Nu,toate,toate,1
+648,SoonJung / Moistfull Eye Cream,Etude,Eye cream / Crema de ochi,70.0,sensibil|uscat,toate,toate,natural,zi,toate,panthenol,Nu,Nu,4.0,Bland,skincare,toate,toate,Coreea,sensibilitate|uscaciune,Nu,toate,toate,1
+649,Cicapair / Ceramidin Eye Cream,Dr.Jart+,Eye cream / Crema de ochi,142.5,sensibil|uscat,toate,toate,natural,zi,toate,centella|ceramide,Nu,Nu,4.0,Calmant,skincare,toate,toate,Coreea,bariera|roseata,Nu,toate,toate,1
+650,Collagen / Brightening Eye Gel Cream,Tocobo,Eye cream / Crema de ochi,90.0,toate,toate,toate,natural,zi,toate,colagen,Nu,Nu,4.0,Lejer,skincare,toate,toate,Coreea,cearcane|hidratare,Nu,toate,toate,1
+651,Eye Repair Cream,CeraVe,Eye cream / Crema de ochi,90.0,toate,toate,toate,natural,zi,toate,ceramide|niacinamide,Nu,Nu,4.0,Farmacie accesibil,skincare,toate,toate,Europa/global,cearcane|bariera,Da,toate,toate,1
+652,Hyalu B5 / Toleriane Eye Cream,La Roche-Posay,Eye cream / Crema de ochi,90.0,sensibil|toate,toate,toate,natural,zi,toate,hialuronic|b5,Nu,Nu,4.0,Farmacie,skincare,toate,toate,Europa (FR),riduri fine|sensibilitate,Nu,toate,toate,1
+653,Sensibio / Hydrabio Eye,Bioderma,Eye cream / Crema de ochi,90.0,sensibil|uscat,toate,toate,natural,zi,toate,blanda,Nu,Nu,4.0,Ten reactiv,skincare,toate,toate,Europa (FR),sensibilitate|uscaciune,Nu,toate,toate,1
+654,Hyaluron-Filler Eye Cream,Eucerin,Eye cream / Crema de ochi,90.0,normal|uscat,toate,toate,natural,zi,toate,hialuronic,Nu,Nu,4.0,Anti-age,skincare,toate,toate,Europa (DE),riduri|uscaciune,Nu,toate,toate,1
+655,Mineral 89 / Liftactiv Eyes,Vichy,Eye cream / Crema de ochi,90.0,toate,toate,toate,natural,zi,toate,hialuronic,Nu,Nu,4.0,Farmacie,skincare,toate,toate,Europa (FR),hidratare|riduri,Nu,toate,toate,1
+656,Caffeine Solution 5% + EGCG,The Ordinary,Eye cream / Crema de ochi,50.0,toate,toate,toate,natural,zi,toate,cafeina,Nu,Nu,4.0,Cult accesibil,skincare,toate,toate,Canada/Europa,cearcane|pungi,Da,toate,toate,1
+657,Caffeine / Brighten-i Eye Cream,The Inkey List,Eye cream / Crema de ochi,50.0,toate,toate,toate,natural,zi,toate,cafeina|peptide,Nu,Nu,4.0,Accesibil,skincare,toate,toate,Europa (UK),cearcane,Da,toate,toate,1
+658,Soothing Eye Contour,Avene,Eye cream / Crema de ochi,90.0,sensibil,toate,toate,natural,zi,toate,apa termala,Nu,Nu,4.0,Bland,skincare,toate,toate,Europa (FR),sensibilitate,Nu,toate,toate,1
+659,Hydrating Eye Gel-Cream,Cetaphil,Eye cream / Crema de ochi,90.0,sensibil|uscat,toate,toate,natural,zi,toate,ha|panthenol,Nu,Nu,4.0,Dermatologic,skincare,toate,toate,Europa/global,uscaciune|sensibilitate,Nu,toate,toate,1
+660,Caffeine / Hyaluronic Eye Cream,Garnier,Eye cream / Crema de ochi,70.0,toate,toate,toate,natural,zi,toate,cafeina|ha,Nu,Nu,4.0,Accesibil,skincare,toate,toate,Europa,cearcane|uscaciune,Nu,toate,toate,1
+661,Calming / Eye Cream,Pyunkang Yul,Eye cream / Crema de ochi,90.0,sensibil|uscat,toate,toate,natural,zi,toate,coptis,Nu,Nu,4.0,Simplu,skincare,toate,toate,Coreea,bariera|sensibilitate,Nu,toate,toate,1
+662,Bean Eye Cream,Mixsoon,Eye cream / Crema de ochi,90.0,sensibil|toate,toate,toate,natural,zi,toate,fermentat,Nu,Nu,4.0,Bland,skincare,toate,toate,Coreea,bariera,Da,toate,toate,1
+663,Birch / 1025 Eye Cream,Round Lab,Eye cream / Crema de ochi,90.0,toate,toate,toate,natural,zi,toate,mesteacan,Nu,Nu,4.0,Hidratant,skincare,toate,toate,Coreea,uscaciune,Nu,toate,toate,1
+664,Vita C / Brightening Eye Cream,Goodal,Eye cream / Crema de ochi,90.0,normal|mixt,toate,toate,natural,zi,toate,vit c,Nu,Nu,4.0,Iluminare,skincare,toate,toate,Coreea,cearcane|luminozitate,Nu,toate,toate,1
+665,Relief Sun: Rice + Probiotics SPF50+,Beauty of Joseon,SPF / Protectie solara,80.0,toate,toate,toate,natural,zi,toate,orez|probiotice,Nu,Nu,4.0,"Cult, finisaj natural",skincare,toate,toate,Coreea,fotoprotectie|semne postacneice,Da,toate,toate,1
+666,Hyalu-Cica Water-Fit Sun SPF50+,Skin1004,SPF / Protectie solara,80.0,sensibil|toate,toate,toate,natural,zi,toate,centella|hialuronic,Nu,Nu,4.0,"Lejer, calmant",skincare,toate,toate,Coreea,fotoprotectie|inflamatii,Da,toate,toate,1
+667,Birch Juice Moisturizing Sun SPF50+,Round Lab,SPF / Protectie solara,80.0,uscat|normal,toate,toate,natural,zi,toate,seva mesteacan,Nu,Nu,4.0,Hidratant,skincare,toate,toate,Coreea,fotoprotectie|uscaciune,Nu,toate,toate,1
+668,Pine Calming Sun SPF50+,Round Lab,SPF / Protectie solara,80.0,sensibil|gras,toate,toate,natural,zi,toate,pin,Nu,Nu,4.0,Calmant,skincare,toate,toate,Coreea,fotoprotectie|inflamatii,Da,toate,toate,1
+669,No.0 / No.5 Sun Serum SPF50+,Numbuzin,SPF / Protectie solara,80.0,normal|mixt,toate,toate,natural,zi,toate,niacinamide,Nu,Nu,4.0,Aspect glow,skincare,toate,toate,Coreea,fotoprotectie|glow,Nu,toate,toate,1
+670,Hyaluronic Acid Watery Sun Gel SPF50+,Isntree,SPF / Protectie solara,80.0,gras|mixt,toate,toate,natural,zi,toate,hialuronic,Nu,Nu,4.0,"Lejer, gel",skincare,toate,toate,Coreea,fotoprotectie,Da,toate,toate,1
+671,Onion Newpair / Spotless Sun,Isntree,SPF / Protectie solara,80.0,gras|mixt,toate,toate,natural,zi,toate,onion,Nu,Nu,4.0,Ten gras,skincare,toate,toate,Coreea,fotoprotectie|pori,Da,toate,toate,1
+672,Daily Go-To / Comfy Water Sun SPF50+,Purito,SPF / Protectie solara,80.0,sensibil|toate,toate,toate,natural,zi,toate,centella,Nu,Nu,4.0,Bland,skincare,toate,toate,Coreea,fotoprotectie|sensibilitate,Da,toate,toate,1
+673,Truecica / V10 Sun,Some By Mi,SPF / Protectie solara,80.0,sensibil|toate,toate,toate,natural,zi,toate,cica|vit,Nu,Nu,4.0,Calmant,skincare,toate,toate,Coreea,fotoprotectie,Nu,toate,toate,1
+674,Sunprise / Soonjung Sun,Etude,SPF / Protectie solara,62.5,sensibil|toate,toate,toate,natural,zi,toate,panthenol,Nu,Nu,4.0,Bland,skincare,toate,toate,Coreea,fotoprotectie|sensibilitate,Nu,toate,toate,1
+675,All Around Safe Block Essence Sun SPF50+,Missha,SPF / Protectie solara,62.5,toate,toate,toate,natural,zi,toate,formula clasica,Nu,Nu,4.0,Accesibil cult,skincare,toate,toate,Coreea,fotoprotectie,Nu,toate,toate,1
+676,Aloe Soothing / Vitalizing Sunscreen SPF50,COSRX,SPF / Protectie solara,80.0,sensibil|gras,toate,toate,natural,zi,toate,aloe,Nu,Nu,4.0,Calmant,skincare,toate,toate,Coreea,fotoprotectie|inflamatii,Nu,toate,toate,1
+677,Balanceful Cica Sun,Torriden,SPF / Protectie solara,80.0,sensibil|gras,toate,toate,natural,zi,toate,cica,Nu,Nu,4.0,Calmant,skincare,toate,toate,Coreea,fotoprotectie|inflamatii,Da,toate,toate,1
+678,Pro Balance / Cica Sun,Dr.Ceuracle,SPF / Protectie solara,80.0,gras|mixt,toate,toate,natural,zi,toate,probiotice,Nu,Nu,4.0,Echilibrant,skincare,toate,toate,Coreea,fotoprotectie|echilibru,Nu,toate,toate,1
+679,Cotton Soft / Cica Sun Stick SPF50+,Tocobo,SPF / Protectie solara,80.0,toate,toate,toate,natural,zi,toate,cica,Nu,Nu,4.0,Stick practic,skincare,toate,toate,Coreea,fotoprotectie|retus,Nu,toate,toate,1
+680,Houttuynia / Vegan Sun,Goodal,SPF / Protectie solara,80.0,sensibil|gras,toate,toate,natural,zi,toate,houttuynia,Nu,Nu,4.0,Calmant,skincare,toate,toate,Coreea,fotoprotectie|inflamatii,Da,toate,toate,1
+681,Centella / Panthenol Sun,Mixsoon,SPF / Protectie solara,80.0,sensibil|toate,toate,toate,natural,zi,toate,centella,Nu,Nu,4.0,Bland,skincare,toate,toate,Coreea,fotoprotectie|bariera,Da,toate,toate,1
+682,Anthelios UVMune 400 SPF50+,La Roche-Posay,SPF / Protectie solara,80.0,toate,toate,toate,natural,zi,toate,filtre avansate,Nu,Nu,4.0,Standard de aur farmacie,skincare,toate,toate,Europa (FR),fotoprotectie,Nu,toate,toate,1
+683,Anthelios Oil Correct / Effaclar Sun,La Roche-Posay,SPF / Protectie solara,80.0,gras|mixt,toate,toate,natural,zi,toate,bha|filtre,Nu,Nu,4.0,Ten gras/acneic,skincare,toate,toate,Europa (FR),fotoprotectie|acnee|sebum,Da,toate,toate,1
+684,Photoderm / Hydrabio SPF50+,Bioderma,SPF / Protectie solara,80.0,toate,toate,toate,natural,zi,toate,filtre,Nu,Nu,4.0,Farmacie,skincare,toate,toate,Europa (FR),fotoprotectie,Nu,toate,toate,1
+685,Cleanance Sun / Intense Protect SPF50+,Avene,SPF / Protectie solara,80.0,gras|sensibil,toate,toate,natural,zi,toate,apa termala,Nu,Nu,4.0,Ten gras sau sensibil,skincare,toate,toate,Europa (FR),fotoprotectie|acnee,Nu,toate,toate,1
+686,Oil Control / Sun Gel-Cream SPF50+,Eucerin,SPF / Protectie solara,80.0,gras|mixt,toate,toate,natural,zi,toate,licochalcone,Nu,Nu,4.0,Ten gras,skincare,toate,toate,Europa (DE),fotoprotectie|sebum,Nu,toate,toate,1
+687,Capital Soleil UV-Age Daily SPF50+,Vichy,SPF / Protectie solara,80.0,toate,toate,toate,natural,zi,toate,niacinamide|filtre,Nu,Nu,4.0,Anti-age zilnic,skincare,toate,toate,Europa (FR),fotoprotectie|imbatranire,Nu,toate,toate,1
+688,Ambre Solaire Sensitive / Super UV,Garnier,SPF / Protectie solara,62.5,toate,toate,toate,natural,zi,toate,filtre,Nu,Nu,4.0,Accesibil,skincare,toate,toate,Europa,fotoprotectie,Nu,toate,toate,1
+689,Fusion Water SPF50+,ISDIN,SPF / Protectie solara,127.5,toate,toate,toate,natural,zi,toate,filtre apoase,Nu,Nu,4.0,Lejer cult,skincare,toate,toate,Europa (ES),fotoprotectie,Nu,toate,toate,1
+690,Sun SPF50+ Gel,Cetaphil,SPF / Protectie solara,80.0,sensibil,toate,toate,natural,zi,toate,filtre blande,Nu,Nu,4.0,Dermatologic,skincare,toate,toate,Europa/global,fotoprotectie|sensibilitate,Nu,toate,toate,1
+691,Fragrance Free / Tinted Sun SPF50+,Bondi Sands,SPF / Protectie solara,80.0,toate,toate,toate,natural,zi,toate,filtre,Nu,Nu,4.0,Accesibil,skincare,toate,toate,Europa/global,fotoprotectie,Nu,toate,toate,1
+692,Perfect UV Gel SPF50+,Hada Labo,SPF / Protectie solara,80.0,toate,toate,toate,natural,zi,toate,hialuronic,Nu,Nu,4.0,Hidratant,skincare,toate,toate,Japonia,fotoprotectie,Nu,toate,toate,1
+693,UV Aqua Rich Watery Essence SPF50+,Biore,SPF / Protectie solara,80.0,toate,toate,toate,natural,zi,toate,filtre apoase,Nu,Nu,4.0,Cult J-beauty lejer,skincare,toate,toate,Japonia,fotoprotectie,Nu,toate,toate,1
+694,Heartleaf / Birch Sun SPF50+,Anua,SPF / Protectie solara,80.0,sensibil|gras,toate,toate,natural,zi,toate,heartleaf,Nu,Nu,4.0,Calmant,skincare,toate,toate,Coreea,fotoprotectie|inflamatii,Da,toate,toate,1
+695,Ultimate Nourishing Rice Overnight Mask,COSRX,Masca de fata,60.0,uscat|normal,toate,toate,natural,zi,toate,orez,Nu,Nu,4.0,Masca de noapte,skincare,toate,toate,Coreea,luminozitate|uscaciune,Nu,toate,toate,1
+696,AHA BHA PHA Miracle / Calming Mask,Some By Mi,Masca de fata,60.0,gras|mixt,toate,toate,natural,zi,toate,aha bha pha|cica,Nu,Nu,4.0,Wash-off pt acnee,skincare,toate,toate,Coreea,acnee|textura|inflamatii,Da,toate,toate,1
+697,Madagascar Centella / Clay Mask,Skin1004,Masca de fata,60.0,sensibil|gras,toate,toate,natural,zi,toate,centella|argila,Nu,Nu,4.0,Calmant sau argila,skincare,toate,toate,Coreea,inflamatii|pori,Da,toate,toate,1
+698,Super Volcanic Pore Clay Mask,Innisfree,Masca de fata,60.0,gras|mixt,toate,toate,natural,zi,toate,argila vulcanica,Nu,Nu,4.0,Cult pt pori,skincare,toate,toate,Coreea,pori largi|sebum|puncte negre,Da,toate,toate,1
+699,Green Tea / Cica Sleeping Mask,Innisfree,Masca de fata,60.0,toate,toate,toate,natural,zi,toate,ceai verde,Nu,Nu,4.0,Overnight,skincare,toate,toate,Coreea,hidratare|inflamatii,Nu,toate,toate,1
+700,Mugwort Mask,I'm From,Masca de fata,60.0,sensibil|gras,toate,toate,natural,zi,toate,pelin,Nu,Nu,4.0,Calmant intens,skincare,toate,toate,Coreea,inflamatii|roseata,Da,toate,toate,1
+701,Honey Mask,I'm From,Masca de fata,60.0,uscat|normal,toate,toate,natural,zi,toate,miere,Nu,Nu,4.0,Hidratant intens,skincare,toate,toate,Coreea,uscaciune|hidratare,Nu,toate,toate,1
+702,No.3 / Sleeping Mask,Numbuzin,Masca de fata,60.0,toate,toate,toate,natural,zi,toate,niacinamide,Nu,Nu,4.0,Overnight glow,skincare,toate,toate,Coreea,luminozitate|textura,Nu,toate,toate,1
+703,Gummy Sheet Mask (seria),Abib,Masca de fata,60.0,toate,toate,toate,natural,zi,toate,variabil,Nu,Nu,4.0,Sheet masks,skincare,toate,toate,Coreea,hidratare|calmare,Nu,toate,toate,1
+704,N.M.F / Tea Tree Sheet Mask,Mediheal,Masca de fata,60.0,toate,toate,toate,natural,zi,toate,hialuronic|tea tree,Nu,Nu,4.0,Sheet cult,skincare,toate,toate,Coreea,hidratare|acnee,Nu,toate,toate,1
+705,Tea Tree / Cica Sheet Mask,Mary&May,Masca de fata,60.0,sensibil|gras,toate,toate,natural,zi,toate,tea tree|cica,Nu,Nu,4.0,Vegan,skincare,toate,toate,Coreea,inflamatii,Da,toate,toate,1
+706,Dive-In Mask,Torriden,Masca de fata,60.0,toate,toate,toate,natural,zi,toate,hialuronic,Nu,Nu,4.0,Hidratant,skincare,toate,toate,Coreea,uscaciune,Da,toate,toate,1
+707,Cicapair / Dermask Sheet,Dr.Jart+,Masca de fata,95.0,sensibil|toate,toate,toate,natural,zi,toate,centella,Nu,Nu,4.0,Reparator,skincare,toate,toate,Coreea,roseata|hidratare,Nu,toate,toate,1
+708,Midnight Blue Calming Mask,Klairs,Masca de fata,60.0,sensibil|toate,toate,toate,natural,zi,toate,guaiazulene,Nu,Nu,4.0,Calmant,skincare,toate,toate,Coreea,inflamatii|roseata,Nu,toate,toate,1
+709,Matcha Biome / Clay Mask,Heimish,Masca de fata,60.0,gras|mixt,toate,toate,natural,zi,toate,matcha|argila,Nu,Nu,4.0,Detoxifiant,skincare,toate,toate,Coreea,pori|sebum,Da,toate,toate,1
+710,Birch / Mugwort Mask,Round Lab,Masca de fata,60.0,toate,toate,toate,natural,zi,toate,mesteacan|pelin,Nu,Nu,4.0,Calmant,skincare,toate,toate,Coreea,hidratare|inflamatii,Nu,toate,toate,1
+711,Yuja Niacin Sleeping Mask,Some By Mi,Masca de fata,60.0,normal|mixt,toate,toate,natural,zi,toate,yuja|niacinamide,Nu,Nu,4.0,Overnight brightening,skincare,toate,toate,Coreea,luminozitate|pete,Nu,toate,toate,1
+712,Apricot Blossom / Mask,Beauty of Joseon,Masca de fata,60.0,toate,toate,toate,natural,zi,toate,variabil,Nu,Nu,4.0,Variabil,skincare,toate,toate,Coreea,luminozitate,Nu,toate,toate,1
+713,Zero Pore / Collagen Mask,Medicube,Masca de fata,60.0,gras|normal,toate,toate,natural,zi,toate,centella|colagen,Nu,Nu,4.0,Trendy,skincare,toate,toate,Coreea,pori|fermitate,Da,toate,toate,1
+714,Heartleaf Quercetinol / Clay Mask,Anua,Masca de fata,60.0,gras|sensibil,toate,toate,natural,zi,toate,heartleaf|argila,Nu,Nu,4.0,Calmant,skincare,toate,toate,Coreea,pori|inflamatii,Da,toate,toate,1
+715,Salicylic Acid 2% Masque,The Ordinary,Masca de fata,32.5,gras|mixt,toate,toate,natural,zi,toate,acid salicilic|argila,Nu,Nu,4.0,Wash-off BHA,skincare,toate,toate,Canada/Europa,puncte negre|pori|acnee,Da,toate,toate,1
+716,AHA 30% + BHA 2% Peeling,The Ordinary,Masca de fata,32.5,normal|gras,toate,toate,natural,zi,toate,aha+bha,Nu,Nu,4.0,Peeling 10 min,skincare,toate,toate,Canada/Europa,textura|semne postacneice,Da,toate,toate,1
+717,Pure Clay Mask (seria),L'Oreal Paris,Masca de fata,60.0,gras|mixt|normal,toate,toate,natural,zi,toate,argila,Nu,Nu,4.0,Accesibil,skincare,toate,toate,Europa,pori|luminozitate,Da,toate,toate,1
+718,Tissue / Clay Mask,Garnier,Masca de fata,45.0,toate,toate,toate,natural,zi,toate,variabil,Nu,Nu,4.0,Accesibil,skincare,toate,toate,Europa,hidratare|pori,Nu,toate,toate,1
+719,Effaclar / Pure Clay Mask,La Roche-Posay,Masca de fata,60.0,gras|mixt,toate,toate,natural,zi,toate,argila|zinc,Nu,Nu,4.0,Farmacie,skincare,toate,toate,Europa (FR),pori|sebum,Da,toate,toate,1
+720,Soothing / Cleanance Mask,Avene,Masca de fata,60.0,sensibil|gras,toate,toate,natural,zi,toate,apa termala,Nu,Nu,4.0,Farmacie,skincare,toate,toate,Europa (FR),sensibilitate|sebum,Nu,toate,toate,1
+721,DermoPure / Clay Mask,Eucerin,Masca de fata,60.0,gras|mixt,toate,toate,natural,zi,toate,argila,Nu,Nu,4.0,Ten impur,skincare,toate,toate,Europa (DE),acnee|pori,Nu,toate,toate,1
+722,Instant Detox / Vinosource Mask,Caudalie,Masca de fata,95.0,toate,toate,toate,natural,zi,toate,argila|struguri,Nu,Nu,4.0,Premium,skincare,toate,toate,Europa (FR),pori|uscaciune,Nu,toate,toate,1
+723,Australian Pink Clay Mask,Sand & Sky,Masca de fata,95.0,gras|mixt,toate,toate,natural,zi,toate,argila roz,Nu,Nu,4.0,Viral,skincare,toate,toate,Europa/global,pori|textura,Da,toate,toate,1
+724,Calming / Moisture Mask,Pyunkang Yul,Masca de fata,60.0,sensibil|uscat,toate,toate,natural,zi,toate,coptis,Nu,Nu,4.0,Bland,skincare,toate,toate,Coreea,bariera|sensibilitate,Nu,toate,toate,1
+725,Acne Pimple Master Patch,COSRX,Tratament local (spot treatment),60.0,toate,toate,toate,natural,zi,toate,hydrocolloid,Nu,Nu,4.0,Plasturi cult,skincare,toate,toate,Coreea,acnee|inflamatii,Da,toate,toate,1
+726,AC Collection Blemish Spot Clearing Serum,COSRX,Tratament local (spot treatment),60.0,gras|mixt,toate,toate,natural,zi,toate,bha|centella,Nu,Nu,4.0,Tintit,skincare,toate,toate,Coreea,acnee|semne postacneice,Da,toate,toate,1
+727,30 Days Miracle Spot / AC Spot,Some By Mi,Tratament local (spot treatment),60.0,gras|mixt,toate,toate,natural,zi,toate,tea tree|bha,Nu,Nu,4.0,Tintit,skincare,toate,toate,Coreea,acnee|inflamatii,Da,toate,toate,1
+728,Acence Blemish Spot,Mizon,Tratament local (spot treatment),45.0,gras|mixt,toate,toate,natural,zi,toate,bha|tea tree,Nu,Nu,4.0,Accesibil,skincare,toate,toate,Coreea,acnee,Da,toate,toate,1
+729,Centella Tone Brightening / Spot,Skin1004,Tratament local (spot treatment),60.0,sensibil|toate,toate,toate,natural,zi,toate,centella|niacinamide,Nu,Nu,4.0,Pete,skincare,toate,toate,Coreea,semne postacneice,Da,toate,toate,1
+730,Trouble Cure Microneedle Patch,Acropass,Tratament local (spot treatment),60.0,toate,toate,toate,natural,zi,toate,microneedle,Nu,Nu,4.0,Plasturi cu microace,skincare,toate,toate,Coreea,acnee profunda,Da,toate,toate,1
+731,Cicapair / Spot,Dr.Jart+,Tratament local (spot treatment),95.0,sensibil|toate,toate,toate,natural,zi,toate,centella,Nu,Nu,4.0,Calmant,skincare,toate,toate,Coreea,inflamatii,Nu,toate,toate,1
+732,Heartleaf Spot Pad / Spot,Abib,Tratament local (spot treatment),60.0,sensibil|gras,toate,toate,natural,zi,toate,heartleaf,Nu,Nu,4.0,Calmant,skincare,toate,toate,Coreea,inflamatii,Da,toate,toate,1
+733,Zero Acne / Red Spot,Medicube,Tratament local (spot treatment),60.0,gras|mixt,toate,toate,natural,zi,toate,azelaic|centella,Nu,Nu,4.0,Tintit,skincare,toate,toate,Coreea,acnee,Da,toate,toate,1
+734,Snail / Tea Tree Spot,Benton,Tratament local (spot treatment),60.0,gras|mixt,toate,toate,natural,zi,toate,tea tree|mucina,Nu,Nu,4.0,Reparator,skincare,toate,toate,Coreea,acnee|semne postacneice,Nu,toate,toate,1
+735,Drying Lotion,Mario Badescu,Tratament local (spot treatment),60.0,gras|mixt,toate,toate,natural,zi,toate,sulf|calamina,Nu,Nu,4.0,"Cult, sulf",skincare,toate,toate,SUA/Europa,acnee,Da,toate,toate,1
+736,Effaclar A.I. / Duo+ Spot,La Roche-Posay,Tratament local (spot treatment),60.0,gras|mixt,toate,toate,natural,zi,toate,niacinamide|bha,Nu,Nu,4.0,Farmacie,skincare,toate,toate,Europa (FR),acnee|semne postacneice,Da,toate,toate,1
+737,Cleanance Comedomed / Spot,Avene,Tratament local (spot treatment),60.0,gras|mixt,toate,toate,natural,zi,toate,monolaurin,Nu,Nu,4.0,Ten gras,skincare,toate,toate,Europa (FR),acnee|comedoane,Nu,toate,toate,1
+738,DermoPure / Spot,Eucerin,Tratament local (spot treatment),60.0,gras|mixt,toate,toate,natural,zi,toate,licochalcone|bha,Nu,Nu,4.0,Ten impur,skincare,toate,toate,Europa (DE),acnee,Nu,toate,toate,1
+739,Sulphate / Niacinamide / Azelaic,The Ordinary,Tratament local (spot treatment),32.5,gras|mixt,toate,toate,natural,zi,toate,azelaic|niacinamide,Nu,Nu,4.0,Multi-optiuni,skincare,toate,toate,Canada/Europa,acnee|semne postacneice|roseata,Da,toate,toate,1
+740,Succinic Acid / SuperSolutions Spot,The Inkey List,Tratament local (spot treatment),32.5,gras|mixt,toate,toate,natural,zi,toate,succinic|salicilic,Nu,Nu,4.0,Accesibil,skincare,toate,toate,Europa (UK),acnee,Da,toate,toate,1
+741,Mighty Patch,Hero Cosmetics,Tratament local (spot treatment),60.0,toate,toate,toate,natural,zi,toate,hydrocolloid,Nu,Nu,4.0,Plasturi cult,skincare,toate,toate,SUA/Europa,acnee,Da,toate,toate,1
+742,Hydro-Star Patch,Starface,Tratament local (spot treatment),60.0,toate,toate,toate,natural,zi,toate,hydrocolloid,Nu,Nu,4.0,Plasturi forma stea,skincare,toate,toate,SUA/Europa,acnee,Da,toate,toate,1
+743,Killa / Megashade Patch,ZitSticka,Tratament local (spot treatment),60.0,toate,toate,toate,natural,zi,toate,microneedle,Nu,Nu,4.0,Microace,skincare,toate,toate,SUA/Europa,acnee profunda,Da,toate,toate,1
+744,Adapalene 0.1% Gel,Differin,Tratament local (spot treatment),60.0,gras|mixt,toate,toate,natural,zi,toate,adapalena,Nu,Nu,4.0,Retinoid OTC,skincare,toate,toate,SUA/Europa,acnee|textura|pori,Da,toate,toate,1
+745,BHA 9 / Pure Spot Treatment,Paula's Choice,Tratament local (spot treatment),95.0,gras|mixt,toate,toate,natural,zi,toate,acid salicilic 9%,Nu,Nu,4.0,BHA puternic,skincare,toate,toate,SUA/Europa,acnee|puncte negre,Da,toate,toate,1
+746,Bija / Tea Tree Spot,Innisfree,Tratament local (spot treatment),60.0,gras|mixt,toate,toate,natural,zi,toate,bija|tea tree,Nu,Nu,4.0,Accesibil,skincare,toate,toate,Coreea,acnee,Nu,toate,toate,1
+747,Midnight Blue Calming / Spot,Klairs,Tratament local (spot treatment),60.0,sensibil|toate,toate,toate,natural,zi,toate,guaiazulene,Nu,Nu,4.0,Calmant,skincare,toate,toate,Coreea,inflamatii,Nu,toate,toate,1
+748,Centella / Spot,Purito,Tratament local (spot treatment),60.0,sensibil|gras,toate,toate,natural,zi,toate,centella,Nu,Nu,4.0,Calmant,skincare,toate,toate,Coreea,inflamatii,Da,toate,toate,1
+749,Mandelic / Acne Dressing,By Wishtrend,Tratament local (spot treatment),60.0,gras|sensibil,toate,toate,natural,zi,toate,mandelic,Nu,Nu,4.0,Bland,skincare,toate,toate,Coreea,acnee|semne postacneice,Da,toate,toate,1
+750,AC Clean Up Spot,Etude,Tratament local (spot treatment),45.0,gras|mixt,toate,toate,natural,zi,toate,tea tree,Nu,Nu,4.0,Accesibil,skincare,toate,toate,Coreea,acnee,Nu,toate,toate,1
+751,Tea Tree Oil / Spot,Tea Tree (The Body Shop),Tratament local (spot treatment),60.0,gras|mixt,toate,toate,natural,zi,toate,tea tree,Nu,Nu,4.0,Clasic,skincare,toate,toate,Europa (UK),acnee,Nu,toate,toate,1
+752,Pure Active / SOS Spot,Garnier,Tratament local (spot treatment),45.0,gras|mixt,toate,toate,natural,zi,toate,bha,Nu,Nu,4.0,Accesibil,skincare,toate,toate,Europa,acnee,Da,toate,toate,1
+753,Sebium Global / Spot,Bioderma,Tratament local (spot treatment),60.0,gras|mixt,toate,toate,natural,zi,toate,bha,Nu,Nu,4.0,Farmacie,skincare,toate,toate,Europa (FR),acnee|comedoane,Da,toate,toate,1
+754,No.1 Pore / Spot,Numbuzin,Tratament local (spot treatment),60.0,gras|mixt,toate,toate,natural,zi,toate,bha|centella,Nu,Nu,4.0,Pt pori,skincare,toate,toate,Coreea,pori|sebum,Da,toate,toate,1

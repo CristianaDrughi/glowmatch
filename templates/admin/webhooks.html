@@ -1,0 +1,105 @@
+{% extends "admin/base.html" %}
+
+{% block title %}Webhook-uri n8n · Admin{% endblock %}
+
+{% block content %}
+<div class="admin-header">
+    <h2>Webhook-uri n8n <span class="counter">({{ webhooks|length }} afisate)</span></h2>
+</div>
+
+<div class="report-card">
+    <h3>Stare integrare</h3>
+    {% if webhook_configurat %}
+    <p>Webhook-ul este <strong style="color: var(--verde)">configurat</strong>.</p>
+    <p class="muted">URL activ: <code>{{ webhook_url }}</code></p>
+    {% else %}
+    <p>Webhook-ul este <strong style="color: #c98a4e">neconfigurat</strong>.</p>
+    <p class="muted">
+        Aplicatia logheaza apelurile ca <span class="status-badge status-skipped">skipped</span>
+        pana cand setezi <code>N8N_WEBHOOK_URL</code> in <code>config.py</code>.
+    </p>
+    <p class="muted">
+        Vezi <code>n8n_workflow_template.json</code> din proiect pentru un schelet de workflow
+        pe care il poti importa direct in n8n.
+    </p>
+    {% endif %}
+</div>
+
+<div class="stats-row">
+    <div class="stat-card">
+        <div class="stat-value">{{ statistici.total or 0 }}</div>
+        <div class="stat-label">Apeluri totale</div>
+    </div>
+    <div class="stat-card" style="border-left-color: var(--verde)">
+        <div class="stat-value" style="color: var(--verde)">{{ statistici.succes or 0 }}</div>
+        <div class="stat-label">Succes</div>
+    </div>
+    <div class="stat-card" style="border-left-color: var(--rosu)">
+        <div class="stat-value" style="color: var(--rosu)">{{ statistici.erori or 0 }}</div>
+        <div class="stat-label">Erori</div>
+    </div>
+    <div class="stat-card" style="border-left-color: var(--gri-text)">
+        <div class="stat-value" style="color: var(--gri-text)">{{ statistici.sarite or 0 }}</div>
+        <div class="stat-label">Sarite (skipped)</div>
+    </div>
+</div>
+
+<div class="search-bar">
+    <span class="muted" style="padding: 0 0.5rem">Filtreaza:</span>
+    <a href="{{ url_for('admin.webhooks') }}" class="btn-link {% if not filtru %}activ{% endif %}">Toate</a>
+    <a href="{{ url_for('admin.webhooks', status='success') }}" class="btn-link {% if filtru == 'success' %}activ{% endif %}">Succes</a>
+    <a href="{{ url_for('admin.webhooks', status='error') }}" class="btn-link {% if filtru == 'error' %}activ{% endif %}">Erori</a>
+    <a href="{{ url_for('admin.webhooks', status='skipped') }}" class="btn-link {% if filtru == 'skipped' %}activ{% endif %}">Skipped</a>
+</div>
+
+{% if webhooks %}
+<div class="table-wrap">
+    <table class="admin-table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Timestamp</th>
+                <th>Status</th>
+                <th>Email</th>
+                <th>Durata</th>
+                <th>Detalii</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for w in webhooks %}
+            <tr>
+                <td class="mono">{{ w.id }}</td>
+                <td class="mono">{{ w.timestamp }}</td>
+                <td><span class="status-badge status-{{ w.status }}">{{ w.status }}</span></td>
+                <td>{{ w.email or '-' }}</td>
+                <td class="mono">{{ w.durata_ms }} ms</td>
+                <td class="expandable">
+                    <details>
+                        <summary>Vezi payload + raspuns</summary>
+                        {% if w.error %}
+                        <div style="margin-top: 0.6rem">
+                            <strong style="color: var(--rosu)">Eroare:</strong>
+                            <span class="code-preview">{{ w.error }}</span>
+                        </div>
+                        {% endif %}
+                        <div style="margin-top: 0.6rem"><strong>URL:</strong> <code>{{ w.url or '(neconfigurat)' }}</code></div>
+                        <div style="margin-top: 0.6rem"><strong>Payload trimis:</strong></div>
+                        <pre>{{ w.payload_json }}</pre>
+                        {% if w.response_body %}
+                        <div style="margin-top: 0.6rem"><strong>Raspuns primit:</strong></div>
+                        <pre>{{ w.response_body }}</pre>
+                        {% endif %}
+                    </details>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% else %}
+<p class="gol">
+    Niciun apel webhook inca. Trimite o recomandare publica cu un email completat
+    pentru a popula tabelul.
+</p>
+{% endif %}
+{% endblock %}

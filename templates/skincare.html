@@ -1,0 +1,82 @@
+{% extends "base.html" %}
+
+{% block title %}Skincare &middot; Recomandari Makeup{% endblock %}
+
+{% block content %}
+<section class="form-card">
+    <h2>Recomandari de skincare</h2>
+    <p class="muted">Spune-ne despre pielea ta si ce te preocupa, ca sa iti recomandam produse de ingrijire potrivite.</p>
+
+    <form action="{{ url_for('skincare') }}" method="post">
+
+        <fieldset>
+            <legend>Tipul tenului</legend>
+            <div class="grid">
+                <label>
+                    Tipul tenului
+                    <select name="tip_ten">
+                        <option value="oricare">Nu conteaza</option>
+                        <option value="uscat">Uscat</option>
+                        <option value="gras">Gras</option>
+                        <option value="mixt">Mixt</option>
+                        <option value="normal">Normal</option>
+                        <option value="sensibil">Sensibil</option>
+                    </select>
+                </label>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Probleme ale pielii</legend>
+            <p class="muted">Bifeaza problemele pe care vrei sa le tratezi. Poti alege mai multe.</p>
+            <div class="chips">
+                {% for pb in probleme %}
+                <label class="chip">
+                    <input type="checkbox" name="probleme" value="{{ pb }}">
+                    <span>{{ pb }}</span>
+                </label>
+                {% endfor %}
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Ingrediente cheie</legend>
+            <p class="muted">Bifeaza ingredientele care te intereseaza. Produsele cu aceste ingrediente vor primi puncte suplimentare.</p>
+            <div class="chips">
+                {% for ing in ingrediente %}
+                <label class="chip">
+                    <input type="checkbox" name="ingrediente_cheie" value="{{ ing }}">
+                    <span>{{ ing }}</span>
+                </label>
+                {% endfor %}
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Etica</legend>
+            <div class="switches">
+                <label class="switch">
+                    <input type="checkbox" name="doar_vegan">
+                    <span>Doar produse vegane</span>
+                </label>
+                <label class="switch">
+                    <input type="checkbox" name="doar_cruelty_free">
+                    <span>Doar produse cruelty-free</span>
+                </label>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Email (optional)</legend>
+            <p class="muted">Daca lasi adresa ta de email, vei primi recomandarile personalizate
+                printr-un mesaj scris automat de un asistent AI. <span class="hint">(integrare n8n)</span></p>
+            <label>
+                Email
+                <input type="email" name="email" placeholder="adresa@exemplu.ro">
+            </label>
+        </fieldset>
+
+        <button type="submit" class="btn-primary">Vezi recomandarile</button>
+    </form>
+</section>
+{% endblock %}

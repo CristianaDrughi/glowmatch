@@ -1,0 +1,227 @@
+{% extends "base.html" %}
+
+{% block title %}Recomandari manuale &middot; Recomandari Makeup{% endblock %}
+
+{% block content %}
+<section class="form-card">
+    <h2>Spune-ne despre tine</h2>
+    <p class="muted">Completeaza preferintele tale. Campurile lasate pe "Nu conteaza" nu vor influenta recomandarile.</p>
+
+    <form action="{{ url_for('recomandari') }}" method="post">
+
+        <fieldset>
+            <legend>Profilul tenului tau</legend>
+            <div class="grid">
+                <label>
+                    Tipul tenului
+                    <select name="tip_ten">
+                        <option value="oricare">Nu conteaza</option>
+                        <option value="uscat">Uscat</option>
+                        <option value="gras">Gras</option>
+                        <option value="mixt">Mixt</option>
+                        <option value="normal">Normal</option>
+                        <option value="sensibil">Sensibil</option>
+                    </select>
+                </label>
+
+                <label>
+                    Subtonul tenului
+                    <select name="subton">
+                        <option value="oricare">Nu conteaza</option>
+                        <option value="cald">Cald</option>
+                        <option value="rece">Rece</option>
+                        <option value="neutru">Neutru</option>
+                        <option value="olive">Olive</option>
+                    </select>
+                </label>
+
+                <label>
+                    Nuanta tenului
+                    <select name="nuanta">
+                        <option value="oricare">Nu conteaza</option>
+                        <option value="deschis">Deschis</option>
+                        <option value="mediu">Mediu</option>
+                        <option value="inchis">Inchis</option>
+                    </select>
+                </label>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Trasaturi faciale</legend>
+            <div class="grid">
+                <label>
+                    Forma fetei
+                    <select name="forma">
+                        <option value="oricare">Nu conteaza</option>
+                        <option value="oval">Oval</option>
+                        <option value="rotund">Rotund</option>
+                        <option value="patrat">Patrat</option>
+                        <option value="dreptunghi">Dreptunghi</option>
+                        <option value="romb">Romb</option>
+                        <option value="inima">Inima</option>
+                        <option value="triunghi">Triunghi</option>
+                        <option value="triunghi_intors">Triunghi intors</option>
+                    </select>
+                </label>
+
+                <label>
+                    Contrast
+                    <select name="contrast">
+                        <option value="oricare">Nu conteaza</option>
+                        <option value="deschis">Deschis</option>
+                        <option value="mediu">Mediu</option>
+                        <option value="inchis">Inchis</option>
+                    </select>
+                </label>
+
+                <label>
+                    Greutatea vizuala
+                    <select name="greutate_vizuala">
+                        <option value="oricare">Nu conteaza</option>
+                        <option value="scazuta">Scazuta</option>
+                        <option value="ridicata">Ridicata</option>
+                    </select>
+                </label>
+
+                <label>
+                    Forma ochilor
+                    <select name="forma_ochilor">
+                        <option value="oricare">Nu conteaza</option>
+                        <option value="migdala">Migdala</option>
+                        <option value="rotunzi">Rotunzi</option>
+                        <option value="hooded">Hooded</option>
+                        <option value="cazuti">Cazuti</option>
+                        <option value="monolid">Monolid</option>
+                    </select>
+                </label>
+
+                <label>
+                    Orientarea ochilor
+                    <select name="pozitie_ochi_vertical">
+                        <option value="oricare">Nu conteaza</option>
+                        <option value="upturned">Upturned</option>
+                        <option value="downturned">Downturned</option>
+                    </select>
+                </label>
+
+                <label>
+                    Adancimea ochilor
+                    <select name="pozitie_ochi_adancime">
+                        <option value="oricare">Nu conteaza</option>
+                        <option value="adanciti">Adanciti</option>
+                        <option value="in_afara">In afara</option>
+                    </select>
+                </label>
+
+                <label>
+                    Distanta dintre ochi
+                    <select name="pozitie_ochi_distanta">
+                        <option value="oricare">Nu conteaza</option>
+                        <option value="apropiati">Apropiati</option>
+                        <option value="departati">Departati</option>
+                    </select>
+                </label>
+
+                <label>
+                    Forma buzelor
+                    <select name="forma_buzelor">
+                        <option value="oricare">Nu conteaza</option>
+                        <option value="full">Full</option>
+                        <option value="heavy_upper">Heavy upper lips</option>
+                        <option value="heavy_lower">Heavy lower lips</option>
+                        <option value="wide">Wide</option>
+                        <option value="round">Round</option>
+                        <option value="thin">Thin</option>
+                        <option value="bow_shaped">Bow shaped</option>
+                        <option value="heart_shaped">Heart shaped</option>
+                        <option value="downturned">Downturned</option>
+                    </select>
+                </label>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Preferinte produs</legend>
+            <div class="grid">
+                <label>
+                    Categoria dorita
+                    <select name="categorie">
+                        <option value="oricare">Nu conteaza</option>
+                        {% for c in categorii %}
+                        <option value="{{ c }}">{{ c }}</option>
+                        {% endfor %}
+                    </select>
+                </label>
+
+                <label>
+                    Nivel acoperire <span class="hint">(fond / corector)</span>
+                    <select name="acoperire">
+                        <option value="oricare">Nu conteaza</option>
+                        <option value="lejera">Lejera</option>
+                        <option value="medie">Medie</option>
+                        <option value="totala">Totala</option>
+                    </select>
+                </label>
+
+                <label>
+                    Finisajul preferat
+                    <select name="finish">
+                        <option value="oricare">Nu conteaza</option>
+                        <option value="mat">Mat</option>
+                        <option value="satinat">Satinat</option>
+                        <option value="luminos">Luminos / Dewy</option>
+                        <option value="natural">Natural</option>
+                    </select>
+                </label>
+
+                <label>
+                    Ocazia / Tip de machiaj
+                    <select name="ocazie">
+                        <option value="oricare">Nu conteaza</option>
+                        <option value="zi">Machiaj de zi</option>
+                        <option value="seara">Machiaj de seara</option>
+                        <option value="eveniment">Eveniment special</option>
+                        <option value="latina">Latina</option>
+                        <option value="clean_natural">Clean / Natural</option>
+                        <option value="douyin">Douyin</option>
+                        <option value="alt">Alt</option>
+                        <option value="grunge">Grunge</option>
+                        <option value="smokey">Smokey</option>
+                        <option value="dark">Dark</option>
+                        <option value="light">Light</option>
+                        <option value="coquette">Coquette</option>
+                        <option value="colorat">Colorat</option>
+                    </select>
+                </label>
+
+                <label>
+                    Baza produsului
+                    <select name="baza">
+                        <option value="oricare">Nu conteaza</option>
+                        <option value="silicon">Silicon</option>
+                        <option value="apa">Apa</option>
+                    </select>
+                </label>
+
+                <label>
+                    Buget maxim (RON)
+                    <input type="number" name="buget" min="0" step="10" placeholder="ex: 100">
+                </label>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Email (optional)</legend>
+            <p class="muted">Daca lasi adresa ta de email, vei primi recomandarile personalizate
+                printr-un mesaj scris automat de un asistent AI. <span class="hint">(integrare n8n)</span></p>
+            <label>
+                Email
+                <input type="email" name="email" placeholder="adresa@exemplu.ro">
+            </label>
+        </fieldset>
+
+        <button type="submit" class="btn-primary">Vezi recomandarile</button>
+    </form>
+</section>
+{% endblock %}

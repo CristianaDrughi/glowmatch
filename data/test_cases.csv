@@ -1,0 +1,21 @@
+image_filename,expected_skin_tone,expected_eye_color,expected_hair_color,expected_face_shape,notes
+poza test 3.jpg,deschis,verzi-caprui,blonde,oval,"lungime > latime, barbie usor ingustata"
+poza test 4.jpg,mediu,caprui,brunette,oval,falca destul de definita (oval spre square)
+poza test 5.jpg,inchis,caprui inchis,black,round,"obraji plini, falca moale, lungime ~ latime"
+poza test 6.jpg,inchis,caprui inchis,black,oval,"pometi lati, barbie mai ingusta (oval/heart)"
+poza test 7.jpg,mediu,caprui,brunette,round,"fata scurta, obraji plini"
+poza test 8.jpg,inchis,caprui inchis,black,oval,trasaturi moi (parul afro face evaluarea grea)
+poza test 9.jpg,mediu,caprui inchis,black,square,falca lata si unghiulara
+poza test 10.jpg,deschis,verzi-caprui,red,oval,"fata alungita, barbie ingusta"
+poza test 11.jpg,deschis,albastri deschis,blonde,round,"obraji plini, falca moale"
+poza test 12.jpg,deschis,caprui,brunette,oval,"echilibrat, ingustare lina spre barbie"
+poza test 13.jpg,deschis,caprui deschis,blonde,round,fata rotunjita (buclele mascheaza conturul)
+poza test 14.jpg,deschis,albastri-verzi,blonde,round,obraji plini
+poza test 15.jpg,deschis,albastri-gri,blonde,oval,alungita (oval/heart)
+poza test 16.jpg,deschis,albastri deschis,blonde,heart,pometi lati + barbie ascutita
+poza test 17.jpg,deschis,verzi-gri,brunette,square,"falca puternica, lungime ~ latime"
+poza test 18.jpg,deschis,albastri-gri,blonde,oval,"fata ingusta, alungita"
+poza test 19.jpg,deschis,verzi,brunette,oval,"alungita, barbie ingustata (oval/heart)"
+poza test 20.jpg,deschis,albastri-gri,black,oval,falca definita (oval spre square)
+poza test 21.jpg,mediu,caprui inchis,black,oval,"lungime > latime, barbie tapered"
+poza test 22.jpg,mediu,verzi-gri,brunette,oval,echilibrat (oval spre square)

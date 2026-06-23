@@ -1,0 +1,93 @@
+{% extends "base.html" %}
+
+{% block title %}Analiza foto AI &middot; Recomandari Makeup{% endblock %}
+
+{% block content %}
+<section class="form-card">
+    <h2>Analiza foto cu AI</h2>
+    <p class="muted" style="text-align: center; max-width: 38rem; margin-left: auto; margin-right: auto; text-wrap: balance;">
+        Incarca o poza clara cu fata ta, la lumina naturala. Asistentul AI o va analiza si va
+        determina automat datele de care avem nevoie pentru recomandari.
+    </p>
+
+    {% if eroare %}
+    <div class="email-status email-pending">{{ eroare }}</div>
+    {% endif %}
+
+    <form class="ai-upload" method="POST" enctype="multipart/form-data" id="form-analiza">
+        <div class="ai-dropzone">
+            <span class="ai-dropzone-icon">&#128247;</span>
+            <p>Trage o poza aici sau selecteaza un fisier</p>
+            <label class="btn-secondary ai-file-btn">
+                Alege poza
+                <input type="file" name="poza" accept="image/*" hidden id="input-poza" required>
+            </label>
+            <p class="hint" id="nume-fisier">Formate acceptate: JPG, PNG. Poza nu este pastrata dupa analiza.</p>
+
+            <img id="ai-preview" class="ai-preview" alt="Previzualizare poza" hidden>
+
+            <label class="ai-email-label">
+                Email (optional) &mdash; completeaza email-ul pentru a nu pierde recomandarile
+                <input type="email" name="email" placeholder="adresa@exemplu.ro">
+            </label>
+
+            <button type="submit" class="btn-primary" id="btn-analiza" hidden>Analizeaza poza</button>
+
+            <div class="ai-spinner" id="ai-spinner" hidden>
+                <span class="spinner"></span>
+                <span id="spinner-text">Analizez trasaturile faciale...</span>
+            </div>
+        </div>
+    </form>
+
+    <div class="ai-sfaturi">
+        <p><strong>Pentru cel mai bun rezultat poza trebuie facuta:</strong></p>
+        <ul class="ai-detect-list">
+            <li><strong>facuta la lumina naturala</strong> (langa o fereastra, nu sub bec galben);</li>
+            <li><strong>fara machiaj</strong>, pentru a se vedea tonul real al pielii;</li>
+            <li><strong>cu conturul fetei vizibil</strong> (parul dat pe spate, fara umbre puternice);</li>
+            <li><strong>cu capul drept si privirea spre camera</strong>.</li>
+        </ul>
+    </div>
+
+    <script>
+        // Cand utilizatorul alege o poza, afisam numele si butonul de trimitere.
+        const inputPoza = document.getElementById('input-poza');
+        const numeFisier = document.getElementById('nume-fisier');
+        const btnAnaliza = document.getElementById('btn-analiza');
+        const preview = document.getElementById('ai-preview');
+        const spinner = document.getElementById('ai-spinner');
+
+        inputPoza.addEventListener('change', function () {
+            if (inputPoza.files.length > 0) {
+                const fisier = inputPoza.files[0];
+                numeFisier.textContent = 'Poza aleasa: ' + fisier.name;
+                btnAnaliza.hidden = false;
+                // Preview imaginii (citita local, nu se trimite nicaieri pana la submit).
+                const reader = new FileReader();
+                reader.onload = function (e) {
+                    preview.src = e.target.result;
+                    preview.hidden = false;
+                };
+                reader.readAsDataURL(fisier);
+            }
+        });
+        // La trimitere, aratam spinner + dezactivam butonul (fara double-click).
+        document.getElementById('form-analiza').addEventListener('submit', function () {
+            btnAnaliza.disabled = true;
+            btnAnaliza.hidden = true;
+            spinner.hidden = false;
+        });
+    </script>
+
+    <fieldset>
+        <legend>Ce va detecta AI-ul din poza ta</legend>
+        <ul class="ai-detect-list">
+            <li><strong>Tonul pielii</strong> &mdash; deschis, mediu sau inchis.</li>
+            <li><strong>Subtonul</strong> &mdash; cald, rece sau neutru.</li>
+            <li><strong>Gama de culori potrivita</strong> &mdash; nuantele care iti pun in valoare tenul.</li>
+            <li><strong>Recomandari pregatite automat</strong> &mdash; pe baza datelor extrase din poza.</li>
+        </ul>
+    </fieldset>
+</section>
+{% endblock %}

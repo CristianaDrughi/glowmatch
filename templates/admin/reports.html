@@ -1,0 +1,150 @@
+{% extends "admin/base.html" %}
+
+{% block title %}Rapoarte · Admin{% endblock %}
+
+{% block extra_head %}
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+{% endblock %}
+
+{% block content %}
+<h2>Rapoarte si analize</h2>
+
+<div class="stats-row">
+    <div class="stat-card">
+        <div class="stat-value">{{ statistici.total_recomandari }}</div>
+        <div class="stat-label">Recomandari totale</div>
+    </div>
+    <div class="stat-card">
+        <div class="stat-value">{{ statistici.total_produse }}</div>
+        <div class="stat-label">Produse active</div>
+    </div>
+    <div class="stat-card">
+        <div class="stat-value">{{ statistici.timp_mediu_ms }} ms</div>
+        <div class="stat-label">Timp mediu executie</div>
+    </div>
+</div>
+
+<section class="report-card">
+    <h3>R1 - Top 10 produse cele mai recomandate</h3>
+    <p class="muted">Care produse apar cel mai des in rezultatele utilizatorilor</p>
+    <div class="chart-box chart-tall">
+        <canvas id="chart-top"></canvas>
+    </div>
+    <p id="empty-top" class="empty-state" hidden>Niciun produs recomandat inca. Foloseste site-ul public pentru a genera date.</p>
+</section>
+
+<section class="report-card">
+    <h3>R2 - Distributia profilurilor utilizatorilor</h3>
+    <p class="muted">Cum aleg utilizatorii preferintele pentru fiecare atribut</p>
+    <div class="pie-grid">
+        <div class="pie-cell"><h4>Tipul tenului</h4><div class="chart-box"><canvas id="chart-tip_ten"></canvas></div></div>
+        <div class="pie-cell"><h4>Subtonul</h4><div class="chart-box"><canvas id="chart-subton"></canvas></div></div>
+        <div class="pie-cell"><h4>Nuanta</h4><div class="chart-box"><canvas id="chart-nuanta"></canvas></div></div>
+        <div class="pie-cell"><h4>Ocazia</h4><div class="chart-box"><canvas id="chart-ocazie"></canvas></div></div>
+    </div>
+</section>
+
+<section class="report-card">
+    <h3>R3 - Evolutia utilizarii in ultimele 30 de zile</h3>
+    <p class="muted">Numar de recomandari generate zilnic</p>
+    <div class="chart-box">
+        <canvas id="chart-evolutie"></canvas>
+    </div>
+    <p id="empty-evolutie" class="empty-state" hidden>Nu exista date pentru ultimele 30 zile.</p>
+</section>
+
+<script>
+const PALETA = ['#d97a8a', '#f6c6cf', '#b88fc5', '#7ab39a', '#c98a4e', '#b8a4a8', '#3a2c2e', '#fdf6f3', '#d4a300', '#9b6b8c'];
+
+async function fetchJson(url) {
+    const r = await fetch(url);
+    return await r.json();
+}
+
+async function renderTopProduse() {
+    const data = await fetchJson('/admin/api/reports/top-produse');
+    if (!data.length) {
+        document.getElementById('empty-top').hidden = false;
+        return;
+    }
+    new Chart(document.getElementById('chart-top'), {
+        type: 'bar',
+        data: {
+            labels: data.map(d => d.nume + ' - ' + d.brand),
+            datasets: [{
+                label: 'Numar recomandari',
+                data: data.map(d => d.nr_recomandari),
+                backgroundColor: '#d97a8a',
+                borderRadius: 4
+            }]
+        },
+        options: {
+            indexAxis: 'y',
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: { legend: { display: false } },
+            scales: { x: { beginAtZero: true, ticks: { stepSize: 1 } } }
+        }
+    });
+}
+
+async function renderDistributie() {
+    const data = await fetchJson('/admin/api/reports/distributie-profiluri');
+    for (const attr of ['tip_ten', 'subton', 'nuanta', 'ocazie']) {
+        const items = data[attr] || [];
+        const canvas = document.getElementById('chart-' + attr);
+        if (!items.length) {
+            canvas.parentElement.innerHTML = '<p class="empty-state">Fara date</p>';
+            continue;
+        }
+        new Chart(canvas, {
+            type: 'doughnut',
+            data: {
+                labels: items.map(d => d.valoare),
+                datasets: [{
+                    data: items.map(d => d.nr),
+                    backgroundColor: PALETA
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: { legend: { position: 'bottom', labels: { font: { size: 11 } } } }
+            }
+        });
+    }
+}
+
+async function renderEvolutie() {
+    const data = await fetchJson('/admin/api/reports/evolutie-zilnica');
+    if (!data.length) {
+        document.getElementById('empty-evolutie').hidden = false;
+        return;
+    }
+    new Chart(document.getElementById('chart-evolutie'), {
+        type: 'line',
+        data: {
+            labels: data.map(d => d.zi),
+            datasets: [{
+                label: 'Recomandari pe zi',
+                data: data.map(d => d.nr),
+                borderColor: '#d97a8a',
+                backgroundColor: 'rgba(217, 122, 138, 0.18)',
+                fill: true,
+                tension: 0.3,
+                pointRadius: 4
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            scales: { y: { beginAtZero: true, ticks: { stepSize: 1 } } }
+        }
+    });
+}
+
+renderTopProduse();
+renderDistributie();
+renderEvolutie();
+</script>
+{% endblock %}

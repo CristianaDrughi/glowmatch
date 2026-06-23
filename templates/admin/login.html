@@ -1,0 +1,22 @@
+{% extends "admin/base.html" %}
+
+{% block title %}Login Admin{% endblock %}
+
+{% block content %}
+<section class="login-card">
+    <h2>Autentificare administrator</h2>
+    <p class="muted">Foloseste credentialele primite pentru a accesa zona de management.</p>
+
+    <form method="post" action="{{ url_for('auth.login') }}">
+        <label>
+            Username
+            <input type="text" name="username" required autofocus value="{{ request.form.username or '' }}">
+        </label>
+        <label>
+            Parola
+            <input type="password" name="password" required>
+        </label>
+        <button type="submit" class="btn-primary">Intra in admin</button>
+    </form>
+</section>
+{% endblock %}

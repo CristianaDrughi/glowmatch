@@ -1,0 +1,86 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="rezultate">
+    <h2>Recomandarile tale</h2>
+    <a href="{{ url_for(inapoi or 'recomandari') }}" class="link-inapoi">&larr; Modifica preferintele</a>
+
+    {% if analiza %}
+    {% set ochi_ro = {'blue': 'albastri', 'green': 'verzi', 'brown': 'caprui', 'hazel': 'caprui-verzui (aluna)', 'unknown': 'nedeterminata'} %}
+    {% set par_ro = {'black': 'negru', 'brunette': 'saten', 'blonde': 'blond', 'gray': 'gri / carunt', 'unknown': 'nedeterminata'} %}
+    <div class="analiza-foto-rezultat">
+        <h3>Ce a detectat analiza din poza ta</h3>
+        <ul class="ai-detect-list">
+            <li><strong>Tonul pielii:</strong> {{ analiza.ton }} ({{ analiza.ton_detaliat }})</li>
+            <li><strong>Subtonul:</strong> {{ analiza.subton }} <span class="hint">(orientativ &mdash; depinde de lumina din poza)</span></li>
+            {% if analiza.culoare_ochi %}
+            <li><strong>Culoarea ochilor:</strong> {{ ochi_ro.get(analiza.culoare_ochi, analiza.culoare_ochi) }} <span class="hint">(orientativ)</span></li>
+            {% endif %}
+            {% if analiza.culoare_par %}
+            <li><strong>Culoarea parului:</strong> {{ par_ro.get(analiza.culoare_par, analiza.culoare_par) }} <span class="hint">(orientativ)</span></li>
+            {% endif %}
+            <li><strong>ITA&deg; (Individual Typology Angle):</strong> {{ analiza.ITA }}&deg;</li>
+        </ul>
+    </div>
+    {% endif %}
+
+    {% if email %}
+        {% if status_webhook == 'dispatched' %}
+        <div class="email-status email-ok">
+            Vei primi recomandarile pe email la <strong>{{ email }}</strong> in cateva momente.
+        </div>
+        {% elif status_webhook == 'skipped' %}
+        <div class="email-status email-pending">
+            Workflow-ul n8n nu este inca configurat. Apelul a fost logat in admin (status: skipped).
+            <span class="hint">Configureaza <code>N8N_WEBHOOK_URL</code> in <code>config.py</code> pentru a activa email-urile.</span>
+        </div>
+        {% endif %}
+    {% endif %}
+
+    {% if produse %}
+    <div class="produse">
+        {% for p in produse %}
+        <article class="produs-card">
+            {% if p.image_path %}
+            <img class="produs-img" src="{{ url_for('static', filename=p.image_path) }}"
+                 alt="{{ p.nume }}" loading="lazy">
+            {% endif %}
+            <header>
+                <h3>{{ p.nume }}</h3>
+                <span class="brand">{{ p.brand }}</span>
+            </header>
+            <p class="categorie">{{ p.categorie }}</p>
+            <p class="descriere">{{ p.descriere }}</p>
+
+            <div class="ingrediente">
+                {% for ing in p.ingrediente_cheie.split('|') %}
+                <span class="ingredient">{{ ing }}</span>
+                {% endfor %}
+            </div>
+
+            <div class="badges">
+                {% if p.vegan == 'Da' %}<span class="badge badge-vegan">Vegan</span>{% endif %}
+                {% if p.cruelty_free == 'Da' %}<span class="badge badge-cf">Cruelty-free</span>{% endif %}
+                {% if p.acoperire != 'toate' %}<span class="badge badge-acop">Acoperire {{ p.acoperire }}</span>{% endif %}
+            </div>
+
+            <div class="meta">
+                <span class="pret">{{ p.pret }} RON</span>
+                <span class="rating">&#9733; {{ "%.1f"|format(p.rating) }}</span>
+                <span class="scor">Scor: {{ p.scor }}</span>
+            </div>
+
+            {% if p.motive %}
+            <p class="motive">
+                <strong>Se potriveste cu:</strong>
+                {{ p.motive | join(' &middot; ') | safe }}
+            </p>
+            {% endif %}
+        </article>
+        {% endfor %}
+    </div>
+    {% else %}
+    <p class="gol">Nu am gasit produse care sa corespunda preferintelor tale. Incearca sa relaxezi unele criterii sau sa cresti bugetul.</p>
+    {% endif %}
+</section>
+{% endblock %}

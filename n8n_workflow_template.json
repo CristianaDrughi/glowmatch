@@ -1,0 +1,148 @@
+{
+  "name": "Makeup Recomandare - Email Automat (Sprint 10)",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "makeup-recomandare",
+        "responseMode": "responseNode",
+        "options": {
+          "rawBody": false
+        }
+      },
+      "id": "node-webhook",
+      "name": "Webhook - Primeste cerere de la Flask",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [240, 300],
+      "notes": "Endpoint apelat de aplicatia Flask dupa generarea recomandarilor. Primeste: email, preferinte, produse_recomandate, log_id, timestamp."
+    },
+    {
+      "parameters": {
+        "modelId": {
+          "__rl": true,
+          "value": "gpt-4o-mini",
+          "mode": "list"
+        },
+        "messages": {
+          "values": [
+            {
+              "role": "system",
+              "content": "Esti un asistent specializat in scrierea de email-uri personalizate pentru clientele unui magazin de produse de machiaj. Tonul este cald, prietenos si profesionist. Scrii in limba romana, fara emoji, in 150-200 de cuvinte. Folosesti formula de salut 'Buna' urmata de o introducere personalizata, descrii 2-3 dintre produsele recomandate cu de ce se potrivesc profilului, si inchei cu un indemn discret de a explora colectia."
+            },
+            {
+              "role": "user",
+              "content": "Scrie email-ul pentru un client cu acest profil:\n\nPreferinte selectate:\n{{ JSON.stringify($json.body.preferinte, null, 2) }}\n\nProduse recomandate:\n{{ JSON.stringify($json.body.produse_recomandate, null, 2) }}"
+            }
+          ]
+        },
+        "options": {
+          "temperature": 0.7,
+          "maxTokens": 500
+        }
+      },
+      "id": "node-llm",
+      "name": "Agent 1 - LLM Generare Email",
+      "type": "@n8n/n8n-nodes-langchain.openAi",
+      "typeVersion": 1.6,
+      "position": [520, 300],
+      "credentials": {
+        "openAiApi": {
+          "id": "REPLACE_WITH_YOUR_OPENAI_CREDENTIAL_ID",
+          "name": "OpenAI account"
+        }
+      },
+      "notes": "Foloseste gpt-4o-mini (cel mai ieftin model OpenAI). System prompt-ul defineste personalitatea asistentului. User prompt-ul injecteaza profilul si produsele primite de la Flask."
+    },
+    {
+      "parameters": {
+        "resource": "message",
+        "operation": "send",
+        "sendTo": "={{ $('Webhook - Primeste cerere de la Flask').item.json.body.email }}",
+        "subject": "Recomandarile tale personalizate de makeup",
+        "emailType": "text",
+        "message": "={{ $json.message.content }}",
+        "options": {}
+      },
+      "id": "node-gmail",
+      "name": "Agent 2 - Trimitere Email Gmail",
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.1,
+      "position": [800, 300],
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "REPLACE_WITH_YOUR_GMAIL_CREDENTIAL_ID",
+          "name": "Gmail account"
+        }
+      },
+      "notes": "Trimite email-ul generat de Agent 1 catre adresa primita in webhook. Pentru integritate academica: NU folosi contul tau Gmail personal - creeaza un cont dedicat pentru licenta."
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={{ { \"status\": \"sent\", \"email\": $('Webhook - Primeste cerere de la Flask').item.json.body.email, \"sent_at\": $now.toISO() } }}",
+        "options": {}
+      },
+      "id": "node-respond",
+      "name": "Raspunde aplicatiei Flask",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.1,
+      "position": [1060, 300],
+      "notes": "Confirma catre aplicatia Flask ca email-ul a fost trimis. Acest raspuns ajunge in coloana response_body din tabela outbound_webhooks."
+    }
+  ],
+  "connections": {
+    "Webhook - Primeste cerere de la Flask": {
+      "main": [
+        [
+          {
+            "node": "Agent 1 - LLM Generare Email",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Agent 1 - LLM Generare Email": {
+      "main": [
+        [
+          {
+            "node": "Agent 2 - Trimitere Email Gmail",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Agent 2 - Trimitere Email Gmail": {
+      "main": [
+        [
+          {
+            "node": "Raspunde aplicatiei Flask",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "saveExecutionProgress": true,
+    "saveManualExecutions": true,
+    "saveDataErrorExecution": "all",
+    "saveDataSuccessExecution": "all"
+  },
+  "versionId": "1",
+  "meta": {
+    "instanceId": "licenta-makeup-recomandare"
+  },
+  "id": "makeup-recomandare-workflow",
+  "tags": [
+    {
+      "name": "licenta",
+      "id": "tag-licenta"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{% extends "admin/base.html" %}
+
+{% block title %}Produse · Admin{% endblock %}
+
+{% block content %}
+<div class="admin-header">
+    <h2>Catalog produse <span class="counter">({{ produse|length }})</span></h2>
+    <a href="{{ url_for('admin.product_new') }}" class="btn-primary">+ Adauga produs</a>
+</div>
+
+<form method="get" action="{{ url_for('admin.products') }}" class="search-bar">
+    <input type="search" name="q" placeholder="Cauta dupa nume, brand sau categorie..."
+           value="{{ cautare }}">
+    <button type="submit">Cauta</button>
+    {% if cautare %}
+    <a href="{{ url_for('admin.products') }}" class="link-clear">x reset</a>
+    {% endif %}
+</form>
+
+{% if produse %}
+<div class="table-wrap">
+    <table class="admin-table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nume</th>
+                <th>Brand</th>
+                <th>Categorie</th>
+                <th>Pret</th>
+                <th>Rating</th>
+                <th>Vegan</th>
+                <th>CF</th>
+                <th>Actiuni</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for p in produse %}
+            <tr>
+                <td class="mono">{{ p.id }}</td>
+                <td><strong>{{ p.nume }}</strong></td>
+                <td>{{ p.brand }}</td>
+                <td><span class="tag">{{ p.categorie }}</span></td>
+                <td class="mono">{{ "%.0f"|format(p.pret) }} RON</td>
+                <td>&#9733; {{ "%.1f"|format(p.rating) }}</td>
+                <td>{% if p.vegan == 'Da' %}<span class="dot dot-yes">Da</span>{% else %}<span class="dot dot-no">Nu</span>{% endif %}</td>
+                <td>{% if p.cruelty_free == 'Da' %}<span class="dot dot-yes">Da</span>{% else %}<span class="dot dot-no">Nu</span>{% endif %}</td>
+                <td class="actions">
+                    <a href="{{ url_for('admin.product_edit', product_id=p.id) }}" class="btn-link">Editeaza</a>
+                    <form method="post" action="{{ url_for('admin.product_delete', product_id=p.id) }}"
+                          onsubmit="return confirm('Sterg definitiv {{ p.nume|e }}?');" style="display:inline">
+                        <button type="submit" class="btn-link btn-danger">Sterge</button>
+                    </form>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% else %}
+<p class="gol">
+    {% if cautare %}Nicio rezultat pentru "{{ cautare }}". <a href="{{ url_for('admin.products') }}">Reseteaza filtrul</a>.
+    {% else %}Nu exista produse in catalog. <a href="{{ url_for('admin.product_new') }}">Adauga primul produs</a>.{% endif %}
+</p>
+{% endif %}
+{% endblock %}

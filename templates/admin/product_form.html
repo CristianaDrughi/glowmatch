@@ -1,0 +1,137 @@
+{% extends "admin/base.html" %}
+
+{% block title %}{% if mod == 'edit' %}Editeaza{% else %}Adauga{% endif %} produs · Admin{% endblock %}
+
+{% block content %}
+<div class="admin-header">
+    <h2>{% if mod == 'edit' %}Editeaza produs{% else %}Adauga produs nou{% endif %}</h2>
+    <a href="{{ url_for('admin.products') }}" class="link-inapoi">&larr; Inapoi la lista</a>
+</div>
+
+<form method="post" class="admin-form">
+    <fieldset>
+        <legend>Date generale</legend>
+        <div class="grid">
+            <label>
+                Nume produs *
+                <input type="text" name="nume" required value="{{ produs.nume or '' }}">
+            </label>
+            <label>
+                Brand *
+                <input type="text" name="brand" required value="{{ produs.brand or '' }}">
+            </label>
+            <label>
+                Categorie *
+                <input type="text" name="categorie" required value="{{ produs.categorie or '' }}"
+                       placeholder="ex: Fond de ten, Ruj, Mascara">
+            </label>
+            <label>
+                Pret (RON) *
+                <input type="number" name="pret" min="0" step="0.5" required value="{{ produs.pret or '' }}">
+            </label>
+            <label>
+                Rating (0-5) *
+                <input type="number" name="rating" min="0" max="5" step="0.1" required value="{{ produs.rating or 4.0 }}">
+            </label>
+        </div>
+    </fieldset>
+
+    <fieldset>
+        <legend>Atribute pentru algoritm</legend>
+        <p class="muted">Pentru atributele cu mai multe valori, separa-le cu | (de exemplu "uscat|normal|sensibil").
+            "toate" actioneaza ca wildcard si se potriveste cu orice preferinta.</p>
+        <div class="grid">
+            <label>
+                Tip ten potrivit
+                <input type="text" name="tip_ten" value="{{ produs.tip_ten or 'toate' }}"
+                       placeholder="ex: uscat|normal sau toate"
+                       list="opt-tip_ten">
+                <datalist id="opt-tip_ten">
+                    {% for o in optiuni.tip_ten %}<option value="{{ o }}">{% endfor %}
+                </datalist>
+            </label>
+            <label>
+                Subton
+                <input type="text" name="subton" value="{{ produs.subton or 'toate' }}"
+                       placeholder="ex: cald|neutru" list="opt-subton">
+                <datalist id="opt-subton">
+                    {% for o in optiuni.subton %}<option value="{{ o }}">{% endfor %}
+                </datalist>
+            </label>
+            <label>
+                Nuanta
+                <select name="nuanta">
+                    {% for o in optiuni.nuanta %}
+                    <option value="{{ o }}" {% if produs.nuanta == o %}selected{% endif %}>{{ o }}</option>
+                    {% endfor %}
+                </select>
+            </label>
+            <label>
+                Finisaj
+                <select name="finish">
+                    {% for o in optiuni.finish %}
+                    <option value="{{ o }}" {% if produs.finish == o %}selected{% endif %}>{{ o }}</option>
+                    {% endfor %}
+                </select>
+            </label>
+            <label>
+                Ocazie
+                <input type="text" name="ocazie" value="{{ produs.ocazie or 'zi' }}"
+                       placeholder="ex: zi|seara|eveniment" list="opt-ocazie">
+                <datalist id="opt-ocazie">
+                    {% for o in optiuni.ocazie %}<option value="{{ o }}">{% endfor %}
+                </datalist>
+            </label>
+            <label>
+                Acoperire (fond/corector)
+                <select name="acoperire">
+                    {% for o in optiuni.acoperire %}
+                    <option value="{{ o }}" {% if produs.acoperire == o %}selected{% endif %}>{{ o }}</option>
+                    {% endfor %}
+                </select>
+            </label>
+        </div>
+    </fieldset>
+
+    <fieldset>
+        <legend>Ingrediente si etica</legend>
+        <div class="grid">
+            <label class="col-span">
+                Ingrediente cheie (separate prin |)
+                <input type="text" name="ingrediente_cheie" value="{{ produs.ingrediente_cheie or '' }}"
+                       placeholder="ex: acid hialuronic|vitamina E|niacinamida">
+            </label>
+            <label>
+                Vegan
+                <select name="vegan">
+                    {% for o in optiuni.vegan %}
+                    <option value="{{ o }}" {% if produs.vegan == o %}selected{% endif %}>{{ o }}</option>
+                    {% endfor %}
+                </select>
+            </label>
+            <label>
+                Cruelty-free
+                <select name="cruelty_free">
+                    {% for o in optiuni.cruelty_free %}
+                    <option value="{{ o }}" {% if produs.cruelty_free == o %}selected{% endif %}>{{ o }}</option>
+                    {% endfor %}
+                </select>
+            </label>
+        </div>
+    </fieldset>
+
+    <fieldset>
+        <legend>Descriere</legend>
+        <label>
+            <textarea name="descriere" rows="3" placeholder="Descriere scurta a produsului">{{ produs.descriere or '' }}</textarea>
+        </label>
+    </fieldset>
+
+    <div class="form-actions">
+        <button type="submit" class="btn-primary">
+            {% if mod == 'edit' %}Salveaza modificarile{% else %}Adauga produs{% endif %}
+        </button>
+        <a href="{{ url_for('admin.products') }}" class="btn-secondary">Anuleaza</a>
+    </div>
+</form>
+{% endblock %}

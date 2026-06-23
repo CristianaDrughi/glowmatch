@@ -1,0 +1,90 @@
+{% extends "base.html" %}
+
+{% block title %}Acasa &middot; Recomandari Makeup{% endblock %}
+
+{% block content %}
+<section class="hero">
+    <div class="hero-text">
+        <h2>Machiajul potrivit pentru tine, ales inteligent</h2>
+        <p class="hero-lead">
+            Iti recomandam produse de makeup care se potrivesc cu adevarat tenului tau:
+            tip de ten, subton, nuanta, finisaj si buget. Fara incercari la intamplare &mdash;
+            fiecare recomandare este motivata.
+        </p>
+        <div class="hero-actions">
+            <a href="{{ url_for('recomandari') }}" class="btn-primary">Recomandari makeup</a>
+            <a href="{{ url_for('skincare') }}" class="btn-primary">Recomandari skincare</a>
+            <a href="{{ url_for('analiza_foto') }}" class="btn-secondary">Incarca o poza</a>
+        </div>
+    </div>
+    <div class="hero-art" aria-hidden="true">
+        <span class="hero-emoji">&#128132;</span>
+    </div>
+</section>
+
+<section class="home-intro">
+    <h3>Ce face site-ul nostru</h3>
+    <p class="muted">
+        Aplicatia analizeaza preferintele si caracteristicile tenului tau si selecteaza din
+        catalogul nostru produsele care se potrivesc cel mai bine. In spate functioneaza un
+        algoritm care filtreaza produsele dupa criterii esentiale (categorie, buget, optiuni
+        etice) si apoi le ordoneaza dupa cat de bine corespund profilului tau.
+    </p>
+</section>
+
+<section class="home-cards">
+    <article class="home-card">
+        <div class="home-card-icon">&#9999;&#65039;</div>
+        <h3>Recomandari manuale</h3>
+        <p>
+            Completezi singura un formular simplu: tipul tenului, subtonul, nuanta, finisajul
+            dorit, ocazia, bugetul si ingredientele care te intereseaza. Primesti o lista de
+            produse potrivite, fiecare cu motivul pentru care a fost ales.
+        </p>
+        <a href="{{ url_for('recomandari') }}" class="btn-primary">Incepe</a>
+    </article>
+
+    <article class="home-card">
+        <div class="home-card-icon">&#129701;</div>
+        <h3>Recomandari skincare</h3>
+        <p>
+            Alege tipul tenului si problemele pe care vrei sa le tratezi (acnee, pori, textura,
+            semne postacneice etc.), plus ingredientele care te intereseaza. Primesti produse de
+            ingrijire potrivite pielii tale.
+        </p>
+        <a href="{{ url_for('skincare') }}" class="btn-primary">Incepe</a>
+    </article>
+
+    <article class="home-card">
+        <div class="home-card-icon">&#128247;</div>
+        <h3>Analiza foto cu AI</h3>
+        <p>
+            Nu stii ce subton ai sau ce nuanta ti se potriveste? Incarci o poza, iar
+            asistentul AI iti spune automat tonul si subtonul pielii, gama de culori potrivita
+            si iti pregateste recomandarile &mdash; fara sa completezi nimic manual.
+        </p>
+        <a href="{{ url_for('analiza_foto') }}" class="btn-secondary">Incarca o poza</a>
+    </article>
+
+    <article class="home-card">
+        <div class="home-card-icon">&#128218;</div>
+        <h3>Ghid de autodeterminare</h3>
+        <p>
+            Nu esti sigura ce ton, subton sau forma ai? Ghidul nostru iti explica pas cu pas,
+            cu descrieri si imagini, cum sa identifici singura fiecare caracteristica inainte de
+            a completa formularul.
+        </p>
+        <a href="{{ url_for('ghid') }}" class="btn-secondary">Vezi ghidul</a>
+    </article>
+</section>
+
+<section class="home-offer">
+    <h3>Ce iti oferim</h3>
+    <ul class="offer-list">
+        <li><strong>Recomandari personalizate</strong> &mdash; potrivite exact pe profilul tenului tau.</li>
+        <li><strong>Recomandari explicate</strong> &mdash; vezi de ce a fost ales fiecare produs.</li>
+        <li><strong>Filtre etice</strong> &mdash; poti alege doar produse vegane sau cruelty-free.</li>
+        <li><strong>Recomandari pe email</strong> &mdash; primesti optional lista direct in inbox.</li>
+    </ul>
+</section>
+{% endblock %}

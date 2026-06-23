@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Admin Makeup{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    {% block extra_head %}{% endblock %}
+</head>
+<body class="admin-body">
+    <nav class="admin-nav">
+        <div class="admin-nav-inner">
+            <a href="{{ url_for('admin.products') }}" class="admin-brand">Admin Makeup</a>
+            {% if current_user.is_authenticated %}
+            <div class="admin-nav-links">
+                <a href="{{ url_for('admin.products') }}"
+                   class="{% if request.endpoint and request.endpoint.startswith('admin.product') %}activ{% endif %}">
+                    Produse
+                </a>
+                <a href="{{ url_for('admin.reports_page') }}"
+                   class="{% if request.endpoint == 'admin.reports_page' %}activ{% endif %}">
+                    Rapoarte
+                </a>
+                <a href="{{ url_for('admin.webhooks') }}"
+                   class="{% if request.endpoint == 'admin.webhooks' %}activ{% endif %}">
+                    Webhook-uri n8n
+                </a>
+                <a href="{{ url_for('index') }}" target="_blank">Site public</a>
+                <a href="{{ url_for('auth.logout') }}" class="logout">
+                    Logout ({{ current_user.username }})
+                </a>
+            </div>
+            {% endif %}
+        </div>
+    </nav>
+
+    <main class="admin-main">
+        {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+                <div class="flash-container">
+                    {% for category, msg in messages %}
+                    <div class="flash flash-{{ category }}">{{ msg }}</div>
+                    {% endfor %}
+                </div>
+            {% endif %}
+        {% endwith %}
+
+        {% block content %}{% endblock %}
+    </main>
+</body>
+</html>

@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block title %}Eroare &middot; Recomandari Makeup{% endblock %}
+
+{% block content %}
+<section class="form-card" style="text-align: center;">
+    <h2>Hopa, ceva n-a mers</h2>
+    <p class="muted">{{ mesaj or 'A aparut o eroare neasteptata. Te rugam sa reincerci.' }}</p>
+    <p><a href="{{ url_for('index') }}" class="btn-secondary">Inapoi la pagina principala</a></p>
+</section>
+{% endblock %}

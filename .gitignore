@@ -1,0 +1,32 @@
+# Mediu virtual (mare; se recreeaza din requirements.txt)
+venv/
+.venv/
+
+# Cache Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Secrete / mediu local
+.env
+
+# Baza de date binara - NU se comite (poate contine date personale din loguri).
+# Se reconstruieste din CSV-uri cu: python seed_db.py
+data/app.db
+
+# Backup-uri si artefacte generate
+*.bak
+*.backup
+data/app.db.bak
+data/app.db.backup
+esuate.csv
+produse_fara_poza.txt
+cod
+
+# Imagini produse descarcate (regenerabile)
+static/product_images/
+images/
+
+# Fisiere sistem
+.DS_Store
+Thumbs.db

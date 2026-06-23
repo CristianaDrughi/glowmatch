@@ -1,0 +1,99 @@
+{% extends "base.html" %}
+
+{% block title %}Ghid &middot; Recomandari Makeup{% endblock %}
+
+{% block content %}
+<section class="ghid">
+    <h2>Ghid: cum iti dai seama singura de tonul si subtonul tau</h2>
+    <p class="muted">
+        Daca nu stii ce sa alegi in formular, parcurge ghidul de mai jos. Iti explicam pas cu pas
+        cum sa identifici fiecare caracteristica a tenului si a trasaturilor tale.
+    </p>
+
+    <article class="ghid-card">
+        <h3>1. Tonul pielii (nuanta)</h3>
+        <div class="ghid-content">
+            <div class="ghid-img" aria-hidden="true">
+                <span>Imagine ajutatoare</span>
+            </div>
+            <div class="ghid-text">
+                <p>
+                    Tonul (sau nuanta) este cat de deschisa sau inchisa este pielea ta: <strong>deschis</strong>,
+                    <strong>mediu</strong> sau <strong>inchis</strong>. Priveste pielea de pe interiorul bratului,
+                    la lumina naturala, fara machiaj.
+                </p>
+            </div>
+        </div>
+    </article>
+
+    <article class="ghid-card">
+        <h3>2. Subtonul</h3>
+        <div class="ghid-content">
+            <div class="ghid-img" aria-hidden="true">
+                <span>Imagine ajutatoare</span>
+            </div>
+            <div class="ghid-text">
+                <p>Subtonul este nuanta care se vede „pe dedesubt". Cateva trucuri:</p>
+                <ul>
+                    <li><strong>Venele:</strong> verzi &rarr; subton cald; albastre/violet &rarr; subton rece; greu de spus &rarr; neutru.</li>
+                    <li><strong>Bijuterii:</strong> auriul te avantajeaza &rarr; cald; argintiul &rarr; rece.</li>
+                    <li><strong>Olive:</strong> daca pielea pare usor verzuie/galbuie, ai probabil subton olive.</li>
+                </ul>
+            </div>
+        </div>
+    </article>
+
+    <article class="ghid-card">
+        <h3>3. Tipul tenului</h3>
+        <div class="ghid-content">
+            <div class="ghid-img" aria-hidden="true">
+                <span>Imagine ajutatoare</span>
+            </div>
+            <div class="ghid-text">
+                <p>
+                    Spala fata, asteapta o ora fara produse si observa: lucios peste tot &rarr; <strong>gras</strong>;
+                    senzatie de intindere &rarr; <strong>uscat</strong>; lucios doar pe zona T &rarr; <strong>mixt</strong>;
+                    echilibrat &rarr; <strong>normal</strong>; reactioneaza/se inroseste usor &rarr; <strong>sensibil</strong>.
+                </p>
+            </div>
+        </div>
+    </article>
+
+    <article class="ghid-card">
+        <h3>4. Contrastul si greutatea vizuala</h3>
+        <div class="ghid-content">
+            <div class="ghid-img" aria-hidden="true">
+                <span>Imagine ajutatoare</span>
+            </div>
+            <div class="ghid-text">
+                <p>
+                    <strong>Contrastul</strong> este diferenta dintre piele, par si sprancene/ochi: mare &rarr; contrast inchis,
+                    mic &rarr; contrast deschis. <strong>Greutatea vizuala</strong> arata cat de „intense" sunt trasaturile
+                    tale: trasaturi pronuntate &rarr; ridicata; trasaturi delicate &rarr; scazuta.
+                </p>
+            </div>
+        </div>
+    </article>
+
+    <article class="ghid-card">
+        <h3>5. Forma fetei, a ochilor si a buzelor</h3>
+        <div class="ghid-content">
+            <div class="ghid-img" aria-hidden="true">
+                <span>Imagine ajutatoare</span>
+            </div>
+            <div class="ghid-text">
+                <p>
+                    Prinde-ti parul, priveste-te in oglinda si compara conturul fetei cu formele din formular
+                    (oval, rotund, patrat etc.). La fel pentru ochi (migdala, rotunzi, hooded, monolid...) si pentru
+                    buze (full, thin, heart shaped...). Aici vor aparea imagini cu exemple pentru fiecare forma.
+                </p>
+            </div>
+        </div>
+    </article>
+
+    <p class="ghid-final">
+        Gata? Mergi la <a href="{{ url_for('recomandari') }}">recomandarile de makeup</a> sau la
+        <a href="{{ url_for('skincare') }}">cele de skincare</a>.
+    </p>
+</section>
+{% endblock %}
