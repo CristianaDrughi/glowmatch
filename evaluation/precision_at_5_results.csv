@@ -1,0 +1,21 @@
+profile_id,profil,algorithm,returned_products,relevant_count,precision_at_5
+1,ten deschis / ochi blue / par blonde,rule_based,"[36, 43, 14, 30, 42]",5,1.0
+1,ten deschis / ochi blue / par blonde,random,"[20, 147, 357, 391, 74]",4,0.8
+2,ten deschis / ochi green / par brunette,rule_based,"[36, 43, 14, 30, 42]",5,1.0
+2,ten deschis / ochi green / par brunette,random,"[210, 267, 278, 360, 442]",5,1.0
+3,ten deschis / ochi blue / par black,rule_based,"[36, 43, 14, 30, 42]",5,1.0
+3,ten deschis / ochi blue / par black,random,"[140, 214, 250, 132, 42]",5,1.0
+4,ten mediu / ochi brown / par brunette,rule_based,"[36, 43, 17, 30, 50]",5,1.0
+4,ten mediu / ochi brown / par brunette,random,"[455, 40, 205, 21, 302]",5,1.0
+5,ten mediu / ochi green / par black,rule_based,"[36, 43, 17, 30, 42]",5,1.0
+5,ten mediu / ochi green / par black,random,"[181, 33, 221, 284, 233]",5,1.0
+6,ten mediu / ochi brown / par black,rule_based,"[36, 43, 17, 30, 50]",5,1.0
+6,ten mediu / ochi brown / par black,random,"[281, 162, 68, 286, 365]",5,1.0
+7,ten inchis / ochi brown / par black,rule_based,"[36, 43, 7, 30, 50]",5,1.0
+7,ten inchis / ochi brown / par black,random,"[35, 177, 212, 57, 166]",5,1.0
+8,ten inchis / ochi brown / par brunette,rule_based,"[36, 43, 7, 30, 50]",5,1.0
+8,ten inchis / ochi brown / par brunette,random,"[255, 439, 137, 187, 327]",5,1.0
+9,ten deschis / ochi brown / par blonde,rule_based,"[36, 43, 14, 30, 50]",5,1.0
+9,ten deschis / ochi brown / par blonde,random,"[125, 430, 258, 283, 83]",5,1.0
+10,ten mediu / ochi blue / par blonde,rule_based,"[36, 43, 17, 30, 42]",5,1.0
+10,ten mediu / ochi blue / par blonde,random,"[138, 28, 451, 372, 263]",5,1.0
