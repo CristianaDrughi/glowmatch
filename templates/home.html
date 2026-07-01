@@ -1,11 +1,11 @@
 {% extends "base.html" %}
 
-{% block title %}Acasa &middot; Recomandari Makeup{% endblock %}
+{% block title %}Acasa &middot; Recomandari{% endblock %}
 
 {% block content %}
 <section class="hero">
     <div class="hero-text">
-        <h2>Machiajul potrivit pentru tine, ales inteligent</h2>
+        <h2>Machiajul potrivit pentru tine,<br>ales inteligent</h2>
         <p class="hero-lead">
             Iti recomandam produse de makeup care se potrivesc cu adevarat tenului tau:
             tip de ten, subton, nuanta, finisaj si buget. Fara incercari la intamplare &mdash;
@@ -16,9 +16,6 @@
             <a href="{{ url_for('skincare') }}" class="btn-primary">Recomandari skincare</a>
             <a href="{{ url_for('analiza_foto') }}" class="btn-secondary">Incarca o poza</a>
         </div>
-    </div>
-    <div class="hero-art" aria-hidden="true">
-        <span class="hero-emoji">&#128132;</span>
     </div>
 </section>
 
@@ -34,8 +31,8 @@
 
 <section class="home-cards">
     <article class="home-card">
-        <div class="home-card-icon">&#9999;&#65039;</div>
-        <h3>Recomandari manuale</h3>
+        <img class="home-card-img" src="{{ url_for('static', filename='images/fundal2.jpg') }}" alt="">
+        <h3>Recomandari makeup</h3>
         <p>
             Completezi singura un formular simplu: tipul tenului, subtonul, nuanta, finisajul
             dorit, ocazia, bugetul si ingredientele care te intereseaza. Primesti o lista de
@@ -45,7 +42,7 @@
     </article>
 
     <article class="home-card">
-        <div class="home-card-icon">&#129701;</div>
+        <img class="home-card-img" src="{{ url_for('static', filename='images/fundal7.jpg') }}" alt="">
         <h3>Recomandari skincare</h3>
         <p>
             Alege tipul tenului si problemele pe care vrei sa le tratezi (acnee, pori, textura,
@@ -56,8 +53,8 @@
     </article>
 
     <article class="home-card">
-        <div class="home-card-icon">&#128247;</div>
-        <h3>Analiza foto cu AI</h3>
+        <img class="home-card-img" src="{{ url_for('static', filename='images/fundal5.jpg') }}" alt="">
+        <h3>Analiza foto</h3>
         <p>
             Nu stii ce subton ai sau ce nuanta ti se potriveste? Incarci o poza, iar
             asistentul AI iti spune automat tonul si subtonul pielii, gama de culori potrivita
@@ -67,7 +64,7 @@
     </article>
 
     <article class="home-card">
-        <div class="home-card-icon">&#128218;</div>
+        <img class="home-card-img home-card-img--crop" src="{{ url_for('static', filename='images/fundal6.jpg') }}" alt="">
         <h3>Ghid de autodeterminare</h3>
         <p>
             Nu esti sigura ce ton, subton sau forma ai? Ghidul nostru iti explica pas cu pas,

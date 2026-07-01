@@ -1,6 +1,7 @@
 {% extends "base.html" %}
 
-{% block title %}Ghid &middot; Recomandari Makeup{% endblock %}
+{% block title %}Ghid de recomandari{% endblock %}
+{% block header_title %}Ghid de recomandari{% endblock %}
 
 {% block content %}
 <section class="ghid">
@@ -13,8 +14,8 @@
     <article class="ghid-card">
         <h3>1. Tonul pielii (nuanta)</h3>
         <div class="ghid-content">
-            <div class="ghid-img" aria-hidden="true">
-                <span>Imagine ajutatoare</span>
+            <div class="ghid-img">
+                <img src="{{ url_for('static', filename='images/ghid1.jpg') }}" alt="Exemplu ton piele">
             </div>
             <div class="ghid-text">
                 <p>
@@ -29,8 +30,8 @@
     <article class="ghid-card">
         <h3>2. Subtonul</h3>
         <div class="ghid-content">
-            <div class="ghid-img" aria-hidden="true">
-                <span>Imagine ajutatoare</span>
+            <div class="ghid-img">
+                <img src="{{ url_for('static', filename='images/ghid2.jpg') }}" alt="Exemplu subton">
             </div>
             <div class="ghid-text">
                 <p>Subtonul este nuanta care se vede „pe dedesubt". Cateva trucuri:</p>
@@ -46,8 +47,8 @@
     <article class="ghid-card">
         <h3>3. Tipul tenului</h3>
         <div class="ghid-content">
-            <div class="ghid-img" aria-hidden="true">
-                <span>Imagine ajutatoare</span>
+            <div class="ghid-img">
+                <img src="{{ url_for('static', filename='images/ghid3.jpg') }}" alt="Exemplu tip ten">
             </div>
             <div class="ghid-text">
                 <p>
@@ -62,8 +63,8 @@
     <article class="ghid-card">
         <h3>4. Contrastul si greutatea vizuala</h3>
         <div class="ghid-content">
-            <div class="ghid-img" aria-hidden="true">
-                <span>Imagine ajutatoare</span>
+            <div class="ghid-img">
+                <img src="{{ url_for('static', filename='images/ghid4a.jpg') }}" alt="Exemplu contrast">
             </div>
             <div class="ghid-text">
                 <p>
@@ -77,17 +78,17 @@
 
     <article class="ghid-card">
         <h3>5. Forma fetei, a ochilor si a buzelor</h3>
-        <div class="ghid-content">
-            <div class="ghid-img" aria-hidden="true">
-                <span>Imagine ajutatoare</span>
-            </div>
-            <div class="ghid-text">
-                <p>
-                    Prinde-ti parul, priveste-te in oglinda si compara conturul fetei cu formele din formular
-                    (oval, rotund, patrat etc.). La fel pentru ochi (migdala, rotunzi, hooded, monolid...) si pentru
-                    buze (full, thin, heart shaped...). Aici vor aparea imagini cu exemple pentru fiecare forma.
-                </p>
-            </div>
+        <div class="ghid-img ghid-img-row">
+            <img src="{{ url_for('static', filename='images/ghid5a.jpg') }}" alt="Forme de fata">
+            <img src="{{ url_for('static', filename='images/ghid5b.jpg') }}" alt="Forme de ochi">
+            <img src="{{ url_for('static', filename='images/ghid5c.jpg') }}" alt="Forme de buze">
+        </div>
+        <div class="ghid-text">
+            <p>
+                Prinde-ti parul, priveste-te in oglinda si compara conturul fetei cu formele din formular
+                (oval, rotund, patrat etc.). La fel pentru ochi (migdala, rotunzi, hooded, monolid...) si pentru
+                buze (full, thin, heart shaped...).
+            </p>
         </div>
     </article>
 

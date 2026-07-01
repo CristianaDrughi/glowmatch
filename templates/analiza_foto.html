@@ -1,10 +1,10 @@
 {% extends "base.html" %}
 
-{% block title %}Analiza foto AI &middot; Recomandari Makeup{% endblock %}
+{% block title %}Analiza foto &middot; Recomandari{% endblock %}
 
 {% block content %}
 <section class="form-card">
-    <h2>Analiza foto cu AI</h2>
+    <h2>Analiza foto</h2>
     <p class="muted" style="text-align: center; max-width: 38rem; margin-left: auto; margin-right: auto; text-wrap: balance;">
         Incarca o poza clara cu fata ta, la lumina naturala. Asistentul AI o va analiza si va
         determina automat datele de care avem nevoie pentru recomandari.
@@ -16,7 +16,7 @@
 
     <form class="ai-upload" method="POST" enctype="multipart/form-data" id="form-analiza">
         <div class="ai-dropzone">
-            <span class="ai-dropzone-icon">&#128247;</span>
+            <img src="{{ url_for('static', filename='images/poza-ai.jpg') }}" alt="" class="ai-dropzone-icon">
             <p>Trage o poza aici sau selecteaza un fisier</p>
             <label class="btn-secondary ai-file-btn">
                 Alege poza

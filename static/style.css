@@ -41,7 +41,7 @@ header h1 a {
 }
 
 main {
-    max-width: 1000px;
+    max-width: 1140px;
     margin: 0 auto;
     padding: 1rem 1.5rem 3rem;
 }
@@ -359,11 +359,16 @@ footer {
 }
 
 .site-brand {
-    color: var(--roz-inchis);
-    font-weight: 700;
-    font-size: 1.3rem;
-    letter-spacing: 0.5px;
+    display: inline-flex;
+    align-items: center;
     text-decoration: none;
+    line-height: 0;
+}
+
+.site-logo {
+    height: 48px;
+    width: auto;
+    display: block;
 }
 
 .site-nav-links {
@@ -396,15 +401,18 @@ footer {
    ======================================================================== */
 
 .hero {
-    display: grid;
-    grid-template-columns: 1.4fr 1fr;
-    gap: 2rem;
-    align-items: center;
-    background: linear-gradient(135deg, #fff5f7 0%, #fdf0e8 100%);
+    background-image:
+        linear-gradient(135deg, rgba(255, 245, 247, 0.78) 0%, rgba(253, 240, 232, 0.70) 100%),
+        url('images/fundal1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     border-radius: 20px;
     padding: 2.5rem;
     box-shadow: var(--umbra);
 }
+
+.hero-text { max-width: 640px; }
 
 .hero-text h2 {
     color: var(--roz-inchis);
@@ -428,17 +436,6 @@ footer {
 .hero-actions .btn-primary,
 .hero-actions .btn-secondary { margin-top: 0; }
 
-.hero-art {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.hero-emoji {
-    font-size: 7rem;
-    filter: drop-shadow(var(--umbra));
-}
-
 .home-intro {
     margin-top: 2.5rem;
     text-align: center;
@@ -456,7 +453,7 @@ footer {
 
 .home-cards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
     margin-top: 2.5rem;
 }
@@ -469,11 +466,21 @@ footer {
     border-top: 4px solid var(--roz);
     display: flex;
     flex-direction: column;
+    overflow: hidden;
 }
 
-.home-card-icon {
-    font-size: 2.4rem;
-    margin-bottom: 0.5rem;
+.home-card-img {
+    display: block;
+    width: calc(100% + 3.6rem);
+    aspect-ratio: 1 / 1;
+    margin: -1.8rem -1.8rem 1.2rem;
+    object-fit: contain;
+    background: #fff5f7;
+}
+
+/* Imagini care arata mai bine taiate la patrat (umplu caseta complet) */
+.home-card-img--crop {
+    object-fit: cover;
 }
 
 .home-card h3 {
@@ -524,12 +531,12 @@ footer {
 
 @media (max-width: 640px) {
     .hero {
-        grid-template-columns: 1fr;
         text-align: center;
         padding: 1.8rem;
     }
+    .hero-text { max-width: none; }
     .hero-actions { justify-content: center; }
-    .hero-art { order: -1; }
+    .home-cards { grid-template-columns: 1fr; }
 }
 
 /* ========================================================================
@@ -548,9 +555,11 @@ footer {
 }
 
 .ai-dropzone-icon {
-    font-size: 2.8rem;
     display: block;
-    margin-bottom: 0.5rem;
+    width: 120px;
+    height: auto;
+    margin: 0 auto 0.8rem;
+    border-radius: 12px;
 }
 
 .ai-file-btn {
@@ -606,16 +615,27 @@ footer {
 }
 
 .ghid-img {
-    background: var(--gri-bg);
-    border: 2px dashed var(--roz);
-    border-radius: 12px;
-    min-height: 150px;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--gri-text);
-    font-size: 0.85rem;
-    text-align: center;
+    flex-direction: column;
+    gap: 0.7rem;
+}
+
+.ghid-img img {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    box-shadow: var(--umbra-mica);
+}
+
+/* Rand de imagini una langa alta (latimi egale), cu text pe randul urmator */
+.ghid-img-row {
+    flex-direction: row;
+}
+
+.ghid-img-row img {
+    flex: 1;
+    width: 0;
+    min-width: 0;
 }
 
 .ghid-text p { margin-top: 0; }
@@ -1065,8 +1085,9 @@ footer {
 .produs-img {
     width: 100%;
     height: 180px;
-    object-fit: cover;
+    object-fit: contain;
     border-radius: 10px;
     margin-bottom: 0.75rem;
     background: #f7eef2;
+    padding: 0.4rem;
 }

@@ -163,6 +163,28 @@ def api_evolutie():
     return jsonify(reports.evolutie_zilnica(zile=30))
 
 
+@admin_bp.route('/api/reports/analiza-foto')
+@login_required
+def api_analiza_foto():
+    return jsonify(reports.analiza_foto_stats())
+
+
+@admin_bp.route('/api/reports/calitate-catalog')
+@login_required
+def api_calitate_catalog():
+    return jsonify(reports.calitate_catalog())
+
+
+@admin_bp.route('/api/reports/cerere')
+@login_required
+def api_cerere():
+    return jsonify({
+        'categorii': reports.cerere_categorii(),
+        'probleme': reports.cerere_probleme(),
+        'deadstock': reports.produse_nerecomandate(),
+    })
+
+
 # ---------- Webhook-uri n8n ----------
 
 @admin_bp.route('/webhooks')

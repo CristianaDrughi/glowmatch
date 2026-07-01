@@ -53,6 +53,43 @@
     <p id="empty-evolutie" class="empty-state" hidden>Nu exista date pentru ultimele 30 zile.</p>
 </section>
 
+<section class="report-card">
+    <h3>R4 - Analiza foto AI: ce detecteaza din poze</h3>
+    <p class="muted">Distributia atributelor extrase de AI din analizele reale
+        (<strong id="foto-total">0</strong> analize, ITA mediu <strong id="foto-ita">0</strong>&deg;)</p>
+    <div class="pie-grid">
+        <div class="pie-cell"><h4>Ton piele</h4><div class="chart-box"><canvas id="chart-foto-ton"></canvas></div></div>
+        <div class="pie-cell"><h4>Subton</h4><div class="chart-box"><canvas id="chart-foto-subton"></canvas></div></div>
+        <div class="pie-cell"><h4>Culoare ochi</h4><div class="chart-box"><canvas id="chart-foto-culoare_ochi"></canvas></div></div>
+        <div class="pie-cell"><h4>Culoare par</h4><div class="chart-box"><canvas id="chart-foto-culoare_par"></canvas></div></div>
+    </div>
+    <p id="empty-foto" class="empty-state" hidden>Nicio analiza foto inregistrata inca.</p>
+</section>
+
+<section class="report-card">
+    <h3>Calitatea catalogului</h3>
+    <p class="muted">Starea datelor pentru produsele din catalog (unde lipsesc poze, preturi sau rating real)</p>
+    <div class="stats-row" id="cat-stats"></div>
+    <div class="pie-grid">
+        <div class="pie-cell"><h4>Acoperire poze</h4><div class="chart-box"><canvas id="chart-cat-poza"></canvas></div></div>
+        <div class="pie-cell"><h4>Rating</h4><div class="chart-box"><canvas id="chart-cat-rating"></canvas></div></div>
+        <div class="pie-cell"><h4>Makeup vs Skincare</h4><div class="chart-box"><canvas id="chart-cat-tip"></canvas></div></div>
+    </div>
+    <h4 class="muted">Produse pe categorie</h4>
+    <div class="chart-box chart-tall"><canvas id="chart-cat-categorie"></canvas></div>
+</section>
+
+<section class="report-card">
+    <h3>Cerere &amp; produse nefolosite (dead-stock)</h3>
+    <p class="muted">Ce cer utilizatorii si cate produse nu apar niciodata in recomandari</p>
+    <div class="stats-row" id="ds-stats"></div>
+    <div class="pie-grid">
+        <div class="pie-cell"><h4>Top categorii cerute</h4><div class="chart-box"><canvas id="chart-cerere-cat"></canvas></div></div>
+        <div class="pie-cell"><h4>Top probleme cerute</h4><div class="chart-box"><canvas id="chart-cerere-prob"></canvas></div></div>
+    </div>
+    <p id="empty-cerere" class="empty-state" hidden>Inca nu exista cereri inregistrate. Foloseste site-ul public pentru a genera date.</p>
+</section>
+
 <script>
 const PALETA = ['#d97a8a', '#f6c6cf', '#b88fc5', '#7ab39a', '#c98a4e', '#b8a4a8', '#3a2c2e', '#fdf6f3', '#d4a300', '#9b6b8c'];
 
@@ -143,8 +180,99 @@ async function renderEvolutie() {
     });
 }
 
+// ---------- Helperi reutilizabili ----------
+function doughnut(canvasId, items) {
+    const canvas = document.getElementById(canvasId);
+    if (!items || !items.length) {
+        canvas.parentElement.innerHTML = '<p class="empty-state">Fara date</p>';
+        return;
+    }
+    new Chart(canvas, {
+        type: 'doughnut',
+        data: {
+            labels: items.map(d => d.valoare ?? d.tip),
+            datasets: [{ data: items.map(d => d.nr), backgroundColor: PALETA }]
+        },
+        options: {
+            responsive: true, maintainAspectRatio: false,
+            plugins: { legend: { position: 'bottom', labels: { font: { size: 11 } } } }
+        }
+    });
+}
+
+function barH(canvasId, items, label) {
+    const canvas = document.getElementById(canvasId);
+    if (!items || !items.length) {
+        canvas.parentElement.innerHTML = '<p class="empty-state">Fara date</p>';
+        return;
+    }
+    new Chart(canvas, {
+        type: 'bar',
+        data: {
+            labels: items.map(d => d.valoare ?? d.categorie),
+            datasets: [{ label: label, data: items.map(d => d.nr), backgroundColor: '#d97a8a', borderRadius: 4 }]
+        },
+        options: {
+            indexAxis: 'y', responsive: true, maintainAspectRatio: false,
+            plugins: { legend: { display: false } },
+            scales: { x: { beginAtZero: true, ticks: { stepSize: 1 } } }
+        }
+    });
+}
+
+function kpiCard(value, label) {
+    return `<div class="stat-card"><div class="stat-value">${value}</div><div class="stat-label">${label}</div></div>`;
+}
+
+// ---------- R4: Analiza foto AI ----------
+async function renderAnalizaFoto() {
+    const data = await fetchJson('/admin/api/reports/analiza-foto');
+    document.getElementById('foto-total').textContent = data.total_analize;
+    document.getElementById('foto-ita').textContent = data.ita_mediu;
+    if (!data.total_analize) {
+        document.getElementById('empty-foto').hidden = false;
+        return;
+    }
+    for (const attr of ['ton', 'subton', 'culoare_ochi', 'culoare_par']) {
+        doughnut('chart-foto-' + attr, data.distributie[attr]);
+    }
+}
+
+// ---------- Calitate catalog ----------
+async function renderCalitateCatalog() {
+    const d = await fetchJson('/admin/api/reports/calitate-catalog');
+    const procPoza = d.total ? Math.round(100 * d.cu_poza / d.total) : 0;
+    document.getElementById('cat-stats').innerHTML =
+        kpiCard(d.total, 'Produse total') +
+        kpiCard(d.cu_poza + ' (' + procPoza + '%)', 'Cu poza') +
+        kpiCard(d.fara_poza, 'Fara poza') +
+        kpiCard(d.rating_implicit, 'Rating necompletat (4.0)');
+    doughnut('chart-cat-poza', [{ valoare: 'Cu poza', nr: d.cu_poza }, { valoare: 'Fara poza', nr: d.fara_poza }]);
+    doughnut('chart-cat-rating', [{ valoare: 'Rating real', nr: d.rating_real }, { valoare: 'Implicit (4.0)', nr: d.rating_implicit }]);
+    doughnut('chart-cat-tip', [{ valoare: 'Makeup', nr: d.makeup }, { valoare: 'Skincare', nr: d.skincare }]);
+    barH('chart-cat-categorie', d.pe_categorie, 'Produse');
+}
+
+// ---------- Cerere & dead-stock ----------
+async function renderCerere() {
+    const d = await fetchJson('/admin/api/reports/cerere');
+    const ds = d.deadstock;
+    const procDead = ds.total ? Math.round(100 * ds.nerecomandate / ds.total) : 0;
+    document.getElementById('ds-stats').innerHTML =
+        kpiCard(ds.recomandate, 'Produse recomandate vreodata') +
+        kpiCard(ds.nerecomandate + ' (' + procDead + '%)', 'Niciodata recomandate');
+    barH('chart-cerere-cat', d.categorii, 'Cereri');
+    barH('chart-cerere-prob', d.probleme, 'Cereri');
+    if (!d.categorii.length && !d.probleme.length) {
+        document.getElementById('empty-cerere').hidden = false;
+    }
+}
+
 renderTopProduse();
 renderDistributie();
 renderEvolutie();
+renderAnalizaFoto();
+renderCalitateCatalog();
+renderCerere();
 </script>
 {% endblock %}
